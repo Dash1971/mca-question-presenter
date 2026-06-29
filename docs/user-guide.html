@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MCA Question Presenter User Guide</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #172033;
+      background: #ffffff;
+      line-height: 1.45;
+      font-size: 10.5pt;
+    }
+    .cover {
+      border-bottom: 3px solid #246b5a;
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28pt;
+      color: #10243f;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin: 0;
+      font-size: 13pt;
+      color: #435267;
+    }
+    h2 {
+      margin: 22px 0 8px;
+      font-size: 15pt;
+      color: #10243f;
+      border-bottom: 1px solid #d7dee8;
+      padding-bottom: 4px;
+      break-after: avoid;
+    }
+    p {
+      margin: 0 0 9px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 14px;
+      break-inside: avoid;
+    }
+    th {
+      background: #edf5f2;
+      color: #10243f;
+      text-align: left;
+      font-weight: 700;
+    }
+    th, td {
+      border: 1px solid #cfd8e3;
+      padding: 7px 8px;
+      vertical-align: top;
+    }
+    code, pre {
+      font-family: "DejaVu Sans Mono", Consolas, monospace;
+      font-size: 9pt;
+    }
+    pre {
+      background: #f4f6f8;
+      border: 1px solid #d7dee8;
+      border-radius: 4px;
+      padding: 10px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    ul, ol {
+      margin-top: 4px;
+      padding-left: 22px;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .callout {
+      border-left: 4px solid #246b5a;
+      background: #f3faf7;
+      padding: 10px 12px;
+      margin: 10px 0 14px;
+      break-inside: avoid;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 10px 0 14px;
+    }
+    .panel {
+      border: 1px solid #d7dee8;
+      border-radius: 6px;
+      padding: 10px 12px;
+      background: #fbfcfd;
+      break-inside: avoid;
+    }
+    .panel strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #10243f;
+    }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <h1>MCA Question Presenter User Guide</h1>
+    <p class="subtitle">Instructor guide for live MCA practice sessions</p>
+  </section>
+
+  <h2>Purpose</h2>
+  <p>MCA Question Presenter is a local desktop tool for running live MCA practice sessions. It lets an instructor screen-share questions, move through a shuffled deck, and reveal the correct answer only when ready.</p>
+  <div class="callout">Simple by design: no login, no database, no web server, no student grading, and no WordPress dependency.</div>
+
+  <h2>Included Banks</h2>
+  <table>
+    <thead><tr><th>Bank</th><th>File</th><th>Use</th></tr></thead>
+    <tbody>
+      <tr><td>Navigation</td><td><code>samples/oow-navigation-bank-150.csv</code></td><td>Navigation, chartwork, lights, signals, rules, and related OOW practice.</td></tr>
+      <tr><td>Stability</td><td><code>samples/oow-stability-bank-150.csv</code></td><td>Stability, loading, buoyancy, free surface, and related OOW practice.</td></tr>
+    </tbody>
+  </table>
+  <p>The Navigation bank loads automatically when the app starts. Use <strong>Load Selected</strong> to switch to the Stability bank.</p>
+
+  <h2>Install On Linux</h2>
+  <pre>sudo apt update
+sudo apt install -y git python3 python3-tk
+
+mkdir -p ~/code
+cd ~/code
+git clone https://github.com/Dash1971/mca-question-presenter.git
+cd mca-question-presenter
+
+python3 -m unittest discover -s tests
+python3 -m compileall presenter tests
+python3 presenter/mca_question_presenter.py</pre>
+
+  <h2>Start A Teaching Session</h2>
+  <ol>
+    <li>Launch the app with <code>python3 presenter/mca_question_presenter.py</code>.</li>
+    <li>Use the private <strong>Instructor controls</strong> window to drive the session.</li>
+    <li>Share only the <strong>MCA Question Display</strong> window in Zoom, Teams, or Google Meet.</li>
+    <li>Press <strong>Next</strong> to show the first question.</li>
+    <li>Discuss the question, then press <strong>Reveal / Hide</strong> when ready.</li>
+    <li>Press <strong>Next</strong> to continue.</li>
+  </ol>
+
+  <h2>Instructor Controls</h2>
+  <table>
+    <thead><tr><th>Control</th><th>What It Does</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Load CSV...</strong></td><td>Open a custom CSV question bank from your computer.</td></tr>
+      <tr><td><strong>Show Display</strong></td><td>Bring the presentation window back to the front.</td></tr>
+      <tr><td><strong>Topic</strong></td><td>Filter the current bank by <code>topic_tag</code>.</td></tr>
+      <tr><td><strong>Previous</strong></td><td>Return to the previous question.</td></tr>
+      <tr><td><strong>Next</strong></td><td>Move to the next question.</td></tr>
+      <tr><td><strong>Reveal / Hide</strong></td><td>Show or hide the correct answer.</td></tr>
+      <tr><td><strong>Reshuffle</strong></td><td>Randomize the current topic or full bank again.</td></tr>
+      <tr><td><strong>Load Selected</strong></td><td>Load one of the bundled banks.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Keyboard Shortcuts</h2>
+  <div class="grid">
+    <div class="panel"><strong>Right arrow</strong>Next question</div>
+    <div class="panel"><strong>Left arrow</strong>Previous question</div>
+    <div class="panel"><strong>Space or Enter</strong>Reveal or hide answer</div>
+    <div class="panel"><strong>F11 / Escape</strong>Toggle or leave fullscreen</div>
+  </div>
+
+  <h2>Recommended Screen-Share Setup</h2>
+  <p>Keep <strong>Instructor controls</strong> private and share <strong>MCA Question Display</strong> with students. If the display window disappears behind other windows, click <strong>Show Display</strong>. For a cleaner lesson view, press <strong>F11</strong> while the display window is active.</p>
+
+  <h2>Question Bank Format</h2>
+  <p>Required columns:</p>
+  <pre>question_text,option_a,option_b,option_c,option_d,correct_option</pre>
+  <p>Recommended full format:</p>
+  <pre>portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order</pre>
+  <ul>
+    <li><code>correct_option</code> must be <code>A</code>, <code>B</code>, <code>C</code>, or <code>D</code>.</li>
+    <li><code>topic_tag</code> controls the topic filter.</li>
+    <li><code>sort_order</code> controls the stable load order before shuffling.</li>
+    <li><code>is_active</code> values of <code>0</code>, <code>false</code>, <code>no</code>, <code>inactive</code>, or blank are skipped.</li>
+  </ul>
+
+  <h2>Troubleshooting</h2>
+  <table>
+    <thead><tr><th>Problem</th><th>Fix</th></tr></thead>
+    <tbody>
+      <tr><td><code>ModuleNotFoundError: tkinter</code> or no window opens</td><td>Install Tkinter with <code>sudo apt install python3-tk</code>.</td></tr>
+      <tr><td>The selected bank has no questions</td><td>Check that <code>is_active</code> is not blank, <code>0</code>, <code>false</code>, <code>no</code>, or <code>inactive</code>.</td></tr>
+      <tr><td>A CSV will not load</td><td>Confirm all required columns exist and every row has A-D options.</td></tr>
+      <tr><td>The wrong answer is highlighted</td><td>Check the row's <code>correct_option</code> value.</td></tr>
+      <tr><td>Students can see the controls</td><td>Share only the <strong>MCA Question Display</strong> window.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Scope</h2>
+  <p>This app is for live teaching and practice. It does not record student answers, calculate scores, manage course access, or run online exams.</p>
+</body>
+</html>

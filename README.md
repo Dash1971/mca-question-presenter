@@ -48,13 +48,19 @@ The app opens two windows:
 
 ## Included Banks
 
-The `samples/` folder contains starter CSV banks for development and review:
+The `samples/` folder contains two bundled practice banks:
 
-- `oow-bank-150.csv`
 - `oow-navigation-bank-150.csv`
 - `oow-stability-bank-150.csv`
-- `oow-seed-bank-35.csv`
-- `oow-question-bank-template.csv`
+
+The app loads the Navigation bank by default. Use **Load Selected** in the
+instructor controls to switch to the Stability bank.
+
+## User Guide
+
+A full instructor guide is available in [`docs/user-guide.md`](docs/user-guide.md).
+A shareable PDF version is available in
+[`docs/mca-question-presenter-user-guide.pdf`](docs/mca-question-presenter-user-guide.pdf).
 
 ## CSV Format
 

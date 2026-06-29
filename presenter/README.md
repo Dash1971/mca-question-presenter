@@ -12,6 +12,7 @@ student accounts, or a web server.
 From the repository root:
 
 ```bash
+sudo apt install python3-tk
 python presenter/mca_question_presenter.py
 ```
 
@@ -83,6 +84,11 @@ dist\MCA Question Presenter\MCA Question Presenter.exe
 
 The build bundles the CSV files from `samples/` so the instructor can launch the
 app without browsing for a bank first.
+
+Bundled banks:
+
+- `oow-navigation-bank-150.csv`
+- `oow-stability-bank-150.csv`
 
 ## Scope
 

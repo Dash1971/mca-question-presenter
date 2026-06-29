@@ -14,7 +14,7 @@ except ImportError:
 
 
 APP_TITLE = "MCA Question Presenter"
-DEFAULT_BANK = "samples/oow-bank-150.csv"
+DEFAULT_BANK = "samples/oow-navigation-bank-150.csv"
 
 
 def resource_path(relative_path: str) -> Path:
