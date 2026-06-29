@@ -1,0 +1,151 @@
+portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order
+oow,What does TPC represent?,Tonnes needed to change trim by 1 cm,Tonnes needed to change mean draught by 1 cm,Tonnes needed to heel the ship by 1 degree,Tonnes needed to immerse 1 m of freeboard,B,hydrostatics,1,1
+oow,Fresh Water Allowance is the change in mean draught when a ship moves:,From fresh water to dock water,From salt water to fresh water,From tropical to summer zone,From loaded to ballast condition,B,hydrostatics,1,2
+oow,Dock Water Allowance is used to correct for:,Trim due to current,Water density different from standard seawater,Reduction of GM by free surface,Change of displacement due to bunkers used,B,hydrostatics,1,3
+oow,"If TPC is 20 tonnes, how much weight is required to increase mean draught by 15 cm?",150 tonnes,200 tonnes,300 tonnes,450 tonnes,C,hydrostatics,1,4
+oow,"If 60 tonnes are discharged and TPC is 15 tonnes, the mean draught will:",Increase by 4 cm,Decrease by 4 cm,Decrease by 6 cm,Increase by 6 cm,B,hydrostatics,1,5
+oow,Displacement is the:,Weight of cargo only,Volume of all enclosed spaces,Weight of water displaced by the ship,Weight of the hull steel alone,C,hydrostatics,1,6
+oow,Deadweight is the difference between:,Loaded displacement and lightweight,Loaded draught and ballast draught,Summer draft and winter draft,Displacement and block coefficient,A,hydrostatics,1,7
+oow,The centre of buoyancy is the centre of:,Gravity of the ship,The underwater volume,Flotation area,Reserve buoyancy,B,hydrostatics,1,8
+oow,"When a ship takes on cargo evenly, the centre of buoyancy will usually move:",Downward as draught increases,Upward as displacement increases,To port because density rises,Aft because wetted surface grows,B,hydrostatics,1,9
+oow,Waterplane area mainly affects the value of:,MCTC,TPC,KG,LCG,B,hydrostatics,1,10
+oow,MCTC is the moment required to change trim by:,1 mm,1 cm,1 degree,1 m,B,trim-hydrostatics,1,11
+oow,A vessel with a larger TPC will:,Change draught more for a given weight,Change draught less for a given weight,Always have greater GM,Always trim by the stern,B,hydrostatics,1,12
+oow,The symbol KB is the distance from keel to:,Centre of gravity,Metacentre,Centre of buoyancy,Centre of flotation,C,hydrostatics,1,13
+oow,The symbol KM is the distance from keel to:,Metacentre,Centre of flotation,Mean draught,Longitudinal centre of buoyancy,A,hydrostatics,1,14
+oow,Initial GM is found from:,KM - KG,KB - KG,KM + KG,KB + BM,A,stability-basics,1,15
+oow,"If KG increases while KM remains constant, GM will:",Increase,Decrease,Remain unchanged,Become equal to displacement,B,stability-basics,1,16
+oow,A rise in seawater density will normally cause the ship to:,Sink deeper,Rise slightly,List to port,Trim by the stern,B,hydrostatics,1,17
+oow,"Salt water has a greater density than fresh water, so a ship in salt water will:",Float at a smaller draught,Float at a greater draught,Have negative GM,Lose reserve buoyancy,A,hydrostatics,1,18
+oow,The tonnes required to produce a bodily sinkage of 1 cm is taken from the:,Cross curves,Bonjean curves,Hydrostatic particulars,Capacity plan,C,hydrostatics,1,19
+oow,"If dock water density is less than seawater density, the ship will:",Rise relative to the marks,Sink deeper for the same displacement,Develop a list,Gain freeboard,B,hydrostatics,1,20
+oow,Reserve buoyancy is the:,Volume below the keel,Volume of enclosed watertight space above the waterline,Difference between KG and KM,Mass of ballast in double bottoms,B,ship-construction-stability,1,21
+oow,Freeboard is measured vertically from the:,Keel to main deck,Load line to weather deck line,Waterline to tank top,Bilge keel to hatch coaming,B,loadline,1,22
+oow,The centre of flotation is the point about which the ship:,Rolls for small angles,Trims for small changes of trim,Pivots when turning,Heels due to wind pressure,B,trim-hydrostatics,1,23
+oow,A change in density affects the ship's:,Displacement in tonnes,Actual weight onboard,Mean draught,KG only,C,hydrostatics,1,24
+oow,Bonjean curves are mainly used to estimate:,Damage stability after flooding,Sectional underwater areas at various draughts,Rolling period at sea,Bunker consumption by trim,B,trim-hydrostatics,1,25
+oow,Righting moment at a given heel angle equals:,Displacement x GZ,GM x draught,TPC x GZ,Displacement x KG,A,stability-basics,1,26
+oow,GZ is the horizontal distance between the lines of action of:,LCG and LCB,Weight and buoyancy,Keel and waterline,BM and KM,B,stability-basics,1,27
+oow,A ship is described as stiff when it has:,Large GM and a short quick roll,Small GM and a slow roll,Negative GM and an angle of loll,Zero freeboard and a deep roll,A,stability-basics,1,28
+oow,A tender ship usually has:,Large GM and a rapid roll,Small GM and a long slow roll,Negative reserve buoyancy,Maximum GZ at zero heel,B,stability-basics,1,29
+oow,A list is generally caused by:,Off-centre weight,Negative GM only,Wave action alone,A low metacentre in dry dock,A,stability-basics,1,30
+oow,An angle of loll occurs when a ship has:,Very large positive GM,Negative initial GM,Excessive trim by the stern,A flooded forepeak only,B,stability-basics,1,31
+oow,"When a vessel at angle of loll takes on low ballast, the angle will usually:",Increase first before reducing,Reduce directly as GM improves,Remain unchanged always,Turn into trim by the bow,B,stability-basics,1,32
+oow,The range of stability is the angular range between:,0 degrees and deck edge immersion,0 degrees and the angle of vanishing stability,Maximum GZ and capsize,List and loll,B,stability-basics,1,33
+oow,The angle of vanishing stability is the angle where:,GM becomes maximum,The righting lever becomes zero,The deck edge first immerses,Free surface is eliminated,B,stability-basics,1,34
+oow,"On a GZ curve, the peak value represents the:",Maximum righting lever,Angle of loll,Maximum KG,Limit of trim correction,A,stability-basics,1,35
+oow,The area under a GZ curve indicates the ship's:,Longitudinal strength,Dynamic stability,Propulsive efficiency,Deadweight capacity,B,stability-basics,1,36
+oow,"For small angles of heel, GZ is approximately equal to:",GM tan theta,GM sin theta,KM cos theta,KG sin theta,B,stability-basics,1,37
+oow,"If GM is zero, the ship is in:",Stable equilibrium,Neutral equilibrium,Unstable equilibrium,Damage equilibrium,B,stability-basics,1,38
+oow,"If the centre of gravity lies above the metacentre, the ship is initially:",Stable,Neutral,Unstable,Stiff,C,stability-basics,1,39
+oow,A reduction in KG will usually:,Reduce GM,Increase GM,Leave GM unchanged,Cause immediate loll,B,stability-basics,1,40
+oow,Which action will most effectively increase GM?,Shift deck cargo higher,Press up a double-bottom tank,Slack a topside tank,Consume ballast from the double bottom,B,stability-basics,1,41
+oow,A vessel with excessive GM may experience:,Violent rolling and high structural stresses,Permanent list due to free surface,Loss of reserve buoyancy in calm weather,Reduced displacement at same draught,A,stability-basics,1,42
+oow,The metacentre is the point where the vertical through the new centre of buoyancy intersects the original vertical through:,The centre of flotation,The centre of gravity,The original centre of buoyancy,The free surface,C,stability-basics,1,43
+oow,Initial stability mainly concerns heel at:,Small angles,Angles above 60 degrees only,The angle of vanishing stability,Only damaged conditions,A,stability-basics,1,44
+oow,Large-angle stability is assessed mainly from the:,Deadweight scale,Cross curves and KN data,Load line marks only,Bonjean curves only,B,stability-basics,1,45
+oow,Cross curves of stability give values of:,KN for various displacements and heel angles,GM for loaded conditions only,LCG for all tanks,MCTC for any trim,A,stability-basics,1,46
+oow,"To obtain GZ from KN data, the correction applied is usually:",Subtract KG sin theta,Add KG sin theta,Multiply by displacement,Divide by GM,A,stability-basics,1,47
+oow,Downflooding angle is the angle at which:,The keel leaves the water,Water can enter through an opening not made watertight,GM becomes zero,The free surface becomes constant,B,damage-stability,1,48
+oow,Deck edge immersion angle is important because after this angle:,The righting lever always becomes zero,The rate of increase of GZ commonly reduces,KG always falls,The centre of flotation disappears,B,stability-basics,1,49
+oow,A vessel with a broad beam and low KG is most likely to be:,Tender,Stiff,In neutral equilibrium,At angle of loll,B,stability-basics,1,50
+oow,Heeling moment due to wind must be compared with the ship's:,TPC,Available righting moment,MCTC,LCB shift,B,stability-basics,1,51
+oow,When does the righting arm become a capsizing arm?,When GZ is positive,When GZ is zero,When GZ becomes negative,When KG is low,C,stability-basics,1,52
+oow,The weather criterion assesses a ship's ability to resist:,Longitudinal bending,Wind heeling and rolling,Bottom pressure only,Propeller racing,B,stability-basics,1,53
+oow,"If cargo is secured high on deck, the principal effect on intact stability is to:",Lower KG,Raise KG,Increase KM directly,Eliminate free surface,B,cargo-effects,1,54
+oow,A ship returning upright after a small heel is in:,Stable equilibrium,Neutral equilibrium,Unstable equilibrium,Loll equilibrium,A,stability-basics,1,55
+oow,Free surface effect is greatest when a tank is:,Pressed full,Empty,Slack,Overflowing through air pipe,C,free-surface,1,56
+oow,Why does free surface reduce stability?,It raises the centre of buoyancy,It creates a virtual rise of G,It reduces displacement to zero,It increases reserve buoyancy,B,free-surface,1,57
+oow,"To reduce free surface effect, the best practice is to keep tanks:",Either pressed full or empty where possible,Half full to spread the load,Always interconnected,Open to the sea,A,free-surface,1,58
+oow,The free surface correction is usually applied to:,KM,KG,LCB,TPC,B,free-surface,1,59
+oow,Effective GM equals:,Observed GM plus free surface correction,KM minus corrected KG,Displacement minus KG,BM plus TPC,B,free-surface,1,60
+oow,"If a weight is moved transversely to starboard, the ship will:",List to port,List to starboard,Trim by the bow,Rise bodily,B,cargo-effects,1,61
+oow,"If a weight is moved vertically upward, the ship's KG will:",Decrease,Increase,Remain unchanged,Move to port,B,cargo-effects,1,62
+oow,A suspended heavy weight acts as though its centre of gravity is at the:,Point of suspension,Keel,Original stowage position,Metacentre,A,cargo-effects,1,63
+oow,"While a heavy lift is just clear of the deck, ship stability is generally:",Improved because displacement reduces,Reduced because virtual KG rises,Unaffected until the load slews,Improved because BM increases,B,cargo-effects,1,64
+oow,"When loading weight low down and on the centreline, the ship will usually:",Increase GM,Decrease GM,Develop a permanent list,Lose reserve buoyancy only,A,cargo-effects,1,65
+oow,A shift of grain to one side mainly creates a:,Trimming moment,Heeling moment,Reduction in TPC only,Decrease in reserve buoyancy only,B,cargo-effects,1,66
+oow,A hanging cargo runner with weight on it can reduce stability because the load becomes:,Part of the keel structure,A suspended weight with a higher virtual G,A free-surface tank,A longitudinal weight only,B,cargo-effects,1,67
+oow,"If equal weights are loaded forward and aft on the centreline, the ship's mean draught will:",Decrease,Increase with little change of trim,Remain unchanged always,Increase and trim heavily by the bow,B,cargo-effects,1,68
+oow,"If equal weights are loaded port and starboard at the same height, the ship will normally:",List to port,List to starboard,Remain upright but sit deeper,Trim by the stern,C,cargo-effects,1,69
+oow,A weight shifted forward will generally cause the vessel to:,Trim by the bow,Trim by the stern,List to port,Rise bodily,A,trim-cargo-effects,1,70
+oow,A weight shifted aft will generally cause the vessel to:,Trim by the bow,Trim by the stern,Rise bodily,Lose GM only,B,trim-cargo-effects,1,71
+oow,Loading cargo high up without changing displacement significantly tends to:,Increase GM,Reduce GM,Reduce free surface,Move LCB aft only,B,cargo-effects,1,72
+oow,"When discharging from a double-bottom tank, GM will usually:",Decrease if low weight is removed,Increase if low weight is removed,Remain unchanged always,Become negative immediately,A,cargo-effects,1,73
+oow,Which action is most likely to cause a sudden list during loading?,Symmetrical loading in lower holds,Uneven loading off the centreline,Ballasting both wing tanks equally,Pressing up a centre tank,B,cargo-effects,1,74
+oow,"If a tank is nearly full and then pressed completely full, effective GM will usually:",Decrease,Increase,Become zero,Be unaffected by free surface,B,free-surface,1,75
+oow,The virtual rise in G due to free surface depends mainly on the tank's:,Length and breadth of free surface,Colour and coating,Position relative to the rudder,Sounding pipe diameter,A,free-surface,1,76
+oow,Two slack tanks usually have what effect compared with one similar slack tank?,Less reduction in GM,A combined reduction in GM,No reduction if separated,Only longitudinal trim effect,B,free-surface,1,77
+oow,A centreline bulkhead in a tank reduces free surface effect by:,Increasing permeability,Reducing transverse movement of liquid,Increasing sounding depth,Shifting LCB aft,B,free-surface,1,78
+oow,A partly filled wing tank has a greater heeling influence than a centre tank mainly because it is:,More difficult to sound,Farther from the centreline,Always larger in volume,Filled with denser liquid,B,free-surface,1,79
+oow,The principal reason to avoid multiple slack tanks before heavy weather is to:,Improve cargo ventilation,Preserve effective stability,Reduce propeller immersion,Increase freeboard marks,B,free-surface,1,80
+oow,"On a vessel with marginal GM, which cargo operation is most risky?",Loading dense cargo low down,Lifting a heavy weight by ship's gear,Pressing up ballast tanks,Discharging deck lashings,B,cargo-effects,1,81
+oow,Shifting a weight from the lower hold to the tween deck will usually:,Increase GM,Reduce GM,Reduce displacement,Eliminate list,B,cargo-effects,1,82
+oow,Shifting a weight from starboard to port on the same level will mainly affect:,Trim,Heel/list,Displacement,Reserve buoyancy,B,cargo-effects,1,83
+oow,"If ballast is transferred from a centre double-bottom tank to a topside tank, GM will usually:",Increase,Decrease,Remain unchanged,Become independent of displacement,B,cargo-effects,1,84
+oow,The moment causing list due to a shifted weight is calculated as:,Weight x transverse distance moved,Weight x vertical distance moved,Displacement x GM,TPC x distance moved,A,cargo-effects,1,85
+oow,"To remove a list caused by off-centre cargo, a suitable action is to:",Shift an equal moment to the opposite side,Add free surface on the listed side,Raise cargo on the high side,Reduce KM,A,cargo-effects,1,86
+oow,"Before starting a heavy lift, the officer should confirm the ship has adequate:",MCTC only,GM and crane radius limits,Fresh water allowance only,Load line freeboard only,B,cargo-effects,1,87
+oow,An increase in beam wind area from deck cargo mainly affects stability by increasing:,Heeling moment,TPC,Reserve buoyancy,LCB shift,A,cargo-effects,1,88
+oow,A grain cargo requires special attention because it may:,Lower KM rapidly,Shift and create a heeling moment,Reduce seawater density,Eliminate freeboard,B,cargo-effects,1,89
+oow,A liquid cargo in a partially filled tank can cause both free surface effect and:,Wind heel only,A list if the liquid is already off centre,An increase in GM,A decrease in displacement,B,free-surface,1,90
+oow,"If low ballast is added symmetrically, the ship will usually:",Increase GM and mean draught,Decrease GM and mean draught,List to one side,Develop angle of loll,A,cargo-effects,1,91
+oow,"When loading containers high on deck, the main intact stability concern is:",Raised KG,Reduced displacement,Lower TPC,Increased KB,A,cargo-effects,1,92
+oow,A stable stowage plan generally places the heaviest cargo:,As high and outboard as possible,Low and close to the centreline where practicable,Only at the ends of the ship,On hatch covers for easy discharge,B,cargo-effects,1,93
+oow,The free surface correction should be smallest when the tank is:,About half full,Nearly empty,Completely full,Three-quarters full,C,free-surface,1,94
+oow,Which statement about virtual loss of GM is correct?,It is caused by actual upward movement of steel structure,It arises from liquid movement in slack tanks,It only occurs in damaged ships,It increases when tanks are pressed up,B,free-surface,1,95
+oow,Trim is the difference between the:,Port and starboard draughts,Forward and aft draughts,Summer and winter freeboards,Loaded and ballast displacements,B,trim,1,96
+oow,A ship is said to trim by the stern when the:,Forward draught exceeds aft draught,Aft draught exceeds forward draught,Mean draught equals moulded depth,Port draught exceeds starboard draught,B,trim,1,97
+oow,A longitudinal weight shift creates a trimming moment equal to:,Weight x distance moved longitudinally,Displacement x TPC,MCTC x draught,KG x beam,A,trim,1,98
+oow,"If weight is loaded aft of the centre of flotation, the ship will tend to:",Trim by the stern,Trim by the bow,List to starboard,Rise bodily,A,trim,1,99
+oow,"If weight is loaded forward of the centre of flotation, the ship will tend to:",Trim by the bow,Trim by the stern,List to port,Lose reserve buoyancy only,A,trim,1,100
+oow,The change of trim in centimetres is found from trimming moment divided by:,TPC,GM,MCTC,Displacement,C,trim-hydrostatics,1,101
+oow,The vessel trims about the:,Centre of buoyancy,Centre of flotation,Metacentre,Midships mark only,B,trim-hydrostatics,1,102
+oow,Which quantity is most useful when calculating trim due to shifting a weight fore and aft?,Fresh Water Allowance,MCTC,GZ,TPC,B,trim-hydrostatics,1,103
+oow,A weight shifted toward midships from the after end will usually:,Reduce trim by the stern,Increase trim by the stern,Cause list only,Have no effect on trim,A,trim-cargo-effects,1,104
+oow,A stern trim may reduce safety by:,Increasing bow reserve buoyancy,Reducing propeller and rudder immersion,Making draft readings impossible,Eliminating free surface,B,trim-operational,1,105
+oow,Excessive trim by the head may be hazardous because it can:,Reduce bridge visibility and cause bow immersion,Increase GM automatically,Eliminate slamming risk,Improve propeller immersion,A,trim-operational,1,106
+oow,"If the after draught is 8.4 m and the forward draught is 7.8 m, the ship is trimmed:",0.6 m by the stern,0.6 m by the head,0.3 m by the stern,0.3 m by the head,A,trim,1,107
+oow,"If trimming moment is 600 tonne-metres and MCTC is 100 tonne-metres, change of trim is:",3 cm,6 cm,60 cm,600 cm,B,trim-hydrostatics,1,108
+oow,"When weights are loaded exactly at the centre of flotation, the direct effect on trim is:",Maximum trim by stern,Maximum trim by bow,Negligible change of trim,A list to starboard,C,trim-hydrostatics,1,109
+oow,Hogging or sagging primarily relates to:,"Longitudinal strength, not trim",Transverse stability only,Free surface correction,Load line assignment,A,ship-construction-stability,1,110
+oow,Mean draught is the average of the:,Forward and aft draughts,Port and starboard draughts only,Summer and winter draughts,Loaded and ballast draughts,A,trim-hydrostatics,1,111
+oow,"To reduce a bow trim, a suitable action may be to:",Shift weight aft,Shift weight forward,Add weight in the forepeak,Flood a forward peak tank,A,trim-cargo-effects,1,112
+oow,"To reduce a stern trim, a suitable action may be to:",Load more weight aft,Shift weight forward,Consume only forward bunkers,Increase free surface aft,B,trim-cargo-effects,1,113
+oow,The longitudinal centre of flotation is important because it indicates where the ship:,Rolls transversely,Pivots when trimming,Will capsize,Takes the ground first,B,trim-hydrostatics,1,114
+oow,A change in trim can alter the draught at a mark depending on the mark's distance from the:,Metacentre,Centre of flotation,Centre of gravity,Bilge keel,B,trim-hydrostatics,1,115
+oow,"If a vessel already trimmed by the stern loads more cargo aft, the stern draught will generally:",Decrease,Increase further,Remain unchanged,Depend only on salinity,B,trim,1,116
+oow,Which statement is correct about trim tables?,They give correcting moments for longitudinal loading conditions,They replace load line tables,They show only tank capacities,They are used only in dry dock,A,trim-hydrostatics,1,117
+oow,A ship with zero trim has:,Equal forward and aft draughts,Zero GM,No displacement,No freeboard,A,trim,1,118
+oow,"Longitudinal GM is normally much larger than transverse GM, so ships:",Trim easily but resist pitching,Heel more easily than they trim,Resist trimming more than heeling,Always remain on even keel,C,trim-hydrostatics,1,119
+oow,A small stern trim is sometimes preferred because it may:,Improve propeller immersion,Eliminate squat,Increase FWA,Reduce air draught,A,trim-operational,1,120
+oow,Damage stability is concerned with the ship's stability after:,Normal loading only,Flooding or hull damage,Dry docking,Routine bunkering,B,damage-stability,1,121
+oow,Permeability in damage calculations is the proportion of a space that can be occupied by:,Air only,Water after damage,Cargo lashings,Insulation,B,damage-stability,1,122
+oow,A compartment with low permeability will flood with:,Less water for the same volume,More water than its volume,No change in draught,Negative density,A,damage-stability,1,123
+oow,The main purpose of watertight subdivision is to:,Increase service speed,Limit flooding and preserve buoyancy and stability,Reduce TPC,Improve cargo ventilation only,B,damage-stability,1,124
+oow,A watertight bulkhead is fitted primarily to:,Reduce wind heel,Restrict movement of floodwater between compartments,Improve trim tables,Increase free surface effect,B,ship-construction-stability,1,125
+oow,"If a side compartment floods on the starboard side, the ship will usually:",List to port,List to starboard,Trim by the bow only,Rise bodily,B,damage-stability,1,126
+oow,Flooding a double-bottom space on the centreline mainly causes:,A centreline list,Loss of buoyancy and increased draught with little list,Immediate capsize,A shift in load line zone,B,damage-stability,1,127
+oow,The lost buoyancy method treats floodwater as:,Added cargo weight,A loss of buoyant volume,A free deck surface,An increase in reserve buoyancy,B,damage-stability,1,128
+oow,The added weight method treats floodwater as:,A decrease of displacement,Weight added within the ship,A reduction in KG,An increase in KM,B,damage-stability,1,129
+oow,"After flooding, free surface in the damaged compartment will usually:",Improve stability,Further reduce stability,Have no effect if seawater enters,Increase GM,B,damage-stability,1,130
+oow,Progressive flooding means:,Water entering one space and then spreading to others,Ballast transfer by pump,Controlled flooding to reduce trim,Flooding limited to the forepeak,A,damage-stability,1,131
+oow,Downflooding points should be kept closed at sea because they:,Increase TPC,Can admit water and reduce survivability,Lower KG,Improve ventilation only,B,damage-stability,1,132
+oow,A margin line is associated with:,Intact trim calculations,Subdivision and damage stability,Magnetic compass correction,Load line timber marks only,B,damage-stability,1,133
+oow,The factor determining whether water enters through an opening at heel is its:,Paint colour,Position relative to the heeled waterline,Distance from midships only,Use as an access hatch,B,damage-stability,1,134
+oow,A damaged vessel with reduced GM will generally have a:,Shorter quicker roll,Longer slower roll,Higher TPC only,Lower displacement only,B,damage-stability,1,135
+oow,Counter-flooding to reduce list after damage should be used:,Immediately in every case,Only if the stability information supports it,Whenever the master is asleep,To reduce displacement,B,damage-stability,1,136
+oow,The load line assigned for the least severe seasonal condition is the:,Winter North Atlantic mark,Winter mark,Summer mark,Tropical mark,D,loadline,1,137
+oow,"Compared with the summer mark, the winter mark allows:",Less draught,More draught,The same draught in all waters,No deck cargo,A,loadline,1,138
+oow,The tropical mark permits a greater draught than the summer mark because:,Tropical weather is always calm,Expected conditions are less severe,Seawater is less dense,Ships carry less cargo there,B,loadline,1,139
+oow,The timber load line is relevant when a vessel is carrying:,Bulk grain only,Timber deck cargo under approved conditions,Dangerous goods only,Containers below deck only,B,loadline,1,140
+oow,The deck line marked amidships is used as a reference for:,Load line assignment,Compass deviation,MCTC calculation,Propeller pitch,A,loadline,1,141
+oow,Reserve buoyancy is vital in heavy weather because it helps the ship resist:,Total cargo loss only,Immersion and flooding of the deck,Magnetic variation,Engine overload,B,loadline,1,142
+oow,An increase in freeboard generally means:,More reserve buoyancy,Less reserve buoyancy,Higher TPC,Lower KM only,A,loadline,1,143
+oow,Which opening most directly threatens stability if left unsecured on deck?,A weathertight ventilator that is not watertight where required,A paint locker keyhole,A sounding rod recess above deck,A closed scupper,A,ship-construction-stability,1,144
+oow,A collision bulkhead is fitted near the bow mainly to:,Increase GM in ballast,Limit flooding from bow damage,Reduce pitching,Provide cargo segregation only,B,ship-construction-stability,1,145
+oow,Double-bottom tanks contribute to stability because ballast placed there:,Raises KG,Lowers KG,Eliminates displacement,Reduces reserve buoyancy,B,ship-construction-stability,1,146
+oow,A box-shaped vessel compared with a fine-lined vessel of similar size will often have:,Greater initial stability,Lower waterplane area,No freeboard,Less buoyancy at small draughts,A,ship-construction-stability,1,147
+oow,Bilge keels mainly reduce:,Static list,Rolling motion,Mean draught,Free surface effect,B,ship-construction-stability,1,148
+oow,A superstructure contributes to reserve buoyancy only if it is:,Painted white,Enclosed and watertight to the required standard,Used for accommodation,Above the bridge deck,B,ship-construction-stability,1,149
+oow,"Before departure, the officer should confirm that hatch covers and watertight openings are:",Lubricated only,Properly secured as required,Open for ventilation,Locked from inside only,B,ship-construction-stability,1,150

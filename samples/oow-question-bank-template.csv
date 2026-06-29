@@ -1,0 +1,5 @@
+portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order
+oow,"What is the primary purpose of a passage plan?","To estimate bunker consumption only","To ensure the voyage is planned, monitored, and executed safely","To record crew working hours","To list only the destination port facilities","B","passage-planning",1,10
+oow,"Which document provides guidance on the master's responsibility for passage planning?","SOLAS Chapter V","MARPOL Annex I","STCW Code Part B only","ISM Code only","A","regulations",1,20
+oow,"Which bridge instrument is primarily used to determine a vessel's heading?","Echo sounder","Gyrocompass","Anemometer","Magnetic dip meter","B","bridge-equipment",1,30
+cm,"What is a common cause of reduced GM?","Lowering weight in the ship","Raising weight higher in the ship","Reducing free surface in tanks","Adding ballast low down","B","stability",1,10
