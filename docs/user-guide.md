@@ -21,27 +21,22 @@ The app includes two bundled question banks:
 The Navigation bank loads automatically when the app starts. Use **Load
 Selected** to switch to the Stability bank.
 
-## Install On Linux
+## Install On Windows
 
-From a fresh Linux machine:
+Use the Windows build artifact provided by the instructor or course organizer.
+The learner does not need Python, Git, GitHub login, or command-line setup.
 
-```bash
-sudo apt update
-sudo apt install -y git python3 python3-tk
+1. Download the `MCA-Question-Presenter-Windows` zip file.
+2. Right-click the zip file and choose **Extract All...**.
+3. Open the extracted folder.
+4. Double-click **MCA Question Presenter.exe**.
 
-mkdir -p ~/code
-cd ~/code
-git clone https://github.com/Dash1971/mca-question-presenter.git
-cd mca-question-presenter
-
-python3 -m unittest discover -s tests
-python3 -m compileall presenter tests
-python3 presenter/mca_question_presenter.py
-```
+If Windows SmartScreen appears, choose **More info**, then **Run anyway** only
+if the file came directly from the instructor or the official course channel.
 
 ## Start A Teaching Session
 
-1. Launch the app with `python3 presenter/mca_question_presenter.py`.
+1. Launch the app by double-clicking **MCA Question Presenter.exe**.
 2. Two windows open:
    - **Instructor controls**: private control panel for the instructor.
    - **MCA Question Display**: clean window to share with students.
@@ -111,7 +106,8 @@ Rules:
 
 | Problem | Fix |
 | --- | --- |
-| `ModuleNotFoundError: tkinter` or no window opens | Install Tkinter with `sudo apt install python3-tk` |
+| Windows blocks the app on first launch | Choose **More info** then **Run anyway**, but only for the instructor-provided build |
+| Nothing happens after double-clicking | Extract the zip first, then run **MCA Question Presenter.exe** from the extracted folder |
 | The selected bank has no questions | Check that `is_active` is not blank, `0`, `false`, `no`, or `inactive` |
 | A CSV will not load | Confirm all required columns exist and every row has A-D options |
 | The wrong answer is highlighted | Check the row's `correct_option` value |

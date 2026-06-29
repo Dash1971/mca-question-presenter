@@ -127,22 +127,19 @@
   </table>
   <p>The Navigation bank loads automatically when the app starts. Use <strong>Load Selected</strong> to switch to the Stability bank.</p>
 
-  <h2>Install On Linux</h2>
-  <pre>sudo apt update
-sudo apt install -y git python3 python3-tk
-
-mkdir -p ~/code
-cd ~/code
-git clone https://github.com/Dash1971/mca-question-presenter.git
-cd mca-question-presenter
-
-python3 -m unittest discover -s tests
-python3 -m compileall presenter tests
-python3 presenter/mca_question_presenter.py</pre>
+  <h2>Install On Windows</h2>
+  <p>Use the Windows build artifact provided by the instructor or course organizer. The learner does not need Python, Git, GitHub login, or command-line setup.</p>
+  <ol>
+    <li>Download the <strong>MCA-Question-Presenter-Windows</strong> zip file.</li>
+    <li>Right-click the zip file and choose <strong>Extract All...</strong>.</li>
+    <li>Open the extracted folder.</li>
+    <li>Double-click <strong>MCA Question Presenter.exe</strong>.</li>
+  </ol>
+  <div class="callout">If Windows SmartScreen appears, choose <strong>More info</strong>, then <strong>Run anyway</strong> only if the file came directly from the instructor or the official course channel.</div>
 
   <h2>Start A Teaching Session</h2>
   <ol>
-    <li>Launch the app with <code>python3 presenter/mca_question_presenter.py</code>.</li>
+    <li>Launch the app by double-clicking <strong>MCA Question Presenter.exe</strong>.</li>
     <li>Use the private <strong>Instructor controls</strong> window to drive the session.</li>
     <li>Share only the <strong>MCA Question Display</strong> window in Zoom, Teams, or Google Meet.</li>
     <li>Press <strong>Next</strong> to show the first question.</li>
@@ -192,7 +189,8 @@ python3 presenter/mca_question_presenter.py</pre>
   <table>
     <thead><tr><th>Problem</th><th>Fix</th></tr></thead>
     <tbody>
-      <tr><td><code>ModuleNotFoundError: tkinter</code> or no window opens</td><td>Install Tkinter with <code>sudo apt install python3-tk</code>.</td></tr>
+      <tr><td>Windows blocks the app on first launch</td><td>Choose <strong>More info</strong> then <strong>Run anyway</strong>, but only for the instructor-provided build.</td></tr>
+      <tr><td>Nothing happens after double-clicking</td><td>Extract the zip first, then run <strong>MCA Question Presenter.exe</strong> from the extracted folder.</td></tr>
       <tr><td>The selected bank has no questions</td><td>Check that <code>is_active</code> is not blank, <code>0</code>, <code>false</code>, <code>no</code>, or <code>inactive</code>.</td></tr>
       <tr><td>A CSV will not load</td><td>Confirm all required columns exist and every row has A-D options.</td></tr>
       <tr><td>The wrong answer is highlighted</td><td>Check the row's <code>correct_option</code> value.</td></tr>

@@ -17,7 +17,21 @@ WordPress, PHP, accounts, a database, or a web server.
 - filters questions by `topic_tag`
 - uses a separate presentation window for Zoom or other screen-sharing apps
 
-## Run From Source
+## Install Windows Build
+
+For normal end-user delivery, send the `MCA-Question-Presenter-Windows` zip
+artifact from the GitHub Actions build.
+
+The user should:
+
+1. Download the zip file.
+2. Right-click it and choose **Extract All...**.
+3. Open the extracted folder.
+4. Double-click **MCA Question Presenter.exe**.
+
+No Python, Git, GitHub login, or command-line setup is required.
+
+## Developer Run From Source
 
 Windows:
 
