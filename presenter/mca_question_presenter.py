@@ -304,8 +304,10 @@ class InstructorApp:
         self.bank_var.set(path.name)
         self.topic_combo.config(values=self.deck.topics())
         self.topic_var.set("All")
-        self.status_var.set(f"Loaded {len(questions)} active questions from {path.name}.")
-        self.presenter.show_question(None, self.deck.progress_text())
+        first_question = self.deck.next()
+        self.status_var.set(f"Loaded {len(questions)} active questions from {path.name}. Showing question 1.")
+        self.presenter.show_question(first_question, self.deck.progress_text())
+        self.show_display()
 
     def change_topic(self) -> None:
         if not self.deck:
