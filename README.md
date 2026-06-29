@@ -76,6 +76,26 @@ portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_ta
 
 ## Windows Build
 
+For normal end-user delivery, use the GitHub Actions build instead of asking the
+instructor to run commands.
+
+### GitHub Actions Build
+
+1. Open the repository on GitHub.
+2. Go to **Actions**.
+3. Open **Build Windows App**.
+4. Run the workflow manually, or use the latest successful run from `main`.
+5. Download the `MCA-Question-Presenter-Windows` artifact.
+6. Send the downloaded zip to the instructor.
+
+The instructor only needs to unzip the folder and double-click:
+
+```text
+MCA Question Presenter.exe
+```
+
+### Manual Windows Build
+
 Install PyInstaller in a virtual environment:
 
 ```powershell
