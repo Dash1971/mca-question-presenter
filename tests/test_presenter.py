@@ -39,6 +39,13 @@ class PresenterLoaderTests(unittest.TestCase):
         self.assertEqual(len(deck.questions), 1)
         self.assertEqual(deck.questions[0].topic_tag, "colregs")
 
+    def test_windows_build_bundles_question_bank_module(self) -> None:
+        build_script = Path(__file__).resolve().parents[1] / "presenter" / "build_windows.bat"
+        script_text = build_script.read_text(encoding="utf-8")
+
+        self.assertIn('--paths "presenter"', script_text)
+        self.assertIn('--hidden-import "question_bank"', script_text)
+
 
 if __name__ == "__main__":
     unittest.main()

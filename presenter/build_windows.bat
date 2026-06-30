@@ -8,6 +8,8 @@ python -m PyInstaller ^
   --clean ^
   --windowed ^
   --name "MCA Question Presenter" ^
+  --paths "presenter" ^
+  --hidden-import "question_bank" ^
   --add-data "samples;samples" ^
   presenter\mca_question_presenter.py
 
