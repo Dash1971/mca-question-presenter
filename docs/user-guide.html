@@ -173,16 +173,49 @@
   <h2>Recommended Screen-Share Setup</h2>
   <p>Keep <strong>Instructor controls</strong> private and share <strong>MCA Question Display</strong> with students. If the display window disappears behind other windows, click <strong>Show Display</strong>. For a cleaner lesson view, press <strong>F11</strong> while the display window is active.</p>
 
+  <h2>Upload A Custom CSV</h2>
+  <p>Use <strong>Load CSV...</strong> when you want to teach from your own question bank instead of the bundled Navigation or Stability banks.</p>
+  <ol>
+    <li>Prepare the question bank as a <code>.csv</code> file.</li>
+    <li>Save the file using UTF-8 encoding if your spreadsheet app offers an encoding choice.</li>
+    <li>Open <strong>MCA Question Presenter.exe</strong>.</li>
+    <li>Click <strong>Load CSV...</strong> in the <strong>Instructor controls</strong> window.</li>
+    <li>Select your CSV file.</li>
+    <li>The app loads the bank, shuffles the active questions, and shows the first question immediately.</li>
+  </ol>
+  <p>If the file has <code>topic_tag</code> values, they appear in the <strong>Topic</strong> drop-down after the CSV loads. Choose a topic to teach only that subset, or choose <strong>All</strong> to use the full bank.</p>
+
   <h2>Question Bank Format</h2>
   <p>Required columns:</p>
   <pre>question_text,option_a,option_b,option_c,option_d,correct_option</pre>
   <p>Recommended full format:</p>
   <pre>portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order</pre>
+  <table>
+    <thead><tr><th>Column</th><th>Required</th><th>What To Put In It</th></tr></thead>
+    <tbody>
+      <tr><td><code>question_text</code></td><td>Yes</td><td>The question shown to students.</td></tr>
+      <tr><td><code>option_a</code></td><td>Yes</td><td>Answer choice A.</td></tr>
+      <tr><td><code>option_b</code></td><td>Yes</td><td>Answer choice B.</td></tr>
+      <tr><td><code>option_c</code></td><td>Yes</td><td>Answer choice C.</td></tr>
+      <tr><td><code>option_d</code></td><td>Yes</td><td>Answer choice D.</td></tr>
+      <tr><td><code>correct_option</code></td><td>Yes</td><td>The letter of the correct answer: <code>A</code>, <code>B</code>, <code>C</code>, or <code>D</code>.</td></tr>
+      <tr><td><code>portal</code></td><td>No</td><td>A label for the bank or course, for example <code>oow</code>.</td></tr>
+      <tr><td><code>topic_tag</code></td><td>No</td><td>Topic filter name, for example <code>colregs</code>, <code>chartwork</code>, or <code>stability</code>.</td></tr>
+      <tr><td><code>is_active</code></td><td>No</td><td>Use <code>1</code> for active questions; use <code>0</code>, <code>false</code>, <code>no</code>, <code>inactive</code>, or blank to skip a row.</td></tr>
+      <tr><td><code>sort_order</code></td><td>No</td><td>Number used for stable ordering before the app shuffles the session.</td></tr>
+    </tbody>
+  </table>
+  <p>Example CSV:</p>
+  <pre>portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order
+oow,"What does a vessel at anchor display by day?","One black ball","Two black balls","A black cylinder","A red cone","A","colregs",1,1</pre>
   <ul>
     <li><code>correct_option</code> must be <code>A</code>, <code>B</code>, <code>C</code>, or <code>D</code>.</li>
+    <li><code>question_text</code> and all four answer options must not be blank.</li>
     <li><code>topic_tag</code> controls the topic filter.</li>
     <li><code>sort_order</code> controls the stable load order before shuffling.</li>
     <li><code>is_active</code> values of <code>0</code>, <code>false</code>, <code>no</code>, <code>inactive</code>, or blank are skipped.</li>
+    <li>Extra columns are allowed, but the app ignores them.</li>
+    <li>If a question or answer contains a comma, keep the value inside double quotes.</li>
   </ul>
 
   <h2>Troubleshooting</h2>
@@ -192,7 +225,8 @@
       <tr><td>Windows blocks the app on first launch</td><td>Choose <strong>More info</strong> then <strong>Run anyway</strong>, but only for the instructor-provided build.</td></tr>
       <tr><td>Nothing happens after double-clicking</td><td>Extract the zip first, then run <strong>MCA Question Presenter.exe</strong> from the extracted folder.</td></tr>
       <tr><td>The selected bank has no questions</td><td>Check that <code>is_active</code> is not blank, <code>0</code>, <code>false</code>, <code>no</code>, or <code>inactive</code>.</td></tr>
-      <tr><td>A CSV will not load</td><td>Confirm all required columns exist and every row has A-D options.</td></tr>
+      <tr><td>A CSV will not load</td><td>Confirm all required columns exist, every row has A-D options, and <code>correct_option</code> contains only A, B, C, or D.</td></tr>
+      <tr><td>Topics do not appear</td><td>Add values to the optional <code>topic_tag</code> column, then reload the CSV.</td></tr>
       <tr><td>The wrong answer is highlighted</td><td>Check the row's <code>correct_option</code> value.</td></tr>
       <tr><td>Students can see the controls</td><td>Share only the <strong>MCA Question Display</strong> window.</td></tr>
     </tbody>

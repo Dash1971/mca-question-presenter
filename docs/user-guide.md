@@ -81,6 +81,24 @@ Use two windows:
 If the display window disappears behind other windows, click **Show Display**.
 For a cleaner lesson view, press **F11** while the display window is active.
 
+## Upload A Custom CSV
+
+Use **Load CSV...** when you want to teach from your own question bank instead
+of the bundled Navigation or Stability banks.
+
+1. Prepare the question bank as a `.csv` file.
+2. Save the file using UTF-8 encoding if your spreadsheet app offers an
+   encoding choice.
+3. Open **MCA Question Presenter.exe**.
+4. Click **Load CSV...** in the **Instructor controls** window.
+5. Select your CSV file.
+6. The app loads the bank, shuffles the active questions, and shows the first
+   question immediately.
+
+If the file has `topic_tag` values, they appear in the **Topic** drop-down after
+the CSV loads. Choose a topic to teach only that subset, or choose **All** to
+use the full bank.
+
 ## Working With Question Banks
 
 Question banks are CSV files. The required columns are:
@@ -95,12 +113,37 @@ Recommended full format:
 portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order
 ```
 
+Column details:
+
+| Column | Required | What To Put In It |
+| --- | --- | --- |
+| `question_text` | Yes | The question shown to students |
+| `option_a` | Yes | Answer choice A |
+| `option_b` | Yes | Answer choice B |
+| `option_c` | Yes | Answer choice C |
+| `option_d` | Yes | Answer choice D |
+| `correct_option` | Yes | The letter of the correct answer: `A`, `B`, `C`, or `D` |
+| `portal` | No | A label for the bank or course, for example `oow` |
+| `topic_tag` | No | Topic filter name, for example `colregs`, `chartwork`, or `stability` |
+| `is_active` | No | Use `1` for active questions; use `0`, `false`, `no`, `inactive`, or blank to skip a row |
+| `sort_order` | No | Number used for stable ordering before the app shuffles the session |
+
+Example CSV:
+
+```csv
+portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order
+oow,"What does a vessel at anchor display by day?","One black ball","Two black balls","A black cylinder","A red cone","A","colregs",1,1
+```
+
 Rules:
 
 - `correct_option` must be `A`, `B`, `C`, or `D`.
+- `question_text` and all four answer options must not be blank.
 - `topic_tag` controls the topic filter.
 - `sort_order` controls the stable load order before shuffling.
 - `is_active` values of `0`, `false`, `no`, `inactive`, or blank are skipped.
+- Extra columns are allowed, but the app ignores them.
+- If a question or answer contains a comma, keep the value inside double quotes.
 
 ## Troubleshooting
 
@@ -109,7 +152,8 @@ Rules:
 | Windows blocks the app on first launch | Choose **More info** then **Run anyway**, but only for the instructor-provided build |
 | Nothing happens after double-clicking | Extract the zip first, then run **MCA Question Presenter.exe** from the extracted folder |
 | The selected bank has no questions | Check that `is_active` is not blank, `0`, `false`, `no`, or `inactive` |
-| A CSV will not load | Confirm all required columns exist and every row has A-D options |
+| A CSV will not load | Confirm all required columns exist, every row has A-D options, and `correct_option` contains only A, B, C, or D |
+| Topics do not appear | Add values to the optional `topic_tag` column, then reload the CSV |
 | The wrong answer is highlighted | Check the row's `correct_option` value |
 | Students can see the controls | Share only the **MCA Question Display** window |
 
