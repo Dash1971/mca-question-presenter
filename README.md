@@ -1,37 +1,79 @@
 # MCA Question Presenter
 
-Lightweight desktop presenter for MCA practice questions, designed for
-instructors to screen-share randomized questions and reveal answers during live
-lessons.
+MCA Question Presenter is a simple Windows app for showing multiple-choice MCA
+practice questions during a lesson. It is designed for an instructor who is
+sharing their screen in Zoom, Microsoft Teams, Google Meet, or a classroom.
 
-This is a local teaching tool, not an online exam portal. It does not require
-WordPress, PHP, accounts, a database, or a web server.
+No technical setup is needed. You do not need Python, Git, a database, or a web
+server.
 
-## What It Does
+## Download The Windows App
 
-- loads MCA question banks from CSV
-- shuffles active questions for each session
-- displays one multiple-choice question at a time
-- hides the correct answer until the instructor reveals it
-- highlights the correct answer on reveal
-- filters questions by `topic_tag`
-- uses a separate presentation window for Zoom or other screen-sharing apps
+1. Open the [Windows download page](https://github.com/Dash1971/mca-question-presenter/actions/workflows/build-windows.yml).
+2. Click the most recent **Build Windows App** entry with a green tick.
+3. Scroll down to **Artifacts** at the bottom of the page.
+4. Click **MCA-Question-Presenter-Windows** to download it.
 
-## Install Windows Build
+GitHub may ask you to sign in before downloading the file.
 
-For normal end-user delivery, send the `MCA-Question-Presenter-Windows` zip
-artifact from the GitHub Actions build.
+## Install On Windows
 
-The user should:
+The app is portable, so there is no setup program to run.
 
-1. Download the zip file.
-2. Right-click it and choose **Extract All...**.
-3. Open the extracted folder.
-4. Double-click **MCA Question Presenter.exe**.
+1. Open your **Downloads** folder.
+2. Right-click **MCA-Question-Presenter-Windows.zip** and choose
+   **Extract All...**, then click **Extract**.
+3. Open the new extracted folder.
+4. If you see **MCA Question Presenter Windows.zip** inside it, right-click that
+   file, choose **Extract All...**, then click **Extract** again.
+5. Open the **MCA Question Presenter** folder.
+6. Double-click **MCA Question Presenter.exe**.
 
-No Python, Git, GitHub login, or command-line setup is required.
+Keep **MCA Question Presenter.exe** and the **_internal** folder together. The
+app will not work if you move the `.exe` file by itself.
 
-## Developer Run From Source
+### If Windows Shows A Warning
+
+Windows may show a blue **Windows protected your PC** message the first time you
+open the app.
+
+Only continue if you downloaded the app from this repository or received it
+from a trusted instructor. Click **More info**, then click **Run anyway**.
+
+## Use The App
+
+When the app starts, two windows open:
+
+- **Instructor controls** — use this to choose questions, move forward or back,
+  and reveal answers.
+- **MCA Question Display** — share this window with your students.
+
+The Navigation question bank opens automatically. To use the included Stability
+questions, select that bank in the instructor controls and click **Load
+Selected**.
+
+You can also click **Load CSV...** to open your own question bank.
+
+### Keyboard Shortcuts
+
+- **Right arrow:** next question
+- **Left arrow:** previous question
+- **Space** or **Enter:** reveal or hide the answer
+- **F11:** make the question display full screen
+- **Escape:** leave full-screen mode
+
+## Help
+
+See the [full user guide](docs/user-guide.md) for screen-sharing advice, custom
+question-bank instructions, and troubleshooting. A
+[PDF user guide](docs/mca-question-presenter-user-guide.pdf) is also available.
+
+## For Developers
+
+The following information is only needed if you want to change or build the
+software yourself.
+
+### Run From Source
 
 Windows:
 
@@ -46,39 +88,9 @@ sudo apt install python3-tk
 python3 presenter/mca_question_presenter.py
 ```
 
-The app opens two windows:
+### Question Bank Format
 
-- **Instructor controls**: load a bank, choose a topic, move through questions,
-  reveal/hide answers, and reshuffle.
-- **MCA Question Display**: the clean presentation window to share in Zoom.
-
-## Keyboard Shortcuts
-
-- Right arrow: next question
-- Left arrow: previous question
-- Space or Enter: reveal/hide answer
-- F11: toggle fullscreen on the display window
-- Escape: leave fullscreen
-
-## Included Banks
-
-The `samples/` folder contains two bundled practice banks:
-
-- `oow-navigation-bank-150.csv`
-- `oow-stability-bank-150.csv`
-
-The app loads the Navigation bank by default. Use **Load Selected** in the
-instructor controls to switch to the Stability bank.
-
-## User Guide
-
-A full instructor guide is available in [`docs/user-guide.md`](docs/user-guide.md).
-A shareable PDF version is available in
-[`docs/mca-question-presenter-user-guide.pdf`](docs/mca-question-presenter-user-guide.pdf).
-
-## CSV Format
-
-Required columns:
+Required CSV columns:
 
 ```text
 question_text,option_a,option_b,option_c,option_d,correct_option
@@ -92,31 +104,12 @@ portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_ta
 
 `correct_option` must be `A`, `B`, `C`, or `D`.
 
-`is_active` values of `0`, `false`, `no`, `inactive`, or blank are skipped.
+Rows with an `is_active` value of `0`, `false`, `no`, `inactive`, or blank are
+skipped.
 
-## Windows Build
+### Build The Windows App
 
-For normal end-user delivery, use the GitHub Actions build instead of asking the
-instructor to run commands.
-
-### GitHub Actions Build
-
-1. Open the repository on GitHub.
-2. Go to **Actions**.
-3. Open **Build Windows App**.
-4. Run the workflow manually, or use the latest successful run from `main`.
-5. Download the `MCA-Question-Presenter-Windows` artifact.
-6. Send the downloaded zip to the instructor.
-
-The instructor only needs to unzip the folder and double-click:
-
-```text
-MCA Question Presenter.exe
-```
-
-### Manual Windows Build
-
-Install PyInstaller in a virtual environment:
+Create and activate a Python virtual environment, then install PyInstaller:
 
 ```powershell
 py -m venv .venv
@@ -125,19 +118,15 @@ python -m pip install --upgrade pip
 python -m pip install pyinstaller
 ```
 
-Build:
+Build the app:
 
 ```powershell
 presenter\build_windows.bat
 ```
 
-Run:
+The finished app will be in `dist\MCA Question Presenter\`.
 
-```text
-dist\MCA Question Presenter\MCA Question Presenter.exe
-```
-
-## Tests
+### Tests
 
 ```bash
 python3 -m unittest discover -s tests
