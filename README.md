@@ -1,67 +1,82 @@
 # MCA Question Presenter
 
-MCA Question Presenter is a simple Windows app for showing multiple-choice MCA
-practice questions during a lesson. It is designed for an instructor who is
-sharing their screen in Zoom, Microsoft Teams, Google Meet, or a classroom.
+MCA Question Presenter is a simple Windows app for displaying multiple-choice
+MCA practice questions during a lesson. An instructor controls the questions in
+one window and shares a separate, clean question window with students.
 
-No technical setup is needed. You do not need Python, Git, a database, or a web
-server.
+It works well in a classroom or while screen-sharing through Zoom, Microsoft
+Teams, or Google Meet.
+
+No technical setup is required. You do not need Python, Git, a database, or a
+web server.
+
+> This is an unofficial practice and teaching tool. It is not produced or
+> endorsed by the Maritime and Coastguard Agency or SQA.
+
+## Included Question Banks
+
+The Windows app includes four banks with 150 questions each:
+
+- **Chief Mate/Master Navigation** — MCA/SQA syllabus 032-73
+- **Chief Mate/Master Stability & Structure** — MCA/SQA syllabus 032-74
+- **Officer of the Watch Navigation**
+- **Officer of the Watch Stability**
 
 ## Download The Windows App
 
 1. Open the [Windows download page](https://github.com/Dash1971/mca-question-presenter/actions/workflows/build-windows.yml).
-2. Click the most recent **Build Windows App** entry with a green tick.
-3. Scroll down to **Artifacts** at the bottom of the page.
-4. Click **MCA-Question-Presenter-Windows** to download it.
+2. Open the newest **Build Windows App** entry that has a green tick.
+3. Scroll to the **Artifacts** section at the bottom of the page.
+4. Click **MCA-Question-Presenter-Windows**.
 
-GitHub may ask you to sign in before downloading the file.
+The download is a ZIP file. GitHub may ask you to sign in before downloading
+it.
 
-## Install On Windows
+## Install And Open It
 
-The app is portable, so there is no setup program to run.
+There is no installer. Extract the downloaded files and run the app directly:
 
-1. Open your **Downloads** folder.
-2. Right-click **MCA-Question-Presenter-Windows.zip** and choose
-   **Extract All...**, then click **Extract**.
-3. Open the new extracted folder.
-4. If you see **MCA Question Presenter Windows.zip** inside it, right-click that
-   file, choose **Extract All...**, then click **Extract** again.
-5. Open the **MCA Question Presenter** folder.
-6. Double-click **MCA Question Presenter.exe**.
+1. Open your Windows **Downloads** folder.
+2. Right-click **MCA-Question-Presenter-Windows.zip**.
+3. Select **Extract All...**, then click **Extract**.
+4. Open the extracted folder.
+5. If it contains another file named **MCA Question Presenter Windows.zip**,
+   right-click that file and choose **Extract All...** again.
+6. Open the **MCA Question Presenter** folder.
+7. Double-click **MCA Question Presenter.exe**.
 
-Keep **MCA Question Presenter.exe** and the **_internal** folder together. The
-app will not work if you move the `.exe` file by itself.
+Keep the `.exe` file and the `_internal` folder together. Moving the `.exe` by
+itself will stop the app from working.
 
-### If Windows Shows A Warning
+### Windows Security Warning
 
-Windows may show a blue **Windows protected your PC** message the first time you
-open the app.
+Windows may display **Windows protected your PC** the first time the app opens.
 
 Only continue if you downloaded the app from this repository or received it
-from a trusted instructor. Click **More info**, then click **Run anyway**.
+from a trusted instructor. Click **More info**, then **Run anyway**.
 
-## Use The App
+## Run A Lesson
 
-When the app starts, two windows open:
+Opening the app displays two windows:
 
-- **Instructor controls** — use this to choose questions, move forward or back,
-  and reveal answers.
-- **MCA Question Display** — share this window with your students.
+- **Instructor controls** — keep this private. Use it to select a bank or topic,
+  move between questions, reshuffle the deck, and reveal answers.
+- **MCA Question Display** — share this window with students.
 
-The OOW Navigation question bank opens automatically. Four 150-question banks
-are included:
+The Officer of the Watch Navigation bank opens automatically.
 
-- Chief Mate/Master Navigation (MCA/SQA 032-73)
-- Chief Mate/Master Stability & Structure (MCA/SQA 032-74)
-- OOW Navigation
-- OOW Stability
+To use another bank:
 
-To switch banks, select one in the instructor controls and click **Load
-Selected**.
+1. Select its filename under **Bundled banks**.
+2. Click **Load Selected**.
+3. Optionally choose a subject from the **Topic** menu.
+4. Click **Next** to continue through the shuffled questions.
+5. Click **Reveal / Hide** when you are ready to show the answer.
 
-You can also click **Load CSV...** to open your own question bank.
+You can also use **Load CSV...** to open a compatible question bank from your
+computer.
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 - **Right arrow:** next question
 - **Left arrow:** previous question
@@ -71,14 +86,14 @@ You can also click **Load CSV...** to open your own question bank.
 
 ## Help
 
-See the [full user guide](docs/user-guide.md) for screen-sharing advice, custom
-question-bank instructions, and troubleshooting. A
+The [full user guide](docs/user-guide.md) includes screen-sharing advice, custom
+CSV instructions, and troubleshooting. A
 [PDF user guide](docs/mca-question-presenter-user-guide.pdf) is also available.
 
-## For Developers
+## Developer Information
 
-The following information is only needed if you want to change or build the
-software yourself.
+The rest of this README is only for people who want to change or rebuild the
+software.
 
 ### Run From Source
 
