@@ -11,15 +11,17 @@ student grading, and no WordPress dependency.
 
 ## What Is Included
 
-The app includes two bundled question banks:
+The app includes four bundled question banks:
 
 | Bank | File | Use |
 | --- | --- | --- |
-| Navigation | `samples/oow-navigation-bank-150.csv` | Navigation, chartwork, lights, signals, rules, and related OOW practice |
-| Stability | `samples/oow-stability-bank-150.csv` | Stability, loading, buoyancy, free surface, and related OOW practice |
+| Chief Mate/Master Navigation | `samples/chief-mate-master-navigation-bank-150.csv` | Passage planning, position fixing, bridge management, ECDIS, weather, tides, emergencies, and current best practice from syllabus 032-73 |
+| Chief Mate/Master Stability & Structure | `samples/chief-mate-master-stability-structure-bank-150.csv` | Advanced stability, trim, damage stability, load lines, specialised vessels, and surveys from syllabus 032-74 |
+| OOW Navigation | `samples/oow-navigation-bank-150.csv` | Navigation, chartwork, lights, signals, rules, and related OOW practice |
+| OOW Stability | `samples/oow-stability-bank-150.csv` | Stability, loading, buoyancy, free surface, and related OOW practice |
 
-The Navigation bank loads automatically when the app starts. Use **Load
-Selected** to switch to the Stability bank.
+The OOW Navigation bank loads automatically when the app starts. Use **Load
+Selected** to switch to any other bundled bank.
 
 ## Install On Windows
 
@@ -84,7 +86,7 @@ For a cleaner lesson view, press **F11** while the display window is active.
 ## Upload A Custom CSV
 
 Use **Load CSV...** when you want to teach from your own question bank instead
-of the bundled Navigation or Stability banks.
+of the bundled question banks.
 
 1. Prepare the question bank as a `.csv` file.
 2. Save the file using UTF-8 encoding if your spreadsheet app offers an

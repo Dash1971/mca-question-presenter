@@ -48,8 +48,15 @@ When the app starts, two windows open:
   and reveal answers.
 - **MCA Question Display** — share this window with your students.
 
-The Navigation question bank opens automatically. To use the included Stability
-questions, select that bank in the instructor controls and click **Load
+The OOW Navigation question bank opens automatically. Four 150-question banks
+are included:
+
+- Chief Mate/Master Navigation (MCA/SQA 032-73)
+- Chief Mate/Master Stability & Structure (MCA/SQA 032-74)
+- OOW Navigation
+- OOW Stability
+
+To switch banks, select one in the instructor controls and click **Load
 Selected**.
 
 You can also click **Load CSV...** to open your own question bank.

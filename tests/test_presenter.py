@@ -46,6 +46,35 @@ class PresenterLoaderTests(unittest.TestCase):
         self.assertIn('--paths "presenter"', script_text)
         self.assertIn('--hidden-import "question_bank"', script_text)
 
+    def test_bundled_question_banks_are_valid(self) -> None:
+        samples = Path(__file__).resolve().parents[1] / "samples"
+        bank_paths = sorted(samples.glob("*.csv"))
+
+        self.assertEqual(len(bank_paths), 4)
+        for path in bank_paths:
+            with self.subTest(bank=path.name):
+                questions = load_questions(path)
+                self.assertEqual(len(questions), 150)
+                self.assertEqual(
+                    [question.sort_order for question in questions],
+                    list(range(1, 151)),
+                )
+                self.assertEqual(
+                    len({question.question_text.casefold() for question in questions}),
+                    150,
+                )
+
+    def test_chief_mate_master_banks_have_balanced_answers(self) -> None:
+        samples = Path(__file__).resolve().parents[1] / "samples"
+        for path in sorted(samples.glob("chief-mate-master-*.csv")):
+            with self.subTest(bank=path.name):
+                questions = load_questions(path)
+                counts = {
+                    letter: sum(q.correct_option == letter for q in questions)
+                    for letter in "ABCD"
+                }
+                self.assertLessEqual(max(counts.values()) - min(counts.values()), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

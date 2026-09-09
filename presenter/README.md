@@ -87,6 +87,8 @@ app without browsing for a bank first.
 
 Bundled banks:
 
+- `chief-mate-master-navigation-bank-150.csv`
+- `chief-mate-master-stability-structure-bank-150.csv`
 - `oow-navigation-bank-150.csv`
 - `oow-stability-bank-150.csv`
 
