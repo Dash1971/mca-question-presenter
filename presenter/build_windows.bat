@@ -1,16 +1,12 @@
 @echo off
 setlocal
-
 cd /d "%~dp0\.."
-
 python -m PyInstaller ^
   --noconfirm ^
   --clean ^
+  --onedir ^
   --windowed ^
-  --name "MCA Question Presenter" ^
-  --paths "presenter" ^
-  --hidden-import "question_bank" ^
-  --add-data "samples;samples" ^
+  --name "MCA Visual Practice" ^
+  --add-data "presenter\web;presenter\web" ^
   presenter\mca_question_presenter.py
-
 endlocal

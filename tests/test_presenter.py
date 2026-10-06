@@ -1,80 +1,50 @@
 from __future__ import annotations
 
-import tempfile
+import json
+import re
 import unittest
 from pathlib import Path
 
-from presenter.question_bank import QuestionDeck, load_questions
+ROOT = Path(__file__).resolve().parents[1]
+WEB = ROOT / 'presenter' / 'web'
 
 
-CSV_TEXT = """portal,question_text,option_a,option_b,option_c,option_d,correct_option,topic_tag,is_active,sort_order
-oow,Question one,A1,B1,C1,D1,B,colregs,1,2
-oow,Question two,A2,B2,C2,D2,C,stability,1,1
-oow,Inactive,A3,B3,C3,D3,A,colregs,0,3
-"""
+class PracticePaperTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        data = (WEB / 'paper.js').read_text(encoding='utf-8')
+        cls.raw = data
+        cls.questions = json.loads(data.removeprefix('window.PAPER=').rstrip(' ;\n'))
+
+    def test_all_questions_and_figures_present(self):
+        self.assertEqual([q['id'] for q in self.questions], list(range(1, 36)))
+        for q in self.questions:
+            self.assertTrue(q['prompt'])
+            if 'image' in q:
+                self.assertTrue((WEB / q['image']).is_file(), q['id'])
+        self.assertEqual(len({q['image'] for q in self.questions if 'image' in q}), 15)
+
+    def test_keys_and_ungraded_items_are_explicit(self):
+        for q in self.questions:
+            if q['kind'] in ('single', 'multi'):
+                self.assertGreaterEqual(len(q['options']), 3, q['id'])
+                for i in q.get('answer', []):
+                    self.assertLess(i, len(q['options']), q['id'])
+            if q['id'] in (13, 18, 34):
+                self.assertTrue(q['note'])
+                self.assertNotIn('answer', q)
+
+    def test_private_result_data_and_csv_are_absent(self):
+        self.assertNotRegex(self.raw, re.compile(r'Candidate|Created by|Partially Correct', re.I))
+        self.assertFalse(list(ROOT.glob('samples/*.csv')))
+        self.assertFalse((ROOT / 'presenter' / 'question_bank.py').exists())
+
+    def test_windows_build_contains_web_assets(self):
+        script = (ROOT / 'presenter' / 'build_windows.bat').read_text()
+        self.assertIn('presenter\\web;presenter\\web', script)
+        self.assertIn('--onedir', script)
+        self.assertNotIn('samples', script)
 
 
-class PresenterLoaderTests(unittest.TestCase):
-    def test_load_questions_filters_inactive_and_sorts(self) -> None:
-        with tempfile.TemporaryDirectory() as tmpdir:
-            path = Path(tmpdir) / "questions.csv"
-            path.write_text(CSV_TEXT, encoding="utf-8")
-
-            questions = load_questions(path)
-
-        self.assertEqual(len(questions), 2)
-        self.assertEqual(questions[0].question_text, "Question two")
-        self.assertEqual(questions[1].question_text, "Question one")
-        self.assertEqual(questions[0].correct_answer_text, "C2")
-
-    def test_deck_topic_filter(self) -> None:
-        with tempfile.TemporaryDirectory() as tmpdir:
-            path = Path(tmpdir) / "questions.csv"
-            path.write_text(CSV_TEXT, encoding="utf-8")
-            questions = load_questions(path)
-
-        deck = QuestionDeck(questions)
-        deck.set_topic("colregs")
-
-        self.assertEqual(len(deck.questions), 1)
-        self.assertEqual(deck.questions[0].topic_tag, "colregs")
-
-    def test_windows_build_bundles_question_bank_module(self) -> None:
-        build_script = Path(__file__).resolve().parents[1] / "presenter" / "build_windows.bat"
-        script_text = build_script.read_text(encoding="utf-8")
-
-        self.assertIn('--paths "presenter"', script_text)
-        self.assertIn('--hidden-import "question_bank"', script_text)
-
-    def test_bundled_question_banks_are_valid(self) -> None:
-        samples = Path(__file__).resolve().parents[1] / "samples"
-        bank_paths = sorted(samples.glob("*.csv"))
-
-        self.assertEqual(len(bank_paths), 4)
-        for path in bank_paths:
-            with self.subTest(bank=path.name):
-                questions = load_questions(path)
-                self.assertEqual(len(questions), 150)
-                self.assertEqual(
-                    [question.sort_order for question in questions],
-                    list(range(1, 151)),
-                )
-                self.assertEqual(
-                    len({question.question_text.casefold() for question in questions}),
-                    150,
-                )
-
-    def test_chief_mate_master_banks_have_balanced_answers(self) -> None:
-        samples = Path(__file__).resolve().parents[1] / "samples"
-        for path in sorted(samples.glob("chief-mate-master-*.csv")):
-            with self.subTest(bank=path.name):
-                questions = load_questions(path)
-                counts = {
-                    letter: sum(q.correct_option == letter for q in questions)
-                    for letter in "ABCD"
-                }
-                self.assertLessEqual(max(counts.values()) - min(counts.values()), 1)
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
