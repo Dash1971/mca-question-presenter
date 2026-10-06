@@ -24,15 +24,32 @@ class PracticePaperTests(unittest.TestCase):
                 self.assertTrue((WEB / q['image']).is_file(), q['id'])
         self.assertEqual(len({q['image'] for q in self.questions if 'image' in q}), 15)
 
-    def test_keys_and_ungraded_items_are_explicit(self):
+    def test_every_question_has_a_complete_key(self):
         for q in self.questions:
             if q['kind'] in ('single', 'multi'):
                 self.assertGreaterEqual(len(q['options']), 3, q['id'])
-                for i in q.get('answer', []):
+                self.assertTrue(q['answer'], q['id'])
+                for i in q['answer']:
                     self.assertLess(i, len(q['options']), q['id'])
-            if q['id'] in (13, 18, 34):
-                self.assertTrue(q['note'])
-                self.assertNotIn('answer', q)
+            elif q['kind'] == 'fields':
+                key = q.get('answers') or [f.get('answer') for f in q['fields']]
+                self.assertEqual(len(key), len(q['fields']), q['id'])
+                self.assertTrue(all(key), q['id'])
+            elif q['kind'] == 'match':
+                self.assertEqual(len(q['answers']), len(q['terms']), q['id'])
+            elif q['kind'] == 'place':
+                self.assertEqual(set(q['targets']), set(q['tokens']), q['id'])
+                for rect in q['targets'].values():
+                    x1, y1, x2, y2 = rect
+                    self.assertTrue(0 <= x1 < x2 <= 100 and 0 <= y1 < y2 <= 100, q['id'])
+            else:
+                self.fail(f"Unsupported question kind: {q['id']}")
+        self.assertEqual(self.questions[17]['answers'], ['earliest 05:20', 'latest 09:30'])
+        self.assertTrue(self.questions[17]['warning'])
+        self.assertEqual(self.questions[2]['answers'], ['Moves vertically upwards', 'Reduces', 'No list'])
+        self.assertEqual(self.questions[4]['answers'], ['Moves downwards and to port', 'Increases', 'To starboard, reducing'])
+        self.assertEqual(self.questions[12]['answer'], [0, 2, 5])
+        self.assertEqual(self.questions[33]['answer'], [1, 7])
 
     def test_private_result_data_and_csv_are_absent(self):
         self.assertNotRegex(self.raw, re.compile(r'Candidate|Created by|Partially Correct', re.I))

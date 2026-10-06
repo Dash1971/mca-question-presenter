@@ -12,11 +12,11 @@ On Windows, extract the Windows build ZIP, keep the `MCA Visual Practice` folder
 - Click one answer or several, as indicated by the question, then **Check answer**.
 - For matching, choose a definition for each routeing measure.
 - For numerical or multi-part answers, fill each field.
-- For placement questions 2 and 32, select or drag a label onto the diagram. Drag it again to reposition. These are **recorded for instructor review**, not auto-graded.
+- For placement questions 2 and 32, select or drag a label onto the diagram. Drag it again to reposition. Checking scores each label against accepted regions and shows the correct regions in green.
 - Use the figure controls to zoom. Large figures can be scrolled.
 - Progress is saved in that browser's local storage on the current computer. There is no account or cloud sync.
 
-The source export omits the tidal stimulus for question 18, so its crossing times are **not auto-graded**. Questions 13 and 34 also lack a complete, unambiguous key in the source export and are recorded for review. Several heavy-lift subquestions use instructor review where the export does not establish a reliable full key. The app reports this explicitly rather than inventing correctness.
+All 35 questions provide answer feedback. The scored PDF export supplied keys for the previously ungraded items; the two drag questions use its marked target regions. For question 18, the PDF still omits the tidal stimulus, so a learner cannot independently calculate the crossing times from this document. The app discloses that limitation and identifies the source-marked answer after checking.
 
 The app includes extracted diagrams/charts and question wording only. It does **not** include the source PDF, candidate/creator identities, candidate selections, or marks. Keep it local until rights to distribute the paper and chart figures have been checked.
 
