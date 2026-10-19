@@ -103,7 +103,8 @@ def main(pdf_path: Path) -> None:
                 rec['fields']=[{'label':'Earliest crossing','choices':opts[:4]},{'label':'Latest crossing','choices':opts[4:]}]
                 rec['answers']=['earliest 05:20','latest 09:30']
                 rec.pop('options')
-                rec['warning']='The PDF omits the tidal graphic, so the crossing window cannot be calculated from the supplied document alone. The marked answer key is available after you check.'
+                rec['scored']=False
+                rec['warning']='The tidal graphic is missing from the supplied PDF. This question is practice-only and does not count toward your percentage.'
                 rec['note']='The scored paper marks 05:20 and 09:30. Required tide height = draught + UKC − charted depth = 5.5 m; the missing graphic prevents independent verification of those times.'
             if n==13:rec['note']='The scored paper marks practical voyage-planning advice and advisory use, not the claim that these guides are the mandatory IMO routeing publication.'
             if n==34:rec['note']='The scored chart marks B and H as not complying with Rule 10.'

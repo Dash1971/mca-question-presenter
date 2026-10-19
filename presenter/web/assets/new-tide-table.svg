@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 280" role="img" aria-label="Synthetic training tide table; 0900 one meter and 1500 five meters">
+<rect width="650" height="280" fill="#fff"/><text x="35" y="50" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#18344d">Synthetic tide exercise</text>
+<rect x="35" y="85" width="580" height="145" rx="8" fill="#edf5f8" stroke="#597f91" stroke-width="2"/>
+<path d="M35 135H615M35 183H615M270 85V230" stroke="#597f91" stroke-width="2"/>
+<g font-family="Arial,sans-serif" font-size="21" fill="#18344d"><text x="70" y="118" font-weight="bold">Time</text><text x="300" y="118" font-weight="bold">Height above chart datum</text><text x="70" y="166">0900</text><text x="300" y="166">1.0 m</text><text x="70" y="214">1500</text><text x="300" y="214">5.0 m</text></g>
+</svg>

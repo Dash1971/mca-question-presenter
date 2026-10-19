@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" role="img" aria-label="Synthetic traffic separation scheme: upper lane eastbound, middle separation zone, lower lane westbound">
+<rect width="700" height="400" fill="#f7fbfe"/><text x="25" y="37" font-family="Arial" font-size="23" font-weight="bold" fill="#18344d">Training traffic separation scheme</text>
+<rect x="50" y="65" width="600" height="290" fill="#d9eff6" stroke="#416a80" stroke-width="3"/>
+<rect x="50" y="222" width="600" height="35" fill="#f6e5a6" stroke="#8e7530" stroke-width="2"/>
+<g stroke="#597989" stroke-width="2" stroke-dasharray="12,9"><path d="M50 205H650M50 275H650"/></g>
+<g fill="#20728b" font-family="Arial" font-size="42" font-weight="bold"><text x="120" y="150">→</text><text x="565" y="150">→</text><text x="120" y="340">←</text><text x="565" y="340">←</text></g>
+</svg>

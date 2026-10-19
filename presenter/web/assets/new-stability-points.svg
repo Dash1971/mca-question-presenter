@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" role="img" aria-label="Upright vessel section with three blank centerline target positions for M, G and B">
+<rect width="700" height="420" fill="#f7fbfe"/><text x="24" y="36" font-family="Arial" font-size="22" font-weight="bold" fill="#18344d">Upright vessel · stable initial equilibrium</text>
+<path d="M95 170H605L560 345Q350 390 140 345Z" fill="#d6e6ed" stroke="#263f50" stroke-width="5"/>
+<path d="M95 190H605" stroke="#176b83" stroke-width="3" stroke-dasharray="12 8"/>
+<path d="M350 70V350" stroke="#8c9daa" stroke-width="2" stroke-dasharray="8 8"/>
+<g fill="#fff" stroke="#ae792c" stroke-width="4"><circle cx="350" cy="97" r="14"/><circle cx="350" cy="181" r="14"/><circle cx="350" cy="265" r="14"/></g>
+<text x="21" y="198" font-family="Arial" font-size="15" fill="#37657c">Waterline</text>
+</svg>

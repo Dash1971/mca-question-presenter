@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MCA Visual Practice</title>
+<title>MCA OOW Exam Presenter</title>
 <link rel="stylesheet" href="style.css">
-<script src="paper.js" defer></script><script src="app.js" defer></script>
+<script src="paper.js" defer></script><script src="papers.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
-<header><div><strong>MCA Visual Practice</strong><span>Offline mock paper · 35 questions</span></div><div id="counter"></div></header>
+<header><div><strong>MCA OOW Exam Presenter</strong><span>Offline practice examinations · answers withheld</span></div><div id="counter"></div></header>
 <div class="layout">
-<aside><h2>Questions</h2><p id="summary"></p><nav id="question-nav" aria-label="Questions"></nav><p class="aside-note">Answers and progress stay in this browser on this computer.</p></aside>
-<main><div class="eyebrow" id="meta"></div><h1 id="title"></h1><p id="context" class="context" hidden></p><p id="prompt"></p>
-<section id="visual" hidden><div class="visual-toolbar"><span>Source figure</span><div><button id="zoom-out" title="Zoom out">−</button><span id="zoom-label">100%</span><button id="zoom-in" title="Zoom in">+</button><button id="zoom-reset">Reset</button></div></div><div id="figure-viewport"><div id="figure-layer"><img id="figure" alt="Question figure"><div id="answer-targets"></div><div id="placed-tokens"></div></div></div></section>
-<div id="interaction"></div><div class="actions"><button id="prev">← Previous</button><button id="check" class="primary">Check answer</button><button id="next">Next →</button></div><div id="feedback" aria-live="polite"></div>
+<aside><h2>Exam</h2><select id="paper-select" aria-label="Select exam"></select><p id="paper-description"></p><h2>Questions</h2><p id="summary"></p><nav id="question-nav" aria-label="Questions"></nav><p class="aside-note">Answers and progress stay in this browser on this computer. One mark per scored question; no partial marks.</p></aside>
+<main><div id="result" hidden aria-live="polite"></div><div class="eyebrow" id="meta"></div><h1 id="title"></h1><p id="context" class="context" hidden></p><p id="prompt"></p>
+<section id="visual" hidden><div class="visual-toolbar"><span>Figure</span><div><button id="zoom-out" title="Zoom out">−</button><span id="zoom-label">100%</span><button id="zoom-in" title="Zoom in">+</button><button id="zoom-reset">Reset</button></div></div><div id="figure-viewport"><div id="figure-layer"><img id="figure" alt="Question figure"><div id="placed-tokens"></div></div></div></section>
+<div id="interaction"></div><div class="actions"><button id="prev">← Previous</button><button id="next">Next →</button></div><div class="exam-actions"><button id="submit" class="primary">Submit exam for percentage</button><button id="restart" hidden>Start a new attempt</button></div><p id="submission-note"></p>
 </main></div>
 </body></html>

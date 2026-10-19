@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" role="img" aria-label="Training GZ curve showing positive righting lever from zero to 60 degrees, maximum at 30 degrees">
+<rect width="700" height="380" fill="#fff"/><path d="M85 35V310H650" fill="none" stroke="#293b50" stroke-width="3"/>
+<g fill="#293b50" font-family="Arial,sans-serif" font-size="16"><text x="22" y="52">GZ (m)</text><text x="510" y="360">Heel angle (degrees)</text><text x="45" y="315">0</text><text x="35" y="180">0.2</text><text x="35" y="55">0.4</text></g>
+<g stroke="#d9e3e9" stroke-width="1"><path d="M85 180H650M85 55H650M178 55V310M270 55V310M363 55V310M455 55V310M548 55V310M640 55V310"/></g>
+<g fill="#293b50" font-family="Arial,sans-serif" font-size="14" text-anchor="middle"><text x="85" y="333">0</text><text x="178" y="333">10</text><text x="270" y="333">20</text><text x="363" y="333">30</text><text x="455" y="333">40</text><text x="548" y="333">50</text><text x="640" y="333">60</text></g>
+<path d="M85 310 C130 230 205 105 270 75 S345 55 363 55 C430 55 475 135 548 220 S620 300 640 310" fill="none" stroke="#176b83" stroke-width="5"/>
+</svg>
