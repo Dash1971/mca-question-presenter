@@ -2,7 +2,7 @@
 
 An offline, clickable practice presenter with **three exams**:
 
-- Supplied operations mock: 35 questions from the provided paper; **34 scored**. Question 18 is unscored because its tidal graphic was absent from the PDF export.
+- Supplied operations mock: **34 answerable questions** from the provided paper. Original question 18 was removed because its tidal graphic was absent from the PDF export. The original question numbers are retained, so the numbering skips 18.
 - New exam 1 — Navigation: **35 original questions** based on the June 2024 MCA/SQA OOW Unlimited Navigation syllabus (034-83).
 - New exam 2 — Stability & Operations: **35 original questions** based on the June 2024 MCA/SQA OOW Unlimited Stability and Operations syllabus (034-84).
 
@@ -25,7 +25,7 @@ The supplied mock's figures and wording may have distribution restrictions; revi
 
 ## Build and checks
 
-Windows with Python and PyInstaller: `presenter\build_windows.bat` (output: `dist\MCA Visual Practice\`). The local source paper is **not** required. The development-only `tools/import_mock.py` can regenerate the supplied mock's data and figures, and preserves the unscored-Q18 rule; review output before distribution.
+Windows with Python and PyInstaller: `presenter\build_windows.bat` (output: `dist\MCA Visual Practice\`). The local source paper is **not** required. The development-only `tools/import_mock.py` can regenerate the supplied mock's data and figures, and omits the missing-graphic original question 18; review output before distribution.
 
 ```sh
 python3 -m unittest discover -s tests

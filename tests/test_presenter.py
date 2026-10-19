@@ -18,7 +18,7 @@ class PracticePaperTests(unittest.TestCase):
         cls.papers = json.loads((WEB / 'papers.js').read_text(encoding='utf-8').removeprefix('window.NEW_PAPERS=').rstrip(' ;\n'))
 
     def test_all_questions_and_figures_present(self):
-        self.assertEqual([q['id'] for q in self.questions], list(range(1, 36)))
+        self.assertEqual([q['id'] for q in self.questions], [i for i in range(1, 36) if i != 18])
         for q in self.questions:
             self.assertTrue(q['prompt'])
             if 'image' in q:
@@ -45,12 +45,11 @@ class PracticePaperTests(unittest.TestCase):
                     self.assertTrue(0 <= x1 < x2 <= 100 and 0 <= y1 < y2 <= 100, q['id'])
             else:
                 self.fail(f"Unsupported question kind: {q['id']}")
-        self.assertEqual(self.questions[17]['answers'], ['earliest 05:20', 'latest 09:30'])
-        self.assertTrue(self.questions[17]['warning'])
+        self.assertNotIn(18, [q['id'] for q in self.questions])
         self.assertEqual(self.questions[2]['answers'], ['Moves vertically upwards', 'Reduces', 'No list'])
         self.assertEqual(self.questions[4]['answers'], ['Moves downwards and to port', 'Increases', 'To starboard, reducing'])
         self.assertEqual(self.questions[12]['answer'], [0, 2, 5])
-        self.assertEqual(self.questions[33]['answer'], [1, 7])
+        self.assertEqual(self.questions[32]['answer'], [1, 7])
 
 
     def test_new_papers_cover_both_syllabi(self):
@@ -84,7 +83,7 @@ class PracticePaperTests(unittest.TestCase):
         self.assertNotIn('Check answer', html)
         self.assertNotIn('Answer: ${', app)
         self.assertNotIn('drawTargets', app)
-        self.assertFalse(self.questions[17]['scored'])
+        self.assertNotIn('Grimsby tidal crossing', (WEB / 'paper.js').read_text())
 
     def test_private_result_data_and_csv_are_absent(self):
         self.assertNotRegex(self.raw, re.compile(r'Candidate|Created by|Partially Correct', re.I))

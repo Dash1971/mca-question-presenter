@@ -85,6 +85,8 @@ def main(pdf_path: Path) -> None:
         images[page_no]=f'assets/{target.name}'
     records=[]
     for n in range(1,36):
+        if n==18:  # The supplied PDF omits the tide graphic needed to answer this item.
+            continue
         rec={'id':n,'title':TITLE[n],'syllabus':SYLLABUS[n]}
         if n in SPECIAL:rec.update(SPECIAL[n])
         else:
@@ -99,13 +101,6 @@ def main(pdf_path: Path) -> None:
             prompt=re.sub(r'(?:Select all correct answers(?: that apply)?|Select only the correct answers|Select the correct answer):?\s*$', '',prompt).strip()
             rec.update(page=page_no,kind=mode,prompt=prompt,options=opts)
             if key is not None:rec['answer']=key
-            if n==18:
-                rec['fields']=[{'label':'Earliest crossing','choices':opts[:4]},{'label':'Latest crossing','choices':opts[4:]}]
-                rec['answers']=['earliest 05:20','latest 09:30']
-                rec.pop('options')
-                rec['scored']=False
-                rec['warning']='The tidal graphic is missing from the supplied PDF. This question is practice-only and does not count toward your percentage.'
-                rec['note']='The scored paper marks 05:20 and 09:30. Required tide height = draught + UKC − charted depth = 5.5 m; the missing graphic prevents independent verification of those times.'
             if n==13:rec['note']='The scored paper marks practical voyage-planning advice and advisory use, not the claim that these guides are the mandatory IMO routeing publication.'
             if n==34:rec['note']='The scored chart marks B and H as not complying with Rule 10.'
         if n in IMAGE_PAGES:rec['image']=images[IMAGE_PAGES[n]]
