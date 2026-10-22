@@ -2,16 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MCA OOW Exam Presenter</title>
-<link rel="stylesheet" href="style.css">
-<script src="paper.js" defer></script><script src="papers.js" defer></script><script src="app.js" defer></script>
+<title>MCA OOW Exam Presenter</title><link rel="stylesheet" href="style.css">
+<script src="paper.js" defer></script><script src="papers.js" defer></script><script src="exam-core.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
-<header><div><strong>MCA OOW Exam Presenter</strong><span>Offline practice examinations · answers withheld</span></div><div id="counter"></div></header>
-<div class="layout">
-<aside><h2>Exam</h2><select id="paper-select" aria-label="Select exam"></select><p id="paper-description"></p><h2>Questions</h2><p id="summary"></p><nav id="question-nav" aria-label="Questions"></nav><p class="aside-note">Answers and progress stay in this browser on this computer. One mark per scored question; no partial marks.</p></aside>
-<main><div id="result" hidden aria-live="polite"></div><div class="eyebrow" id="meta"></div><h1 id="title"></h1><p id="context" class="context" hidden></p><p id="prompt"></p>
-<section id="visual" hidden><div class="visual-toolbar"><span>Figure</span><div><button id="zoom-out" title="Zoom out">−</button><span id="zoom-label">100%</span><button id="zoom-in" title="Zoom in">+</button><button id="zoom-reset">Reset</button></div></div><div id="figure-viewport"><div id="figure-layer"><img id="figure" alt="Question figure"><div id="placed-tokens"></div></div></div></section>
-<div id="interaction"></div><div class="actions"><button id="prev">← Previous</button><button id="next">Next →</button></div><div class="exam-actions"><button id="submit" class="primary">Submit exam for percentage</button><button id="restart" hidden>Start a new attempt</button></div><p id="submission-note"></p>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="app-header"><span class="brand-mark" aria-hidden="true">✦</span><div class="brand">MCA OOW Exam Presenter<span>Unofficial practice examinations</span></div><span class="offline-status">Offline · this device</span></header>
+<div class="layout"><aside id="sidebar" aria-label="Exam navigation"></aside><main id="main">
+<section id="library-screen" aria-labelledby="library-title"></section>
+<section id="exam-screen" aria-labelledby="paper-title" hidden>
+<button type="button" class="text-button" data-action="library">← Exam library</button>
+<div class="paper-heading"><div><div id="paper-subject" class="eyebrow"></div><h1 id="paper-title"></h1></div><span id="save-status" class="save-status" role="status"></span></div>
+<section class="question-panel" aria-labelledby="title"><div id="meta" class="eyebrow"></div><h2 id="title"></h2><p id="context" class="context" hidden></p><p id="prompt" class="prompt"></p>
+<section id="visual" class="visual" hidden aria-label="Question figure"><div class="visual-toolbar"><span>Figure</span><div><button type="button" id="zoom-out" aria-label="Zoom out">−</button><span id="zoom-label">100%</span><button type="button" id="zoom-in" aria-label="Zoom in">+</button><button type="button" id="zoom-reset">Reset</button></div></div><div id="figure-viewport"><div id="figure-layer"><img id="figure" alt=""><div id="placed-tokens"></div></div></div></section>
+<div id="interaction"></div><div class="question-footer"><button type="button" id="flag" class="text-button" aria-pressed="false">⚑ Flag for review</button><span>1 mark · no partial marks</span></div></section>
+<div class="exam-actions"><div><button type="button" id="prev">← Previous</button><button type="button" id="next">Next →</button></div><button type="button" class="primary" data-action="review">Check &amp; submit →</button></div>
+<details class="mobile-questions"><summary id="mobile-summary">Questions</summary><nav id="mobile-question-nav" class="question-grid" aria-label="All questions"></nav></details><p class="fine-print">You can answer in any order. Your attempt locks when you submit.</p>
+</section>
+<section id="review-screen" aria-labelledby="review-title" hidden></section><section id="result-screen" aria-labelledby="result-title" hidden></section><div id="announcements" class="sr-only" role="status" aria-live="polite"></div>
 </main></div>
+<dialog id="restart-dialog" aria-labelledby="restart-title"><h2 id="restart-title">Start a new attempt?</h2><p>Your saved answers and result for <span id="restart-paper"></span> will be cleared. Other papers are unaffected.</p><div class="dialog-actions"><button type="button" data-action="cancel-restart" autofocus>Keep result</button><button type="button" class="primary" data-action="confirm-restart">Start new attempt</button></div></dialog>
 </body></html>
