@@ -12,6 +12,10 @@ plt.rcParams.update({'font.size':12,'font.family':'DejaVu Sans','svg.fonttype':'
 
 def save(fig,name):
     fig.savefig(OUT/name,format='svg',metadata={'Date':None},facecolor='white',bbox_inches='tight')
+    # DejaVu is used for plotting metrics but is not installed on every student
+    # computer. Declare common offline font fallbacks in the exported SVG.
+    svg=(OUT/name).read_text()
+    (OUT/name).write_text(svg.replace("font-family: 'DejaVu Sans'", "font-family: Arial, 'DejaVu Sans', sans-serif"))
     if os.environ.get('MCA_FIGURE_QA'):
         qa=Path(os.environ['MCA_FIGURE_QA'])
         qa.mkdir(parents=True,exist_ok=True)
