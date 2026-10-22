@@ -1,0 +1,1811 @@
+{
+  "date": "2026-10-22",
+  "reviewer": "Codex AI; separate review pass, not an independent human examiner",
+  "bank_sha256": "23ac03ff91e11f8619a9950f9ba55e2f76773bbeadc7451c2724b8fc2ba42f99",
+  "questions_reviewed": 175,
+  "numeric_field_questions": 72,
+  "numeric_fields": 92,
+  "quantitative_questions_including_graphs_and_choices": 91,
+  "scope": "Navigation 2-4 and Stability & Operations 2-3; other 104 questions excluded from focused accuracy review.",
+  "limitations": [
+    "Unofficial practice; not a complete test of every syllabus sub-outcome.",
+    "No independent human maritime examiner sign-off.",
+    "Windows binary built by CI; Windows interactive runtime not tested on this Mac."
+  ],
+  "questions": [
+    {
+      "paper_id": "navigation-2",
+      "question": 1,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 2,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 3,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 4,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 5,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "symbols"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 6,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 7,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 8,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "tss"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 9,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "tss"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 10,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Vector sum: E=2, N=10.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 11,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "13-kn vector with S=5 has E=12; current cancels S.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 12,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 13,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Subtract east variation, add west deviation.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 14,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 15,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 16,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "90 minutes at 12 nautical miles/hour.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 17,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 18,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "North/east plane-sailing triangle.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 19,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "90 longitude minutes at latitude 60 N.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 20,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Mercator triangle scaled by DLat/DMP.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 21,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 22,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Distance divided by hours available.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 23,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 24,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 25,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Signed error = corrected true minus compass.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 26,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 27,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 28,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "ice"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 29,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "ice"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 30,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 31,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Bridge underside at datum+34; subtract tide, then air draught.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 32,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Subtract drying height from tide.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 33,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Rising curve: hour 2 fraction 0.20.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 34,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-2",
+      "question": 35,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Subtract tide from corrected water depth.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 1,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 2,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 3,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 4,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "symbols"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 5,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "symbols"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 6,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 7,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 8,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 9,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "tss"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 10,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "3 E/4 N displacement over one hour.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 11,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Water vector W=6,N=8; stream cancels westward component.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 12,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Opposing current reduces SOG to 13.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 13,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 14,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "West variation negative; east deviation positive.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 15,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 16,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Grid P=(8 E,6 N).",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 17,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "135 minutes available.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 18,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 19,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "179 W expressed as 181 E: two degrees eastward.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 20,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "North component 60; course 60 T.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 21,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "175 W expressed as 185 E: six degrees eastward.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 22,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 23,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 24,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 25,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 26,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 27,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 28,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "ice"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 29,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "ice"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 30,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 31,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Same-datum HW minus LW.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 32,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Dynamic draught includes squat.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 33,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Hour 2.5 fall fraction 0.375 by linear interpolation.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 34,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-3",
+      "question": 35,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 1,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 2,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 3,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 4,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "planning"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 5,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 6,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 7,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 8,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "tss"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 9,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "tss"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 10,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Ground vector W=12,S=5; use SW quadrant.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 11,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Water vector E=8,S=6; stream sets north.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 12,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 13,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "West errors added to true course then wrap through north.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 14,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 15,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 16,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 17,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 18,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "One degree longitude at 30 N.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 19,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Plane-sailing SW quadrant.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 20,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Mercator SE quadrant; distance uses magnitude of southing.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 21,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 22,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 23,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 24,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 25,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 26,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 27,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "watch"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 28,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "ice"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 29,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "ice"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 30,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 31,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Highest water = underside datum height less vessel and margin.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 32,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "navigation",
+        "tides"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 33,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Two hours after LW, including midnight rollover.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 34,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "navigation-4",
+      "question": 35,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Drying height = tide minus measured cover.",
+      "references": [
+        "navigation"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 1,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Mass = volume times density.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 2,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Linear interpolation in stated hydrostatic interval.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 3,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Constant waterplane area: density ratio.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 4,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "TPC times immersion in centimetres.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 5,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "FWA formula gives millimetres.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 6,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "DWA density difference expressed in kg/m3.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 7,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Underwater volume divided by enclosing block.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 8,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Dock-water limit 8.12 m; 32 cm capacity at dock TPC.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 9,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 10,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Subtract KG and virtual rise from KM.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 11,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Displacement times lever, tonne-metres.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 12,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Vertical transfer moment divided by unchanged displacement.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 13,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Add vertical moments and masses.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 14,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Remove both moment and mass.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 15,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Suspended weight acts at suspension point.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 16,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "List from transverse moment / effective righting coefficient.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 17,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 18,
+      "method": "figure ordinates and key checked",
+      "result": "pass",
+      "review_note": "Checked against plotted GZ ordinates: peak at 35, zero crossing at 70.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 19,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Arithmetic mean of end draughts.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 20,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "LCF 60 m from FP: straight-waterline interpolation.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 21,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Longitudinal transfer moment.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 22,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Moment / MCTC gives centimetres.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 23,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Remove 40 cm stern trim with forward transfer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 24,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "12 cm parallel sinkage and 40 cm stern trim split equally.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 25,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "40 cm forward trim change, unchanged displacement.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 26,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "enclosed",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 27,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 28,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 29,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "integrity",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 30,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 31,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "marpol"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 32,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 33,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "ism"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 34,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "mlc"
+      ]
+    },
+    {
+      "paper_id": "stability-2",
+      "question": 35,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "notices",
+        "mgn",
+        "min"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 1,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 2,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Waterplane area divided by enclosing rectangle.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 3,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Displacement mass divided by water density.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 4,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Interpolate final displacement then subtract initial.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 5,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 6,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "FWA in millimetres.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 7,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Discharge raises freeboard by 20 cm.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 8,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 9,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 10,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Small-angle lever using specified relation.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 11,
+      "method": "figure ordinates and key checked",
+      "result": "pass",
+      "review_note": "Checked plotted peak at 40 deg, positive range ends at 80.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 12,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Sum moments before dividing by displacement.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 13,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Cancel existing starboard moment with portward transfer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 14,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Final displacement and effective GM used; list to starboard.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 15,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 16,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 17,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 18,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 19,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 20,
+      "method": "numeric choice reconstructed",
+      "result": "pass",
+      "review_note": "Checked sign/quadrant, UTC/date rollover, curve intersection, trim direction or proportional scaling against the stated inputs.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 21,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Trim magnitude in centimetres.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 22,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Transfer spans 40 m and trims by stern.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 23,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "LCF 48 m from FP; interpolate towards deeper aft draught.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 24,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "Load at LCF: parallel sinkage only.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 25,
+      "method": "independent numeric reconstruction",
+      "result": "pass",
+      "review_note": "10 cm parallel rise, 40 cm head trim, split equally.",
+      "references": [
+        "stability"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 26,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 27,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 28,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 29,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 30,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "marpol",
+        "garbage",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 31,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "marpol"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 32,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "stability",
+        "coswp"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 33,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "ism"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 34,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "complaints"
+      ]
+    },
+    {
+      "paper_id": "stability-3",
+      "question": 35,
+      "method": "qualitative review",
+      "result": "pass",
+      "review_note": "Stem, every option/pair, key, assumptions and syllabus tag reviewed for factual consistency and a unique intended answer.",
+      "references": [
+        "mlc"
+      ]
+    }
+  ]
+}

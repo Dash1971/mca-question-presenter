@@ -30,4 +30,30 @@ Numeric fields accept the stated rounded answer within half a unit of the last r
 
 Automated checks cover question counts, section references, all key shapes, figures, duplicate stems, numeric spot checks, blank/partial/extra selections, matching reset, placement regions, and complete-key/blank marking for all eight papers. Browser checks are required for library expansion, each input type, storage, figure controls, submission, locking and restart. Preserve those checks when making changes.
 
-The author has reviewed the arithmetic and wording, but **an independent maritime subject-matter review has not been completed**. Automated checks cannot establish full educational validity. Existing paper content was retained rather than comprehensively re-authored or revalidated.
+## Release accuracy review - 22 October 2026
+
+Codex completed a separate AI review of all 175 questions and their keys. Each stem, distractor, matching pair, unit, assumption, rounding instruction and syllabus tag was read. This is not a claim of independent human maritime examiner approval.
+
+The independent calculation script does not import the authoring builder. It reconstructs all 72 numeric-field questions (92 fields), using vector components, signed compass errors, time-zone/date arithmetic, plane/parallel/Mercator triangles, datum offsets, curve interpolation, hydrostatic differences, vertical/transverse moments and trim geometry. It also checks 19 quantitative multiple-choice items, including free-surface scaling and trim direction. This makes 91 quantitative questions, including the two GZ-curve readings. Every resulting rounded key agreed. The five training SVGs were checked against their plotted ordinates and the question inputs. Tidal fractions and hydrostatic values are supplied training data, not predictions or ship-specific operational data.
+
+Operational and conceptual answers were checked against the June 2024 MCA syllabi and the primary references in the review bank: IMO voyage-planning guidance, MCA Rule 10 and watchkeeping guidance, Canadian Coast Guard ice guidance, NOAA chart/tidal definitions, MCA enclosed-space and 2026 COSWP guidance, AMSA integrity definitions, IMO MARPOL/ISM material, MCA rest rules and notice collections, and ILO complaint provisions. Use the linked primary source for context, exceptions and subsequent changes.
+
+### Corrections made
+
+| Item | Correction | Effect on answer |
+| --- | --- | --- |
+| Stability & Operations 2 Q29 | Weathertight means preventing water entering in any sea condition, rather than only the conditions for which a closure was designed. | Tightened matching definition; intended pair unchanged. |
+| Navigation 4 Q11 | Replaced “northerly stream” with “stream setting due north”. | Removes directional ambiguity; 126.9 degrees / 8 kn unchanged. |
+| Stability & Operations 3 Q30 | Explicitly restricts plastics-disposal question to normal operations without an applicable Annex V exception; rationale recognises regulation 7. | Routine prohibition unchanged. |
+| Navigation 4 Q4 | Changed chart-currency syllabus tag from 2d (symbols) to 1a (appraisal/planning). | Metadata only. |
+| Stability & Operations 3 Q7 | Changed freeboard-after-discharge tag from 1i (weight from draught change) to 1e (draught change from weight). | Metadata only. |
+
+Punctuation spacing and source specificity were improved. No numeric key needed correction. No distractor was found to offer a second defensible answer under the stated assumptions. The practical operational choices identify principles and ship procedures; they are not complete emergency checklists.
+
+`tools/review-audit.json` records all 175 review entries and the SHA-256 of the reviewed bank. Tests rerun every numeric reconstruction and detect a stale ledger. All eight papers also undergo complete-key/blank scoring checks, with separate checks for partial/extra selections, numeric signs and tolerances, matching reset and placement bounds.
+
+### Limits and distribution
+
+The other three papers (104 questions) were retained and are outside this focused accuracy review. Instructor exports identify the review scope per row, without introducing origin labels into the student interface. These papers cover the main syllabus sections, not every sub-outcome or the depth and weighting of an official written examination. There is no official pass threshold in this app.
+
+**No independent human maritime subject-matter sign-off has been obtained.** This release records an AI accuracy review and reproducible arithmetic checks. Windows builds are produced by GitHub Actions. Browser interaction was exercised through a local HTTP server on macOS; direct file launch was blocked by the available browser automation security policy, and interactive execution of the Windows binary was not tested on this Mac. These limits must not be described as passed runtime tests.

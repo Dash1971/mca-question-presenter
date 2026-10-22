@@ -1852,7 +1852,7 @@ window.NEW_PAPERS=[
       {
         "id": 4,
         "title": "Chart information currency",
-        "syllabus": "034-83 2d",
+        "syllabus": "034-83 1a",
         "prompt": "Which is the appropriate preparation for a chart needed on passage?",
         "kind": "single",
         "options": [
@@ -1974,7 +1974,7 @@ window.NEW_PAPERS=[
         "id": 11,
         "title": "Making good east",
         "syllabus": "034-83 4e",
-        "prompt": "With 10 kn through the water and a 6 kn northerly stream, find the heading required to make good due east and the speed made good. Ignore leeway; give one decimal place.",
+        "prompt": "With 10 kn through the water and a stream setting due north at 6 kn, find the heading required to make good due east and the speed made good. Ignore leeway; give one decimal place.",
         "kind": "fields",
         "fields": [
           {
@@ -3153,7 +3153,7 @@ window.NEW_PAPERS=[
         "id": 12,
         "title": "A vertical shift within the ship",
         "syllabus": "034-84 2i",
-        "prompt": "On an 8,000 t vessel,100 t is moved vertically from 2.0 m to 10.0 m above keel. Displacement is unchanged. Calculate the rise of the ship’s G.",
+        "prompt": "On an 8,000 t vessel, 100 t is moved vertically from 2.0 m to 10.0 m above keel. Displacement is unchanged. Calculate the rise of the ship’s G.",
         "kind": "fields",
         "fields": [
           {
@@ -3329,7 +3329,7 @@ window.NEW_PAPERS=[
         "id": 24,
         "title": "Draughts after an off-centre load",
         "syllabus": "034-84 3c",
-        "prompt": "A vessel is initially on even keel at 5.00 m. LBP 120 m;LCF amidships;TPC 20 t/cm;MCTC 180 tonne-metres/cm, all constant. Load 240 t at 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
+        "prompt": "A vessel is initially on even keel at 5.00 m. LBP 120 m; LCF amidships; TPC 20 t/cm; MCTC 180 tonne-metres/cm, all constant. Load 240 t at 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
         "kind": "fields",
         "fields": [
           {
@@ -3427,7 +3427,7 @@ window.NEW_PAPERS=[
         "definitions": [
           "Check and secure the required closures before exposure increases",
           "Prevents passage of water in either direction under the designed head",
-          "Prevents water penetration in the sea conditions for which the closure is designed"
+          "Prevents water entering the ship in any sea condition"
         ],
         "answers": [
           1,
@@ -3598,7 +3598,7 @@ window.NEW_PAPERS=[
         "id": 4,
         "title": "Large draught change",
         "syllabus": "034-84 1e",
-        "prompt": "At the relevant density, training hydrostatic data give 6,000 t at 5.0 m,8,000 t at 6.0 m and 10,400 t at 7.0 m. Interpolate linearly within each interval. From 5.0 m initially, what cargo mass raises mean draught to 6.5 m? Ignore other weight changes.",
+        "prompt": "At the relevant density, training hydrostatic data give 6,000 t at 5.0 m, 8,000 t at 6.0 m and 10,400 t at 7.0 m. Interpolate linearly within each interval. From 5.0 m initially, what cargo mass raises mean draught to 6.5 m? Ignore other weight changes.",
         "kind": "fields",
         "fields": [
           {
@@ -3641,8 +3641,8 @@ window.NEW_PAPERS=[
       {
         "id": 7,
         "title": "Freeboard after discharge",
-        "syllabus": "034-84 1i",
-        "prompt": "With constant TPC 30 t/cm,600 t of cargo is discharged. Ignore trim. By how many metres does freeboard increase?",
+        "syllabus": "034-84 1e",
+        "prompt": "With constant TPC 30 t/cm, 600 t of cargo is discharged. Ignore trim. By how many metres does freeboard increase?",
         "kind": "fields",
         "fields": [
           {
@@ -3752,7 +3752,7 @@ window.NEW_PAPERS=[
         "id": 14,
         "title": "List after an off-centre load",
         "syllabus": "034-84 2m",
-        "prompt": "After loading, final displacement is 6,000 t and effective GM 0.90 m. The only transverse heeling moment is from a 100 t load placed 6.0 m to starboard of the centreline. Using tan(list)=heeling moment/(displacement×GM),calculate list to one decimal place.",
+        "prompt": "After loading, final displacement is 6,000 t and effective GM 0.90 m. The only transverse heeling moment is from a 100 t load placed 6.0 m to starboard of the centreline. Using tan(list)=heeling moment/(displacement×GM), calculate list to one decimal place.",
         "kind": "fields",
         "fields": [
           {
@@ -3766,7 +3766,7 @@ window.NEW_PAPERS=[
         "id": 15,
         "title": "Directions of movement of G",
         "syllabus": "034-84 2j",
-        "prompt": "Ignoring free surface,match each operation to the direction in which G moves.",
+        "prompt": "Ignoring free surface, match each operation to the direction in which G moves.",
         "kind": "match",
         "terms": [
           "Load a weight above the existing G",
@@ -3788,7 +3788,7 @@ window.NEW_PAPERS=[
         "id": 16,
         "title": "A freely suspended load",
         "syllabus": "034-84 2j",
-        "prompt": "For stability assessment after a ship’s crane has lifted a load clear,where is that freely suspended load treated as acting?",
+        "prompt": "For stability assessment after a ship’s crane has lifted a load clear, where is that freely suspended load treated as acting?",
         "kind": "single",
         "options": [
           "At its point of suspension",
@@ -3820,7 +3820,7 @@ window.NEW_PAPERS=[
         "id": 18,
         "title": "Density and free surface",
         "syllabus": "034-84 2r",
-        "prompt": "For the same slack-tank geometry and free-surface shape,what happens to its free-surface moment if liquid density doubles?",
+        "prompt": "For the same slack-tank geometry and free-surface shape, what happens to its free-surface moment if liquid density doubles?",
         "kind": "single",
         "options": [
           "It doubles",
@@ -3902,7 +3902,7 @@ window.NEW_PAPERS=[
         "id": 23,
         "title": "Forward LCF and mean draught",
         "syllabus": "034-84 3b",
-        "prompt": "Forward draught 4.80 m;aft 5.40 m;LBP 120 m;LCF 12 m forward of amidships. Assume a straight waterline and true mean draught equal to draught at LCF. Calculate TMD to two decimal places.",
+        "prompt": "Forward draught 4.80 m; aft 5.40 m; LBP 120 m; LCF 12 m forward of amidships. Assume a straight waterline and true mean draught equal to draught at LCF. Calculate TMD to two decimal places.",
         "kind": "fields",
         "fields": [
           {
@@ -3916,7 +3916,7 @@ window.NEW_PAPERS=[
         "id": 24,
         "title": "Loading at LCF",
         "syllabus": "034-84 3c",
-        "prompt": "A vessel is initially on even keel at 6.00 m. Load 300 t exactly at LCF;TPC stays 25 t/cm. Ignore changes in hydrostatic characteristics. Find final forward and aft draughts to two decimal places.",
+        "prompt": "A vessel is initially on even keel at 6.00 m. Load 300 t exactly at LCF; TPC stays 25 t/cm. Ignore changes in hydrostatic characteristics. Find final forward and aft draughts to two decimal places.",
         "kind": "fields",
         "fields": [
           {
@@ -3935,7 +3935,7 @@ window.NEW_PAPERS=[
         "id": 25,
         "title": "Discharge aft of LCF",
         "syllabus": "034-84 3c",
-        "prompt": "A vessel is initially on even keel at 6.00 m. LCF is amidships;LBP 100 m;TPC 20 t/cm;MCTC 150 tonne-metres/cm,all constant. Discharge 200 t from 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
+        "prompt": "A vessel is initially on even keel at 6.00 m. LCF is amidships; LBP 100 m; TPC 20 t/cm; MCTC 150 tonne-metres/cm, all constant. Discharge 200 t from 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
         "kind": "fields",
         "fields": [
           {
@@ -3954,7 +3954,7 @@ window.NEW_PAPERS=[
         "id": 26,
         "title": "Gangway as draught changes",
         "syllabus": "034-84 4e",
-        "prompt": "During discharge alongside,a gangway becomes excessively steep. What should the deck watch do?",
+        "prompt": "During discharge alongside, a gangway becomes excessively steep. What should the deck watch do?",
         "kind": "single",
         "options": [
           "Leave the problem to visitors to manage",
@@ -3994,7 +3994,7 @@ window.NEW_PAPERS=[
           "Keep the incident unreported to avoid delay",
           "Continue cargo operations until smoke reaches the bridge",
           "Enter the area alone without raising the alarm",
-          "Raise the alarm and initiate the ship’s emergency response,including safe suspension of affected operations"
+          "Raise the alarm and initiate the ship’s emergency response, including safe suspension of affected operations"
         ],
         "answer": [
           3
@@ -4008,7 +4008,7 @@ window.NEW_PAPERS=[
         "kind": "multi",
         "options": [
           "Establish what transfer is occurring and coordinate its safe control",
-          "Check the loading plan,stability and stress implications",
+          "Check the loading plan, stability and stress implications",
           "Notify the responsible personnel and record the relevant changes",
           "Assume any transfer is harmless if the ship remains upright"
         ],
@@ -4022,12 +4022,12 @@ window.NEW_PAPERS=[
         "id": 30,
         "title": "Plastic waste at sea",
         "syllabus": "034-84 5a",
-        "prompt": "Under MARPOL Annex V,which statement about disposal of plastic garbage into the sea is correct?",
+        "prompt": "During normal operations, with no applicable Annex V exception, which statement about disposal of plastic garbage into the sea is correct?",
         "kind": "single",
         "options": [
           "It is permitted if the plastic is chopped up",
           "It is permitted after 12 nautical miles in all cases",
-          "It is prohibited,including beyond the normal distance limits used for some other garbage",
+          "It is prohibited, including beyond the normal distance limits used for some other garbage",
           "It is required when reception facilities are inconvenient"
         ],
         "answer": [
@@ -4104,7 +4104,7 @@ window.NEW_PAPERS=[
         "id": 35,
         "title": "Daily rest pattern",
         "syllabus": "034-84 6d",
-        "prompt": "Assume an adult seafarer is subject to the normal UK rest rules,with no exception or emergency,and that weekly totals and intervals between rest periods comply. Which pattern meets both the 10-hour daily minimum and the normal split-rest rule?",
+        "prompt": "Assume an adult seafarer is subject to the normal UK rest rules, with no exception or emergency, and that weekly totals and intervals between rest periods comply. Which pattern meets both the 10-hour daily minimum and the normal split-rest rule?",
         "kind": "single",
         "options": [
           "One 7-hour period and one 2-hour period",

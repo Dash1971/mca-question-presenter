@@ -10,7 +10,16 @@
     "ism": "https://www.imo.org/en/ourwork/humanelement/pages/ismcode.aspx",
     "mlc": "https://www.gov.uk/government/publications/msn-1877-m-maritime-labour-convention-2006-hours-of-work-and-entitlement-to-leave/msn-1877-m-amendment-2-mlc-2006-hours-of-work-and-entitlement-to-leave-application-of-the-hours-of-work-regulations-2018",
     "notices": "https://www.gov.uk/government/collections/merchant-shipping-notices-msns",
-    "complaints": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB%3A91%3A0%3A%3A%3A%3AP91_SECTION%3AMLCA_AMEND_A5"
+    "complaints": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB%3A91%3A0%3A%3A%3A%3AP91_SECTION%3AMLCA_AMEND_A5",
+    "planning": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893(21).pdf",
+    "ice": "https://www.canada.ca/en/canadian-coast-guard/corporate/publications/ice-navigation-in-canadian-waters/chapter-4-navigation-ice-covered-waters.html",
+    "symbols": "https://repository.library.noaa.gov/view/noaa/49552/noaa_49552_DS1.pdf",
+    "tides": "https://www.tidesandcurrents.noaa.gov/glossary.html",
+    "integrity": "https://www.amsa.gov.au/watertight-weathertight-integrity-ships-visiting-australian-ports",
+    "coswp": "https://www.gov.uk/government/publications/code-of-safe-working-practices-for-merchant-seafarers-2026-edition",
+    "mgn": "https://www.gov.uk/government/collections/active-marine-guidance-notes-mgns",
+    "min": "https://www.gov.uk/government/collections/marine-information-notes-mins",
+    "garbage": "https://www.imo.org/en/ourwork/environment/pages/garbage-default.aspx"
   },
   "papers": [
     {
@@ -28,7 +37,8 @@
           "kind": "multi",
           "rationale": "Appraisal considers the vessel, navigation information and expected conditions, rather than treating a previous track as sufficient.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "Draught, manoeuvring limits and available depths",
@@ -50,7 +60,8 @@
           "kind": "match",
           "rationale": "The four stages have distinct functions; monitoring continues during execution.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "terms": [
             "Appraisal",
@@ -79,7 +90,8 @@
           "kind": "single",
           "rationale": "An altered route needs the same depth, hazard and operational assessment as the original plan.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "Reappraise the risk, amend the plan and brief the bridge team under the ship’s procedures",
@@ -120,7 +132,8 @@
           "kind": "single",
           "rationale": "Fl(3) is group flashing with three flashes; W is white and 10 s is the complete repetition period.",
           "sources": [
-            "navigation"
+            "navigation",
+            "symbols"
           ],
           "options": [
             "One white flash every thirty seconds",
@@ -588,7 +601,8 @@
           "kind": "single",
           "rationale": "Ice blink is an optical indication of ice beyond direct view; it does not establish an exact ice edge.",
           "sources": [
-            "navigation"
+            "navigation",
+            "ice"
           ],
           "options": [
             "A reliable AIS identification of every iceberg",
@@ -608,7 +622,8 @@
           "kind": "multi",
           "rationale": "Ice accretion calls for reduced exposure, stability awareness and safe working precautions.",
           "sources": [
-            "navigation"
+            "navigation",
+            "ice"
           ],
           "options": [
             "Send unprotected crew onto an unsafe deck immediately",
@@ -630,7 +645,8 @@
           "kind": "single",
           "rationale": "Near quarter moon, the solar and lunar tide-producing effects oppose in part, reducing range.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "options": [
             "New and full moon",
@@ -650,7 +666,8 @@
           "kind": "fields",
           "rationale": "Bridge underside is 30+4=34 m above datum. Current clearance=34−2=32 m; above vessel=32−31=1 m.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "fields": [
             {
@@ -673,7 +690,8 @@
           "kind": "fields",
           "rationale": "Water depth = tide height−drying height =3.9−1.4=2.5 m.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "fields": [
             {
@@ -758,7 +776,8 @@
           "kind": "multi",
           "rationale": "Vessel dimensions and manoeuvring characteristics constrain the usable route.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "Air draught where overhead restrictions exist",
@@ -780,7 +799,8 @@
           "kind": "single",
           "rationale": "Contingencies give assessed alternatives when limits or conditions are not met.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "To prepare safe options if the intended passage cannot be continued",
@@ -800,7 +820,8 @@
           "kind": "match",
           "rationale": "Information assessment precedes detailed planning; execution implements the plan and monitoring checks its progress.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "terms": [
             "Assess the latest weather forecast",
@@ -829,7 +850,8 @@
           "kind": "single",
           "rationale": "Sector indications must be interpreted against charted limits and independent position information.",
           "sources": [
-            "navigation"
+            "navigation",
+            "symbols"
           ],
           "options": [
             "Continue regardless because sector boundaries cannot change",
@@ -849,7 +871,8 @@
           "kind": "single",
           "rationale": "Capital M denotes the nominal light range in nautical miles; 25 m is the charted elevation.",
           "sources": [
-            "navigation"
+            "navigation",
+            "symbols"
           ],
           "options": [
             "A light elevation of 15 metres",
@@ -1321,7 +1344,8 @@
           "kind": "single",
           "rationale": "Low profile, sea state and reflectivity can limit radar detection; absence of an echo is not proof of no ice.",
           "sources": [
-            "navigation"
+            "navigation",
+            "ice"
           ],
           "options": [
             "Rain clutter elimination guarantees ice detection",
@@ -1341,7 +1365,8 @@
           "kind": "single",
           "rationale": "Ice moves and information ages; report timing and corroborating observations matter.",
           "sources": [
-            "navigation"
+            "navigation",
+            "ice"
           ],
           "options": [
             "As evidence that the area outside the reported line is always ice-free",
@@ -1361,7 +1386,8 @@
           "kind": "match",
           "rationale": "Tidal reference levels and vessel heights use different origins and must not be interchanged.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "terms": [
             "HAT",
@@ -1390,7 +1416,8 @@
           "kind": "fields",
           "rationale": "Range=5.4−1.2=4.2 m.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "fields": [
             {
@@ -1408,7 +1435,8 @@
           "kind": "fields",
           "rationale": "UKC=9.1−8.1−.4=.6 m.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "fields": [
             {
@@ -1495,7 +1523,8 @@
           "kind": "single",
           "rationale": "Appraisal and planning cover the whole intended voyage, including departures and approaches.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "Only waypoints that are visible on radar",
@@ -1515,7 +1544,8 @@
           "kind": "multi",
           "rationale": "Clearance appraisal considers dynamic vessel effects and uncertainty as well as static draught.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "The assumption that static draught is the only relevant factor",
@@ -1537,7 +1567,8 @@
           "kind": "single",
           "rationale": "A plan is reassessed when the underlying conditions change.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "Reappraise alternatives, amend the plan with the Master and brief those implementing it",
@@ -1552,12 +1583,13 @@
         {
           "id": 4,
           "title": "Chart information currency",
-          "syllabus": "034-83 2d",
+          "syllabus": "034-83 1a",
           "prompt": "Which is the appropriate preparation for a chart needed on passage?",
           "kind": "single",
           "rationale": "Edition status, corrections and current warnings together affect chart reliability.",
           "sources": [
-            "navigation"
+            "navigation",
+            "planning"
           ],
           "options": [
             "Assume the chart is current because it was purchased recently",
@@ -1702,7 +1734,7 @@
           "id": 11,
           "title": "Making good east",
           "syllabus": "034-83 4e",
-          "prompt": "With 10 kn through the water and a 6 kn northerly stream, find the heading required to make good due east and the speed made good. Ignore leeway; give one decimal place.",
+          "prompt": "With 10 kn through the water and a stream setting due north at 6 kn, find the heading required to make good due east and the speed made good. Ignore leeway; give one decimal place.",
           "kind": "fields",
           "rationale": "Water vector must be 8 east and 6 south; heading=126.9°T, ground speed=8 kn.",
           "sources": [
@@ -1765,7 +1797,7 @@
           "syllabus": "034-83 4h",
           "prompt": "A transit bears 002°T and simultaneously reads 355°G. What is gyro error?",
           "kind": "single",
-          "rationale": "002°T is equivalent to 362°;362−355=+7°, or 7°E.",
+          "rationale": "002°T is equivalent to 362°; 362−355=+7°, or 7°E.",
           "sources": [
             "navigation"
           ],
@@ -1863,7 +1895,7 @@
           "syllabus": "034-83 5b",
           "prompt": "A short plane-sailing leg has 30 nautical miles southing and 40 nautical miles westward departure. Calculate true course and distance to one decimal place.",
           "kind": "fields",
-          "rationale": "South-west quadrant:course=180+atan(40/30)=233.1°T;distance=50 nm.",
+          "rationale": "South-west quadrant:course=180+atan(40/30)=233.1°T; distance=50 nm.",
           "sources": [
             "navigation"
           ],
@@ -1886,7 +1918,7 @@
           "syllabus": "034-83 5b",
           "prompt": "For a south-easterly rhumb line, DLo is 180′ east, DMP is 240 and DLat is 192′ south. Use tan(quadrantal course)=DLo/DMP. Find true course and distance to one decimal place.",
           "kind": "fields",
-          "rationale": "Quadrantal course=36.87° east of south;true course 143.1°.Distance=192/.8=240 nm.",
+          "rationale": "Quadrantal course=36.87° east of south; true course 143.1°.Distance=192/.8=240 nm.",
           "sources": [
             "navigation"
           ],
@@ -1929,7 +1961,7 @@
           "syllabus": "034-83 5c",
           "prompt": "Departure is 0330 on 12 June at UTC+5 hours 30 minutes. Passage duration is 12 hours. Arrival port is UTC−3. What is local ETA?",
           "kind": "single",
-          "rationale": "Departure=2200 UTC 11 June;arrival=1000 UTC 12 June;UTC−3 gives 0700 on 12 June.",
+          "rationale": "Departure=2200 UTC 11 June; arrival=1000 UTC 12 June; UTC−3 gives 0700 on 12 June.",
           "sources": [
             "navigation"
           ],
@@ -1991,7 +2023,7 @@
           "syllabus": "034-83 6d",
           "prompt": "A Polaris observation has already been corrected to true bearing 359.2°. Gyro bearing is 001.2°. What is gyro error?",
           "kind": "single",
-          "rationale": "Treat 359.2° as−0.8° near north;true−gyro=−2.0°.",
+          "rationale": "Treat 359.2° as−0.8° near north; true−gyro=−2.0°.",
           "sources": [
             "navigation"
           ],
@@ -2053,7 +2085,8 @@
           "kind": "single",
           "rationale": "An optical indication suggests possible nearby ice but does not establish its precise location or extent.",
           "sources": [
-            "navigation"
+            "navigation",
+            "ice"
           ],
           "options": [
             "A guaranteed ice-free channel",
@@ -2073,7 +2106,8 @@
           "kind": "single",
           "rationale": "Ice high in the vessel raises weight and potentially KG while also creating operational hazards.",
           "sources": [
-            "navigation"
+            "navigation",
+            "ice"
           ],
           "options": [
             "It guarantees more freeboard",
@@ -2093,7 +2127,8 @@
           "kind": "single",
           "rationale": "Sun–Moon alignment affects astronomical range; meteorological effects remain possible.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "options": [
             "Weather has no effect during a spring tide",
@@ -2111,9 +2146,10 @@
           "syllabus": "034-83 8b",
           "prompt": "A bridge has charted clearance 26.0 m above HAT. HAT is 4.0 m above datum. Air draught is 27.0 m and required overhead margin is 1.0 m. Ignoring other effects, what is the greatest tide height permitting this margin?",
           "kind": "fields",
-          "rationale": "Bridge underside is 30 m above datum;30−tide−27>=1, so tide<=2.0 m.",
+          "rationale": "Bridge underside is 30 m above datum; 30−tide−27>=1, so tide<=2.0 m.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "fields": [
             {
@@ -2131,7 +2167,8 @@
           "kind": "single",
           "rationale": "Air draught is the above-water height of the vessel; it is not keel-to-mast height.",
           "sources": [
-            "navigation"
+            "navigation",
+            "tides"
           ],
           "options": [
             "The keel to the top of the mast",
@@ -2149,7 +2186,7 @@
           "syllabus": "034-83 9b",
           "prompt": "Use the supplied rising-tide training curve. Low water is 2330 on 12 September at 0.8 m; high water is 0530 on 13 September at 4.8 m. Find height at 0130 on 13 September, to one decimal place.",
           "kind": "fields",
-          "rationale": "0130 is 2 hours after LW;fraction=.20.Height=.8+4×.20=1.6 m.",
+          "rationale": "0130 is 2 hours after LW; fraction=.20.Height=.8+4×.20=1.6 m.",
           "sources": [
             "navigation"
           ],
@@ -2168,7 +2205,7 @@
           "syllabus": "034-83 9c",
           "prompt": "Use the supplied rising-tide training curve. Low water is 2330 at 0.8 m; high water six hours later is 4.8 m. At what time next day does the rising tide first reach 4.0 m?",
           "kind": "single",
-          "rationale": "Fraction=(4−.8)/4=.80;four hours after 2330 is 0330 next day.",
+          "rationale": "Fraction=(4−.8)/4=.80; four hours after 2330 is 0330 next day.",
           "sources": [
             "navigation"
           ],
@@ -2342,7 +2379,7 @@
           "syllabus": "034-84 1k",
           "prompt": "Summer salt-water draught is 8.00 m. DWA is 0.12 m. Present draught in dock water is 7.80 m and dock-water TPC stays 18 t/cm. Ignoring voyage consumption and trim, calculate maximum additional cargo to the corresponding dock-water load limit.",
           "kind": "fields",
-          "rationale": "Permitted dock-water draught=8+.12=8.12 m;increase=.32 m=32 cm;cargo=32×18=576 t.",
+          "rationale": "Permitted dock-water draught=8+.12=8.12 m; increase=.32 m=32 cm; cargo=32×18=576 t.",
           "sources": [
             "stability"
           ],
@@ -2420,7 +2457,7 @@
           "id": 12,
           "title": "A vertical shift within the ship",
           "syllabus": "034-84 2i",
-          "prompt": "On an 8,000 t vessel,100 t is moved vertically from 2.0 m to 10.0 m above keel. Displacement is unchanged. Calculate the rise of the ship’s G.",
+          "prompt": "On an 8,000 t vessel, 100 t is moved vertically from 2.0 m to 10.0 m above keel. Displacement is unchanged. Calculate the rise of the ship’s G.",
           "kind": "fields",
           "rationale": "GG=weight×vertical distance/displacement=100×8/8000=.10 m.",
           "sources": [
@@ -2440,7 +2477,7 @@
           "syllabus": "034-84 2k",
           "prompt": "Initial displacement is 6,000 t at KG 5.00 m. Load 800 t at KG 12.00 m. Ignoring free-surface effects, calculate final KG to two decimal places.",
           "kind": "fields",
-          "rationale": "Final vertical moment=30000+9600=39600 tm;final displacement 6800 t;KG=5.8235 m, rounded 5.82 m.",
+          "rationale": "Final vertical moment=30000+9600=39600 tm; final displacement 6800 t; KG=5.8235 m, rounded 5.82 m.",
           "sources": [
             "stability"
           ],
@@ -2458,7 +2495,7 @@
           "syllabus": "034-84 2k",
           "prompt": "A vessel displaces 10,000 t at KG 6.00 m. Discharge 400 t from KG 10.00 m. Calculate final KG to two decimal places.",
           "kind": "fields",
-          "rationale": "Remaining moment=60000−4000=56000 tm;displacement 9600 t;KG=5.8333 m, rounded 5.83 m.",
+          "rationale": "Remaining moment=60000−4000=56000 tm; displacement 9600 t; KG=5.8333 m, rounded 5.83 m.",
           "sources": [
             "stability"
           ],
@@ -2494,7 +2531,7 @@
           "syllabus": "034-84 2m",
           "prompt": "A vessel of displacement 12,000 t has effective GM 1.00 m. A 200 t weight shifts 6.0 m transversely from the centreline. Assume small-angle theory and unchanged GM. Calculate the resulting angle of list to one decimal place.",
           "kind": "fields",
-          "rationale": "tan(list)=w×d/(displacement×GM)=1200/12000=.1;list=5.7°.",
+          "rationale": "tan(list)=w×d/(displacement×GM)=1200/12000=.1; list=5.7°.",
           "sources": [
             "stability"
           ],
@@ -2574,7 +2611,7 @@
           "syllabus": "034-84 3b",
           "prompt": "Forward draught is 4.50 m and aft draught 5.50 m over 100 m LBP. LCF lies 10 m aft of amidships. Assume a straight waterline and take true mean draught as draught at LCF. Calculate it to two decimal places.",
           "kind": "fields",
-          "rationale": "LCF is 60 m aft of FP;draught there=4.50+(60/100)×1.00=5.10 m.",
+          "rationale": "LCF is 60 m aft of FP; draught there=4.50+(60/100)×1.00=5.10 m.",
           "sources": [
             "stability"
           ],
@@ -2628,7 +2665,7 @@
           "syllabus": "034-84 3e",
           "prompt": "A vessel is trimmed 0.40 m by the stern. MCTC stays 150 tonne-metres/cm. What weight must be moved 60 m forward to remove the trim, with displacement unchanged?",
           "kind": "fields",
-          "rationale": "Moment needed=40×150=6000 tm;weight=6000/60=100 t, moved forward.",
+          "rationale": "Moment needed=40×150=6000 tm; weight=6000/60=100 t, moved forward.",
           "sources": [
             "stability"
           ],
@@ -2644,9 +2681,9 @@
           "id": 24,
           "title": "Draughts after an off-centre load",
           "syllabus": "034-84 3c",
-          "prompt": "A vessel is initially on even keel at 5.00 m. LBP 120 m;LCF amidships;TPC 20 t/cm;MCTC 180 tonne-metres/cm, all constant. Load 240 t at 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
+          "prompt": "A vessel is initially on even keel at 5.00 m. LBP 120 m; LCF amidships; TPC 20 t/cm; MCTC 180 tonne-metres/cm, all constant. Load 240 t at 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
           "kind": "fields",
-          "rationale": "Parallel sinkage=240/20=12 cm. Stern trim=240×30/180=40 cm, split 20 cm at each end. F=5+.12−.20=4.92;A=5+.12+.20=5.32.",
+          "rationale": "Parallel sinkage=240/20=12 cm. Stern trim=240×30/180=40 cm, split 20 cm at each end. F=5+.12−.20=4.92; A=5+.12+.20=5.32.",
           "sources": [
             "stability"
           ],
@@ -2669,7 +2706,7 @@
           "syllabus": "034-84 3d",
           "prompt": "Forward draught is 5.00 m and aft draught 5.40 m. LCF is amidships and MCTC stays 200 tonne-metres/cm. Shift 200 t from 20 m aft of LCF to 20 m forward. Find final draughts to two decimal places.",
           "kind": "fields",
-          "rationale": "Forward moment=200×40=8000 tm;trim change 40 cm by head. Each end changes 20 cm;F 5.20,A 5.20. No parallel change for an onboard shift.",
+          "rationale": "Forward moment=200×40=8000 tm; trim change 40 cm by head. Each end changes 20 cm; F 5.20, A 5.20. No parallel change for an onboard shift.",
           "sources": [
             "stability"
           ],
@@ -2694,7 +2731,8 @@
           "kind": "multi",
           "rationale": "A spontaneous unprotected rescue can create further casualties; summon and prepare an organised response.",
           "sources": [
-            "enclosed"
+            "enclosed",
+            "coswp"
           ],
           "options": [
             "Follow the ship’s enclosed-space rescue procedure",
@@ -2716,7 +2754,8 @@
           "kind": "single",
           "rationale": "Tensioned lines and changing leads are hazardous; adjustment must be controlled and people kept clear.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Step across the tensioned line to inspect it",
@@ -2736,7 +2775,8 @@
           "kind": "single",
           "rationale": "A permit provides controlled authorisation with defined conditions; it does not eliminate changing hazards.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "To verify assessed hazards, isolations, precautions and authorisation before the work proceeds",
@@ -2756,7 +2796,9 @@
           "kind": "match",
           "rationale": "Watertight and weathertight are different performance requirements; correct closures must be maintained.",
           "sources": [
-            "stability"
+            "stability",
+            "integrity",
+            "coswp"
           ],
           "terms": [
             "Watertight",
@@ -2766,7 +2808,7 @@
           "definitions": [
             "Check and secure the required closures before exposure increases",
             "Prevents passage of water in either direction under the designed head",
-            "Prevents water penetration in the sea conditions for which the closure is designed"
+            "Prevents water entering the ship in any sea condition"
           ],
           "answers": [
             1,
@@ -2782,7 +2824,8 @@
           "kind": "multi",
           "rationale": "Transfer must begin only after receiving capacity, communication and spill controls have been checked.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Arrange spill-prevention and containment measures",
@@ -2802,7 +2845,7 @@
           "syllabus": "034-84 6a",
           "prompt": "Which MARPOL Annex deals with pollution by garbage?",
           "kind": "single",
-          "rationale": "Annex V concerns garbage;Annex I oil,II noxious liquid substances in bulk andIV sewage.",
+          "rationale": "Annex V concerns garbage; Annex I oil, II noxious liquid substances in bulk andIV sewage.",
           "sources": [
             "marpol"
           ],
@@ -2824,7 +2867,8 @@
           "kind": "multi",
           "rationale": "Cargo identification, approved stowage/segregation and emergency information guide safe handling.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Cargo identity, markings and relevant dangerous-goods documentation",
@@ -2884,9 +2928,11 @@
           "syllabus": "034-84 6c",
           "prompt": "Match each notice series to its general function.",
           "kind": "match",
-          "rationale": "The notice series have different functions;the legal effect depends on the notice and enabling legislation.",
+          "rationale": "The notice series have different functions; the legal effect depends on the notice and enabling legislation.",
           "sources": [
-            "notices"
+            "notices",
+            "mgn",
+            "min"
           ],
           "terms": [
             "MSN",
@@ -2973,9 +3019,9 @@
           "id": 4,
           "title": "Large draught change",
           "syllabus": "034-84 1e",
-          "prompt": "At the relevant density, training hydrostatic data give 6,000 t at 5.0 m,8,000 t at 6.0 m and 10,400 t at 7.0 m. Interpolate linearly within each interval. From 5.0 m initially, what cargo mass raises mean draught to 6.5 m? Ignore other weight changes.",
+          "prompt": "At the relevant density, training hydrostatic data give 6,000 t at 5.0 m, 8,000 t at 6.0 m and 10,400 t at 7.0 m. Interpolate linearly within each interval. From 5.0 m initially, what cargo mass raises mean draught to 6.5 m? Ignore other weight changes.",
           "kind": "fields",
-          "rationale": "Final displacement=8000+.5×2400=9200 t;cargo=9200−6000=3200 t. Use displacement data across the large draught change.",
+          "rationale": "Final displacement=8000+.5×2400=9200 t; cargo=9200−6000=3200 t. Use displacement data across the large draught change.",
           "sources": [
             "stability"
           ],
@@ -2993,7 +3039,7 @@
           "syllabus": "034-84 1b",
           "prompt": "A vessel moves into less-dense water without changing weight. What must happen to displaced volume?",
           "kind": "single",
-          "rationale": "At fixed mass,displaced volume=mass/density,so reducing density increases volume.",
+          "rationale": "At fixed mass, displaced volume=mass/density, so reducing density increases volume.",
           "sources": [
             "stability"
           ],
@@ -3028,10 +3074,10 @@
         {
           "id": 7,
           "title": "Freeboard after discharge",
-          "syllabus": "034-84 1i",
-          "prompt": "With constant TPC 30 t/cm,600 t of cargo is discharged. Ignore trim. By how many metres does freeboard increase?",
+          "syllabus": "034-84 1e",
+          "prompt": "With constant TPC 30 t/cm, 600 t of cargo is discharged. Ignore trim. By how many metres does freeboard increase?",
           "kind": "fields",
-          "rationale": "Draught decreases 600/30=20 cm;freeboard increases.20 m.",
+          "rationale": "Draught decreases 600/30=20 cm; freeboard increases.20 m.",
           "sources": [
             "stability"
           ],
@@ -3049,7 +3095,7 @@
           "syllabus": "034-84 1j",
           "prompt": "Which checks are relevant when deciding the permitted loading limit for a voyage? Select all that apply.",
           "kind": "multi",
-          "rationale": "The permissible loading condition depends on assigned marks,the voyage area/season and water-density allowances.",
+          "rationale": "The permissible loading condition depends on assigned marks, the voyage area/season and water-density allowances.",
           "sources": [
             "stability"
           ],
@@ -3071,7 +3117,7 @@
           "syllabus": "034-84 2c",
           "prompt": "Under ideal initial-stability theory, what condition corresponds to neutral initial stability?",
           "kind": "single",
-          "rationale": "When G and M coincide,initial GM is zero and the initial restoring tendency vanishes.",
+          "rationale": "When G and M coincide, initial GM is zero and the initial restoring tendency vanishes.",
           "sources": [
             "stability"
           ],
@@ -3091,7 +3137,7 @@
           "syllabus": "034-84 2a",
           "prompt": "Effective GM is 1.80 m. Use GZ=GM×sin(heel) at the given small angle of 10°. Calculate GZ to three decimal places.",
           "kind": "fields",
-          "rationale": "GZ=1.8 sin 10°=.3125667 m,rounded.313 m.",
+          "rationale": "GZ=1.8 sin 10°=.3125667 m, rounded.313 m.",
           "sources": [
             "stability"
           ],
@@ -3151,7 +3197,7 @@
           "syllabus": "034-84 2n",
           "prompt": "A vessel displaces 10,000 t and G is 0.12 m to starboard of the centreline. What distance must a 200 t onboard weight move to port to bring G to the centreline? Ignore all other changes.",
           "kind": "fields",
-          "rationale": "Moment required=10000×.12=1200 tm;distance=1200/200=6.0 m to port.",
+          "rationale": "Moment required=10000×.12=1200 tm; distance=1200/200=6.0 m to port.",
           "sources": [
             "stability"
           ],
@@ -3167,9 +3213,9 @@
           "id": 14,
           "title": "List after an off-centre load",
           "syllabus": "034-84 2m",
-          "prompt": "After loading, final displacement is 6,000 t and effective GM 0.90 m. The only transverse heeling moment is from a 100 t load placed 6.0 m to starboard of the centreline. Using tan(list)=heeling moment/(displacement×GM),calculate list to one decimal place.",
+          "prompt": "After loading, final displacement is 6,000 t and effective GM 0.90 m. The only transverse heeling moment is from a 100 t load placed 6.0 m to starboard of the centreline. Using tan(list)=heeling moment/(displacement×GM), calculate list to one decimal place.",
           "kind": "fields",
-          "rationale": "tan(list)=100×6/(6000×.9)=.111111;list=6.3°starboard.",
+          "rationale": "tan(list)=100×6/(6000×.9)=.111111; list=6.3°starboard.",
           "sources": [
             "stability"
           ],
@@ -3185,9 +3231,9 @@
           "id": 15,
           "title": "Directions of movement of G",
           "syllabus": "034-84 2j",
-          "prompt": "Ignoring free surface,match each operation to the direction in which G moves.",
+          "prompt": "Ignoring free surface, match each operation to the direction in which G moves.",
           "kind": "match",
-          "rationale": "Adding weight moves G towards it;removing weight moves G away;an onboard transfer moves G parallel to the transfer.",
+          "rationale": "Adding weight moves G towards it; removing weight moves G away; an onboard transfer moves G parallel to the transfer.",
           "sources": [
             "stability"
           ],
@@ -3211,9 +3257,9 @@
           "id": 16,
           "title": "A freely suspended load",
           "syllabus": "034-84 2j",
-          "prompt": "For stability assessment after a ship’s crane has lifted a load clear,where is that freely suspended load treated as acting?",
+          "prompt": "For stability assessment after a ship’s crane has lifted a load clear, where is that freely suspended load treated as acting?",
           "kind": "single",
-          "rationale": "The effective action is at the suspension point,not at the hanging load’s own centre.",
+          "rationale": "The effective action is at the suspension point, not at the hanging load’s own centre.",
           "sources": [
             "stability"
           ],
@@ -3233,7 +3279,7 @@
           "syllabus": "034-84 2o",
           "prompt": "A vessel with suspected negative initial GM heels without an established off-centre weight. What is the appropriate principle for deciding a correction?",
           "kind": "single",
-          "rationale": "Loll is associated with negative GM;an unassessed transverse shift can be dangerous. Use the approved stability information to address the underlying condition.",
+          "rationale": "Loll is associated with negative GM; an unassessed transverse shift can be dangerous. Use the approved stability information to address the underlying condition.",
           "sources": [
             "stability"
           ],
@@ -3251,7 +3297,7 @@
           "id": 18,
           "title": "Density and free surface",
           "syllabus": "034-84 2r",
-          "prompt": "For the same slack-tank geometry and free-surface shape,what happens to its free-surface moment if liquid density doubles?",
+          "prompt": "For the same slack-tank geometry and free-surface shape, what happens to its free-surface moment if liquid density doubles?",
           "kind": "single",
           "rationale": "Free-surface moment is proportional to liquid density for fixed free-surface geometry.",
           "sources": [
@@ -3273,7 +3319,7 @@
           "syllabus": "034-84 3a",
           "prompt": "Match each abbreviation to its definition.",
           "kind": "match",
-          "rationale": "LCF concerns waterplane area,LCG mass and LCB displaced volume.",
+          "rationale": "LCF concerns waterplane area, LCG mass and LCB displaced volume.",
           "sources": [
             "stability"
           ],
@@ -3299,7 +3345,7 @@
           "syllabus": "034-84 3a",
           "prompt": "Forward draught is 6.00 m and aft draught 5.40 m. What is the trim?",
           "kind": "single",
-          "rationale": "Forward draught exceeds aft by.60 m,so trim is.60 m by the head.",
+          "rationale": "Forward draught exceeds aft by.60 m, so trim is.60 m by the head.",
           "sources": [
             "stability"
           ],
@@ -3337,7 +3383,7 @@
           "syllabus": "034-84 3c",
           "prompt": "A 150 t weight moves from 10 m forward of LCF to 30 m aft of LCF. MCTC stays 200 tonne-metres/cm. Find the sternward change of trim in centimetres.",
           "kind": "fields",
-          "rationale": "Transfer distance=10+30=40 m;moment=6000 tm;trim change=6000/200=30 cm by stern.",
+          "rationale": "Transfer distance=10+30=40 m; moment=6000 tm; trim change=6000/200=30 cm by stern.",
           "sources": [
             "stability"
           ],
@@ -3353,7 +3399,7 @@
           "id": 23,
           "title": "Forward LCF and mean draught",
           "syllabus": "034-84 3b",
-          "prompt": "Forward draught 4.80 m;aft 5.40 m;LBP 120 m;LCF 12 m forward of amidships. Assume a straight waterline and true mean draught equal to draught at LCF. Calculate TMD to two decimal places.",
+          "prompt": "Forward draught 4.80 m; aft 5.40 m; LBP 120 m; LCF 12 m forward of amidships. Assume a straight waterline and true mean draught equal to draught at LCF. Calculate TMD to two decimal places.",
           "kind": "fields",
           "rationale": "LCF is 48 m aft of FP. Draught at LCF=4.8+(.6×48/120)=5.04 m.",
           "sources": [
@@ -3371,9 +3417,9 @@
           "id": 24,
           "title": "Loading at LCF",
           "syllabus": "034-84 3c",
-          "prompt": "A vessel is initially on even keel at 6.00 m. Load 300 t exactly at LCF;TPC stays 25 t/cm. Ignore changes in hydrostatic characteristics. Find final forward and aft draughts to two decimal places.",
+          "prompt": "A vessel is initially on even keel at 6.00 m. Load 300 t exactly at LCF; TPC stays 25 t/cm. Ignore changes in hydrostatic characteristics. Find final forward and aft draughts to two decimal places.",
           "kind": "fields",
-          "rationale": "No trimming moment at LCF;parallel sinkage=300/25=12 cm. Both draughts become 6.12 m.",
+          "rationale": "No trimming moment at LCF; parallel sinkage=300/25=12 cm. Both draughts become 6.12 m.",
           "sources": [
             "stability"
           ],
@@ -3394,9 +3440,9 @@
           "id": 25,
           "title": "Discharge aft of LCF",
           "syllabus": "034-84 3c",
-          "prompt": "A vessel is initially on even keel at 6.00 m. LCF is amidships;LBP 100 m;TPC 20 t/cm;MCTC 150 tonne-metres/cm,all constant. Discharge 200 t from 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
+          "prompt": "A vessel is initially on even keel at 6.00 m. LCF is amidships; LBP 100 m; TPC 20 t/cm; MCTC 150 tonne-metres/cm, all constant. Discharge 200 t from 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
           "kind": "fields",
-          "rationale": "Parallel rise=200/20=10 cm. Trim change=200×30/150=40 cm by head,split 20 cm each end. F=6−.10+.20=6.10;A=6−.10−.20=5.70 m.",
+          "rationale": "Parallel rise=200/20=10 cm. Trim change=200×30/150=40 cm by head, split 20 cm each end. F=6−.10+.20=6.10; A=6−.10−.20=5.70 m.",
           "sources": [
             "stability"
           ],
@@ -3417,11 +3463,12 @@
           "id": 26,
           "title": "Gangway as draught changes",
           "syllabus": "034-84 4e",
-          "prompt": "During discharge alongside,a gangway becomes excessively steep. What should the deck watch do?",
+          "prompt": "During discharge alongside, a gangway becomes excessively steep. What should the deck watch do?",
           "kind": "single",
-          "rationale": "Access arrangements need continuing monitoring as draught,tide and ship position change.",
+          "rationale": "Access arrangements need continuing monitoring as draught, tide and ship position change.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Leave the problem to visitors to manage",
@@ -3441,7 +3488,8 @@
           "kind": "multi",
           "rationale": "Intermediate conditions can exceed structural limits even when the final condition is acceptable.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Check only the final displacement and ignore the loading sequence",
@@ -3461,15 +3509,16 @@
           "syllabus": "034-84 4c",
           "prompt": "A fire is discovered near cargo operations. What is an appropriate immediate response?",
           "kind": "single",
-          "rationale": "Alarm and a coordinated response are essential;affected operations must be controlled safely.",
+          "rationale": "Alarm and a coordinated response are essential; affected operations must be controlled safely.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Keep the incident unreported to avoid delay",
             "Continue cargo operations until smoke reaches the bridge",
             "Enter the area alone without raising the alarm",
-            "Raise the alarm and initiate the ship’s emergency response,including safe suspension of affected operations"
+            "Raise the alarm and initiate the ship’s emergency response, including safe suspension of affected operations"
           ],
           "answer": [
             3
@@ -3481,13 +3530,14 @@
           "syllabus": "034-84 4a",
           "prompt": "An unplanned ballast transfer is observed during cargo operations. Which actions are appropriate? Select all that apply.",
           "kind": "multi",
-          "rationale": "Ballast changes affect draught,stability,trim and stress and must remain coordinated with the plan.",
+          "rationale": "Ballast changes affect draught, stability, trim and stress and must remain coordinated with the plan.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Establish what transfer is occurring and coordinate its safe control",
-            "Check the loading plan,stability and stress implications",
+            "Check the loading plan, stability and stress implications",
             "Notify the responsible personnel and record the relevant changes",
             "Assume any transfer is harmless if the ship remains upright"
           ],
@@ -3501,16 +3551,18 @@
           "id": 30,
           "title": "Plastic waste at sea",
           "syllabus": "034-84 5a",
-          "prompt": "Under MARPOL Annex V,which statement about disposal of plastic garbage into the sea is correct?",
+          "prompt": "During normal operations, with no applicable Annex V exception, which statement about disposal of plastic garbage into the sea is correct?",
           "kind": "single",
-          "rationale": "Annex V prohibits discharge of plastics into the sea.",
+          "rationale": "Annex V prohibits routine discharge of plastics into the sea. Regulation 7 contains exceptional safety and accidental-loss provisions; these are excluded by the question.",
           "sources": [
-            "marpol"
+            "marpol",
+            "garbage",
+            "coswp"
           ],
           "options": [
             "It is permitted if the plastic is chopped up",
             "It is permitted after 12 nautical miles in all cases",
-            "It is prohibited,including beyond the normal distance limits used for some other garbage",
+            "It is prohibited, including beyond the normal distance limits used for some other garbage",
             "It is required when reception facilities are inconvenient"
           ],
           "answer": [
@@ -3523,7 +3575,7 @@
           "syllabus": "034-84 6a",
           "prompt": "Which MARPOL Annex principally addresses pollution by sewage from ships?",
           "kind": "single",
-          "rationale": "Annex IV addresses sewage;I oil,III harmful substances in packaged form andVI air pollution.",
+          "rationale": "Annex IV addresses sewage; I oil, III harmful substances in packaged form andVI air pollution.",
           "sources": [
             "marpol"
           ],
@@ -3543,9 +3595,10 @@
           "syllabus": "034-84 5a",
           "prompt": "Fuel transfer is found to be entering an unintended tank. Which actions are appropriate? Select all that apply.",
           "kind": "multi",
-          "rationale": "A misrouting must be brought under control before overflow;communication and verified alignment are essential.",
+          "rationale": "A misrouting must be brought under control before overflow; communication and verified alignment are essential.",
           "sources": [
-            "stability"
+            "stability",
+            "coswp"
           ],
           "options": [
             "Change valves blindly while maintaining full transfer rate",
@@ -3603,9 +3656,9 @@
           "id": 35,
           "title": "Daily rest pattern",
           "syllabus": "034-84 6d",
-          "prompt": "Assume an adult seafarer is subject to the normal UK rest rules,with no exception or emergency,and that weekly totals and intervals between rest periods comply. Which pattern meets both the 10-hour daily minimum and the normal split-rest rule?",
+          "prompt": "Assume an adult seafarer is subject to the normal UK rest rules, with no exception or emergency, and that weekly totals and intervals between rest periods comply. Which pattern meets both the 10-hour daily minimum and the normal split-rest rule?",
           "kind": "single",
-          "rationale": "Normal rest may be divided into no more than two periods,one at least 6 hours. Total 6+4=10;5+5 lacks a 6-hour period;6+2+2 has three periods;7+2 totals only 9.",
+          "rationale": "Normal rest may be divided into no more than two periods, one at least 6 hours. Total 6+4=10; 5+5 lacks a 6-hour period; 6+2+2 has three periods; 7+2 totals only 9.",
           "sources": [
             "mlc"
           ],

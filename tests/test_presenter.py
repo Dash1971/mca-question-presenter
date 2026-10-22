@@ -107,6 +107,7 @@ class PracticePaperTests(unittest.TestCase):
             for q in p['questions']:
                 self.assertTrue(q['rationale'].strip())
                 self.assertTrue(q['sources'])
+                self.assertNotRegex(q['prompt'], r'\d, \d{3}', 'Thousands separators must stay intact.')
                 self.assertTrue(all(key in review['references'] for key in q['sources']))
                 sections.add(int(q['syllabus'].split()[1][0]))
                 stems.append(q['prompt'])
@@ -132,6 +133,17 @@ class PracticePaperTests(unittest.TestCase):
         self.assertEqual(values('stability-2', 24), [4.92, 5.32])
         self.assertEqual(values('stability-3', 23), [4.8 + .6*.4])
         self.assertEqual(values('stability-3', 25), [round(6-.1+.2, 2), round(6-.1-.2, 2)])
+
+    def test_complete_additional_paper_accuracy_audit(self):
+        import sys
+        sys.path.insert(0, str(ROOT / 'tools'))
+        from audit_additional_papers import audit
+        result = audit()
+        self.assertEqual(result['questions_reviewed'], 175)
+        self.assertEqual(result['numeric_fields'], 92)
+        self.assertEqual(result['quantitative_questions_including_graphs_and_choices'], 91)
+        saved = json.loads((ROOT / 'tools/review-audit.json').read_text())
+        self.assertEqual(saved, result, 'Regenerate the audit after changing the bank.')
 
     def test_private_result_data_and_csv_are_absent(self):
         self.assertNotRegex(self.raw, re.compile(r'Candidate|Created by|Partially Correct', re.I))

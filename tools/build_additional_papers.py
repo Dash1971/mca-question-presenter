@@ -23,6 +23,15 @@ SOURCES = {
     'mlc': 'https://www.gov.uk/government/publications/msn-1877-m-maritime-labour-convention-2006-hours-of-work-and-entitlement-to-leave/msn-1877-m-amendment-2-mlc-2006-hours-of-work-and-entitlement-to-leave-application-of-the-hours-of-work-regulations-2018',
     'notices': 'https://www.gov.uk/government/collections/merchant-shipping-notices-msns',
     'complaints': 'https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB%3A91%3A0%3A%3A%3A%3AP91_SECTION%3AMLCA_AMEND_A5',
+    'planning': 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893(21).pdf',
+    'ice': 'https://www.canada.ca/en/canadian-coast-guard/corporate/publications/ice-navigation-in-canadian-waters/chapter-4-navigation-ice-covered-waters.html',
+    'symbols': 'https://repository.library.noaa.gov/view/noaa/49552/noaa_49552_DS1.pdf',
+    'tides': 'https://www.tidesandcurrents.noaa.gov/glossary.html',
+    'integrity': 'https://www.amsa.gov.au/watertight-weathertight-integrity-ships-visiting-australian-ports',
+    'coswp': 'https://www.gov.uk/government/publications/code-of-safe-working-practices-for-merchant-seafarers-2026-edition',
+    'mgn': 'https://www.gov.uk/government/collections/active-marine-guidance-notes-mgns',
+    'min': 'https://www.gov.uk/government/collections/marine-information-notes-mins',
+    'garbage': 'https://www.imo.org/en/ourwork/environment/pages/garbage-default.aspx',
 }
 BANKS = []
 questions = []
@@ -41,6 +50,8 @@ def add(ref, title, prompt, kind, rationale, source=None, **kwargs):
         text = re.sub(r'(?<=[A-Za-z])(?=\d)', ' ', text)
         text = re.sub(r'(?<=\d)(?=[A-Za-z])', ' ', text)
         text = re.sub(r'(?<=[A-Za-z])\.(?=[A-Z])', '. ', text)
+        text = re.sub(r';(?=\S)', '; ', text)
+        text = re.sub(r',(?=[A-Za-z])|(?<=[A-Za-z]),(?=\S)', ', ', text)
         return text
     q = {'id': len(questions)+1, 'title': title, 'syllabus': ('034-83 ' if subject == 'navigation' else '034-84 ')+ref,
          'prompt': readable(prompt), 'kind': kind, 'rationale': readable(rationale), 'sources': [source or subject], **kwargs}
@@ -556,6 +567,30 @@ choices('6d','Daily rest pattern','Assume an adult seafarer is subject to the no
 
 
 def build():
+    # Review corrections are applied before writing both the runtime and review bank.
+    papers = {p['id']: p for p in BANKS}
+    papers['navigation-4']['questions'][10]['prompt'] = papers['navigation-4']['questions'][10]['prompt'].replace('a 6 kn northerly stream', 'a stream setting due north at 6 kn')
+    papers['navigation-4']['questions'][3]['syllabus'] = '034-83 1a'
+    papers['stability-3']['questions'][6]['syllabus'] = '034-84 1e'
+    q = papers['stability-2']['questions'][28]
+    q['definitions'] = [d.replace('Prevents water penetration in the sea conditions for which the closure is designed', 'Prevents water entering the ship in any sea condition') for d in q['definitions']]
+    q['sources'] += ['integrity']
+    q = papers['stability-3']['questions'][29]
+    q['prompt'] = 'During normal operations, with no applicable Annex V exception, which statement about disposal of plastic garbage into the sea is correct?'
+    q['rationale'] = 'Annex V prohibits routine discharge of plastics into the sea. Regulation 7 contains exceptional safety and accidental-loss provisions; these are excluded by the question.'
+    q['sources'] += ['garbage']
+    papers['stability-2']['questions'][34]['sources'] += ['mgn', 'min']
+    for p in BANKS:
+        for q in p['questions']:
+            section = int(q['syllabus'].split()[1][0])
+            extra = []
+            if p['subject'] == 'navigation':
+                if section == 1: extra += ['planning']
+                if section == 7: extra += ['ice']
+                if section == 8: extra += ['tides']
+                if q['title'] in ('Light characteristic', 'Light height and range', 'Sector light boundary'): extra += ['symbols']
+            elif section in (4, 5): extra += ['coswp']
+            q['sources'] = list(dict.fromkeys(q['sources'] + extra))
     base = json.loads((WEB/'papers.js').read_text().removeprefix('window.NEW_PAPERS=').rstrip(' ;\n'))
     by_id = {p['id']:p for p in base if p['id'] in ('mock','navigation-1','stability-1')}
     for id_, category, edition in [('mock','stability',4),('navigation-1','navigation',1),('stability-1','stability',1)]:
