@@ -1,0 +1,3625 @@
+{
+  "syllabus_version": "June 2024; used from March 2025 examinations",
+  "references": {
+    "navigation": "https://assets.publishing.service.gov.uk/media/678e2b6eea48a571517acf4f/034-83_OOW_Navigation_Sylabus__Version_-_June_2024___002_.pdf",
+    "stability": "https://assets.publishing.service.gov.uk/media/679a064d1c041dcc469daeab/034-84_OOW_Stability_and_Operations_Syllabus__Version_-_June_2024_.pdf",
+    "tss": "https://www.gov.uk/government/publications/mgn-364-mf-amendment-2-navigation-safety-traffic-separation-schemes-application-of-rule-10-and-navigation-in-the-dover-strait/mgn-364-mf-amendment-2-navigation-safety-traffic-separation-schemes-application-of-rule-10-and-navigation-in-the-dover-strait",
+    "watch": "https://www.gov.uk/government/publications/mgn-315-keeping-a-safe-navigational-watch-on-merchant-vessels",
+    "enclosed": "https://www.gov.uk/guidance/enclosed-spaces-on-sea-going-vessels",
+    "marpol": "https://www.imo.org/en/about/conventions/pages/international-convention-for-the-prevention-of-pollution-from-ships-(marpol).aspx",
+    "ism": "https://www.imo.org/en/ourwork/humanelement/pages/ismcode.aspx",
+    "mlc": "https://www.gov.uk/government/publications/msn-1877-m-maritime-labour-convention-2006-hours-of-work-and-entitlement-to-leave/msn-1877-m-amendment-2-mlc-2006-hours-of-work-and-entitlement-to-leave-application-of-the-hours-of-work-regulations-2018",
+    "notices": "https://www.gov.uk/government/collections/merchant-shipping-notices-msns",
+    "complaints": "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB%3A91%3A0%3A%3A%3A%3AP91_SECTION%3AMLCA_AMEND_A5"
+  },
+  "papers": [
+    {
+      "id": "navigation-2",
+      "subject": "navigation",
+      "number": 2,
+      "title": "Paper 2",
+      "description": "OOW Unlimited practice examination.",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Appraisal evidence",
+          "syllabus": "034-83 1a",
+          "prompt": "Before planning a coastal passage, which inputs need to be checked? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Appraisal considers the vessel, navigation information and expected conditions, rather than treating a previous track as sufficient.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Draught, manoeuvring limits and available depths",
+            "The previous voyage track alone",
+            "Current charts and navigational warnings",
+            "Forecast weather and tidal conditions"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Passage planning responsibilities",
+          "syllabus": "034-83 1a",
+          "prompt": "Match each passage-plan stage to its main task.",
+          "kind": "match",
+          "rationale": "The four stages have distinct functions; monitoring continues during execution.",
+          "sources": [
+            "navigation"
+          ],
+          "terms": [
+            "Appraisal",
+            "Planning",
+            "Execution",
+            "Monitoring"
+          ],
+          "definitions": [
+            "Put the approved plan into operation",
+            "Develop the detailed route and limits",
+            "Gather and assess relevant information",
+            "Compare actual progress and conditions with the plan"
+          ],
+          "answers": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": 3,
+          "title": "A changed passage plan",
+          "syllabus": "034-83 1a",
+          "prompt": "A proposed route change introduces a new shallow-water leg. What should happen before using that leg?",
+          "kind": "single",
+          "rationale": "An altered route needs the same depth, hazard and operational assessment as the original plan.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Reappraise the risk, amend the plan and brief the bridge team under the ship’s procedures",
+            "Keep the original safety limits without checking them",
+            "Record the change only after arrival",
+            "Follow the new line as soon as it appears on ECDIS"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Position-fixing references",
+          "syllabus": "034-83 2c",
+          "prompt": "Which features are generally suitable independent references for a coastal position fix? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Fixed, positively identified charted objects can support position lines; moving or unidentified targets cannot define a fixed reference.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "A correctly identified fixed lighthouse",
+            "A moving ship on AIS",
+            "An identifiable charted radar-conspicuous headland",
+            "An unidentified floating object"
+          ],
+          "answer": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Light characteristic",
+          "syllabus": "034-83 2d",
+          "prompt": "A chart labels a light Fl(3) W 10 s. What does the characteristic indicate?",
+          "kind": "single",
+          "rationale": "Fl(3) is group flashing with three flashes; W is white and 10 s is the complete repetition period.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "One white flash every thirty seconds",
+            "A white light with three fixed sectors",
+            "Three different white lights ten miles apart",
+            "A group of three white flashes in a ten-second period"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Uncertain landfall",
+          "syllabus": "034-83 2e",
+          "prompt": "At landfall, observed lights do not agree with the expected charted pattern. What is the best response?",
+          "kind": "single",
+          "rationale": "A mismatch is a reason to reassess the fix and safety margin before closing dangers.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Alter toward the brightest light to obtain a clearer view",
+            "Accept the electronic position without cross-checking",
+            "Assume the chart has changed and continue toward the coast",
+            "Treat the position as uncertain, verify it by independent means and call the Master as required"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Planning near offshore installations",
+          "syllabus": "034-83 2b",
+          "prompt": "Which matters belong in a passage appraisal near an offshore wind farm? Select all that apply.",
+          "kind": "multi",
+          "rationale": "The route must account for local restrictions, traffic and equipment limitations; a visual gap is not approval for a passage.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "An assumption that every gap between turbines is an approved route",
+            "Current safety-zone information and local notices",
+            "Possible effects on radar observations",
+            "Support-vessel traffic and available sea room"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Joining a traffic lane",
+          "syllabus": "034-83 3b",
+          "prompt": "When joining an IMO-adopted TSS traffic lane from its side, how should the vessel normally join?",
+          "kind": "single",
+          "rationale": "Rule 10 distinguishes a small-angle side entry from a right-angle crossing.",
+          "sources": [
+            "tss"
+          ],
+          "options": [
+            "At as small an angle to the traffic flow as practicable",
+            "At a heading at right angles in every case",
+            "Against the traffic flow until clear of the boundary",
+            "By following the separation line"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Heading when crossing",
+          "syllabus": "034-83 3b",
+          "prompt": "A strong current makes course over ground differ from heading. When crossing an IMO-adopted TSS lane, which should be as nearly as practicable at right angles to the general traffic flow?",
+          "kind": "single",
+          "rationale": "Rule 10(c) specifies heading; current can make the resulting ground track oblique.",
+          "sources": [
+            "tss"
+          ],
+          "options": [
+            "The course over ground in every case",
+            "The relative bearing of the nearest ship",
+            "The vessel’s heading",
+            "The direction of the tidal stream"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Resultant ground motion",
+          "syllabus": "034-83 4b",
+          "prompt": "A vessel heads due north at 10 kn through the water. A steady stream sets due east at 2 kn. Ignore leeway. Calculate true course over ground and speed over ground, to one decimal place.",
+          "kind": "fields",
+          "rationale": "East and north components are 2 and 10 kn. COG = atan(2/10) = 11.3°; SOG = sqrt(104) = 10.2 kn.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Course over ground (degrees true)",
+              "answer": "11.3",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Speed over ground (kn)",
+              "answer": "10.2",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Counteracting a northerly stream",
+          "syllabus": "034-83 4e",
+          "prompt": "Required ground track is due east. Speed through water is 13 kn and stream is due north at 5 kn. Ignore leeway. Find true heading to one decimal place and speed made good to one decimal place.",
+          "kind": "fields",
+          "rationale": "The water velocity needs a 5 kn southerly component. East component sqrt(13²−5²)=12; heading = 90°+asin(5/13)=112.6°.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Heading (degrees true)",
+              "answer": "112.6",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Speed made good (kn)",
+              "answer": "12",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Starboard leeway",
+          "syllabus": "034-83 4d",
+          "prompt": "With no current, the required track through the water is 090°T. Expected leeway is 4° to starboard of the heading. Which true heading should be steered?",
+          "kind": "single",
+          "rationale": "Heading 086° plus 4° starboard leeway gives water track 090°.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "004°T",
+            "090°T",
+            "086°T",
+            "094°T"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Variation and deviation",
+          "syllabus": "034-83 4h",
+          "prompt": "The required true heading is 137°. Variation is 5°E and deviation 2°W. Ignore leeway and current. Calculate compass heading in whole degrees.",
+          "kind": "fields",
+          "rationale": "Compass error = 5°E−2°=3°E. Compass heading = true−east error = 134°.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Compass heading (degrees)",
+              "answer": "134",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Gyro error from a transit",
+          "syllabus": "034-83 4h",
+          "prompt": "A transit bears 058°T and simultaneously reads 060°G. What is the gyro error?",
+          "kind": "single",
+          "rationale": "True minus gyro = −2°, hence 2° west.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "118°E",
+            "2°W",
+            "No error",
+            "2°E"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Changing gyro error",
+          "syllabus": "034-83 4i",
+          "prompt": "A ship must maintain 100°T. Gyro error changes from 2°E to 4°W. What gyro course is now needed?",
+          "kind": "single",
+          "rationale": "True = gyro + signed error. With −4° error, gyro = 104°, an increase of 6° from 098°.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "100°G",
+            "094°G",
+            "098°G",
+            "104°G"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Advancing a DR position",
+          "syllabus": "034-83 4a",
+          "prompt": "A vessel steers 090°T at 12 kn through the water for 1 hour 30 minutes. Ignore current and leeway. How far east is the DR position advanced?",
+          "kind": "fields",
+          "rationale": "12 × 1.5 = 18 nautical miles east.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Eastward distance (nautical miles)",
+              "answer": "18",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Advancing a position line",
+          "syllabus": "034-83 4a",
+          "prompt": "For a running fix in a known tidal stream, which motion should be used to advance the earlier position line to the time of the later observation?",
+          "kind": "single",
+          "rationale": "Advancement represents vessel movement over the ground, incorporating current and leeway as applicable.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "The later compass bearing alone",
+            "Only the water-log distance, ignoring the known stream",
+            "The movement of the observed shore object",
+            "The vessel’s estimated ground displacement between observations"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Plane sailing triangle",
+          "syllabus": "034-83 5b",
+          "prompt": "A short passage has difference of latitude 36 nautical miles north and departure 48 nautical miles east. Use plane sailing. Find course to one decimal place and distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "Distance = sqrt(36²+48²)=60; course = atan(48/36)=53.1°T.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Course (degrees true)",
+              "answer": "53.1",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "60",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Parallel sailing distance",
+          "syllabus": "034-83 5b",
+          "prompt": "A ship travels east along latitude 60°N through 1°30′ of longitude. Use distance = difference of longitude in minutes × cosine(latitude). Find distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "90 minutes × cos 60° = 45 nautical miles.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "45",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Mercator sailing data",
+          "syllabus": "034-83 5b",
+          "prompt": "For a north-easterly rhumb-line passage, difference of longitude is 160′, difference of meridional parts 120 and difference of latitude 72′. Use tan(course)=DLo/DMP and distance=DLat/cos(course). Find course and distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "tan C =160/120, so C=53.1°; cos C=.6 and distance=72/.6=120 nautical miles.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Course (degrees true)",
+              "answer": "53.1",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "120",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Arrival across time zones",
+          "syllabus": "034-83 5c",
+          "prompt": "Departure is 2300 on 8 June at UTC+3. Passage duration is 10 hours. Destination time is UTC−5. What is the local ETA?",
+          "kind": "single",
+          "rationale": "Departure is 2000 UTC on 8 June; arrival is 0600 UTC on 9 June, or 0100 at UTC−5.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "1700 on 8 June",
+            "2300 on 8 June",
+            "0100 on 9 June",
+            "0900 on 9 June"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Required average speed",
+          "syllabus": "034-83 5c",
+          "prompt": "There are 84 nautical miles remaining and 7 hours until the required arrival time. What average speed over ground is required?",
+          "kind": "fields",
+          "rationale": "84 / 7 = 12 kn.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Required speed (kn)",
+              "answer": "12",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Taking over the watch",
+          "syllabus": "034-83 6a",
+          "prompt": "Before accepting the bridge watch, which matters should the relieving OOW understand? Select all that apply.",
+          "kind": "multi",
+          "rationale": "An effective handover establishes the navigational situation and applicable instructions.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Position, planned track and nearby dangers",
+            "Traffic, weather and the status of navigation equipment",
+            "Standing orders and any specific instructions",
+            "Only the name of the outgoing OOW"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Master on the bridge",
+          "syllabus": "034-83 6a",
+          "prompt": "The Master arrives on the bridge without announcing a transfer of the con. What should the OOW assume?",
+          "kind": "single",
+          "rationale": "The Master’s presence alone does not constitute an understood transfer of responsibility.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "The OOW retains watchkeeping responsibility until clearly relieved and this is mutually understood",
+            "Bridge records can stop until the Master leaves",
+            "Responsibility transfers automatically on the Master entering",
+            "The lookout may be dismissed immediately"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Compass error from azimuth",
+          "syllabus": "034-83 6d",
+          "prompt": "A celestial observation has already been fully corrected to a true azimuth of 095.5°. The simultaneous compass bearing is 091.0°. Enter compass error as positive for east and negative for west, to one decimal place.",
+          "kind": "fields",
+          "rationale": "Compass error = true bearing−compass bearing = +4.5°, or 4.5°E.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Signed compass error (degrees)",
+              "answer": "4.5",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Steering failure communication",
+          "syllabus": "034-83 6f",
+          "prompt": "The rudder no longer follows bridge commands. Which actions belong in the immediate bridge response? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Steering failure needs immediate coordinated assessment and the established contingency response.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Use the ship’s emergency steering and communication procedures",
+            "Maintain lookout and assess traffic and navigational danger",
+            "Wait for the next routine log entry before reporting",
+            "Call the Master and advise the engine room"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Bridge record timing",
+          "syllabus": "034-83 6e",
+          "prompt": "Why should the time of a significant course alteration be entered accurately in bridge records?",
+          "kind": "single",
+          "rationale": "Accurate timing supports navigation monitoring, handover and reconstruction of events.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "To replace the need to record position",
+            "To allow the vessel’s movements and decisions to be reconstructed reliably",
+            "To avoid checking the next waypoint",
+            "To prove that no collision risk existed"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Ice blink",
+          "syllabus": "034-83 7a",
+          "prompt": "What is ice blink?",
+          "kind": "single",
+          "rationale": "Ice blink is an optical indication of ice beyond direct view; it does not establish an exact ice edge.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "A reliable AIS identification of every iceberg",
+            "A radar signal that always distinguishes ice from rain",
+            "The navigation light used by an icebreaker",
+            "A pale reflection from ice on the underside of low cloud"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Freezing spray precautions",
+          "syllabus": "034-83 7b",
+          "prompt": "With freezing spray accumulating, which actions should be considered under the Master’s assessment? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Ice accretion calls for reduced exposure, stability awareness and safe working precautions.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Send unprotected crew onto an unsafe deck immediately",
+            "Adjust course or speed where safe to reduce spray exposure",
+            "Control access to exposed decks",
+            "Monitor the extent of ice accumulation and its stability effects"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Neap tide alignment",
+          "syllabus": "034-83 8a",
+          "prompt": "Neap tides generally occur near which lunar phases?",
+          "kind": "single",
+          "rationale": "Near quarter moon, the solar and lunar tide-producing effects oppose in part, reducing range.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "New and full moon",
+            "First and third quarter",
+            "Only the December solstice",
+            "Only the March equinox"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Overhead clearance reference",
+          "syllabus": "034-83 8b",
+          "prompt": "A bridge clearance is charted as 30.0 m above HAT. HAT is 4.0 m above chart datum and current tide height is 2.0 m. A vessel’s air draught is 31.0 m. Ignoring all other allowances, find current bridge clearance and clearance above the vessel, to one decimal place.",
+          "kind": "fields",
+          "rationale": "Bridge underside is 30+4=34 m above datum. Current clearance=34−2=32 m; above vessel=32−31=1 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Bridge clearance above current water (m)",
+              "answer": "32",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Clearance above vessel (m)",
+              "answer": "1",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Water over a drying rock",
+          "syllabus": "034-83 8b",
+          "prompt": "A rock has drying height 1.4 m above chart datum. Tide height is 3.9 m. Ignoring wave action, how much water covers the rock?",
+          "kind": "fields",
+          "rationale": "Water depth = tide height−drying height =3.9−1.4=2.5 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Water depth (m)",
+              "answer": "2.5",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Rising-tide curve",
+          "syllabus": "034-83 9b",
+          "prompt": "Use the training tidal curve. Low water is 0200 at 1.0 m; high water is 0800 at 5.0 m. What is the height at 0400? Give one decimal place.",
+          "kind": "fields",
+          "rationale": "0400 is 2 hours after LW. The plotted rise fraction is .20; height=1+.20×4=1.8 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Height of tide (m)",
+              "answer": "1.8",
+              "tolerance": 0.05
+            }
+          ],
+          "image": "assets/tide-rise-2.svg"
+        },
+        {
+          "id": 34,
+          "title": "Time to reach a tidal height",
+          "syllabus": "034-83 9c",
+          "prompt": "Use the training tidal curve. Low water is 0200 at 1.0 m; high water is 0800 at 5.0 m. When does the rising tide first reach 4.2 m?",
+          "kind": "single",
+          "rationale": "Required fraction=(4.2−1)/4=.80; the curve reaches .80 at 4 hours after LW, or 0600.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "0500",
+            "0600",
+            "0700",
+            "0400"
+          ],
+          "answer": [
+            1
+          ],
+          "image": "assets/tide-rise-2.svg"
+        },
+        {
+          "id": 35,
+          "title": "Reduction of a sounding",
+          "syllabus": "034-83 9e",
+          "prompt": "A sounding is 12.7 m below the water surface after all instrument and transducer corrections. Tide height is 2.3 m above chart datum. Reduce the sounding to chart datum.",
+          "kind": "fields",
+          "rationale": "12.7−2.3=10.4 m below chart datum.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Depth below chart datum (m)",
+              "answer": "10.4",
+              "tolerance": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "navigation-3",
+      "subject": "navigation",
+      "number": 3,
+      "title": "Paper 3",
+      "description": "OOW Unlimited practice examination.",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Vessel limits in appraisal",
+          "syllabus": "034-83 1a",
+          "prompt": "Which vessel-specific information should influence passage appraisal? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Vessel dimensions and manoeuvring characteristics constrain the usable route.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Air draught where overhead restrictions exist",
+            "The vessel’s paint colour as the primary limiting factor",
+            "Turning and stopping characteristics",
+            "Loaded draught and required under-keel margins"
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Contingency planning",
+          "syllabus": "034-83 1a",
+          "prompt": "Why identify abort points and alternative anchorages while planning?",
+          "kind": "single",
+          "rationale": "Contingencies give assessed alternatives when limits or conditions are not met.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "To prepare safe options if the intended passage cannot be continued",
+            "To guarantee the voyage will never be delayed",
+            "To permit any anchorage to be used without checking depth",
+            "To avoid briefing the bridge team"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Planning and monitoring tasks",
+          "syllabus": "034-83 1a",
+          "prompt": "Match each task to the most relevant passage-planning stage.",
+          "kind": "match",
+          "rationale": "Information assessment precedes detailed planning; execution implements the plan and monitoring checks its progress.",
+          "sources": [
+            "navigation"
+          ],
+          "terms": [
+            "Assess the latest weather forecast",
+            "Mark no-go areas and clearing limits",
+            "Set the agreed bridge team for a restricted leg",
+            "Compare successive fixes with the planned track"
+          ],
+          "definitions": [
+            "Monitoring",
+            "Execution",
+            "Planning",
+            "Appraisal"
+          ],
+          "answers": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Sector light boundary",
+          "syllabus": "034-83 2d",
+          "prompt": "A sector light changes colour earlier than expected during approach. What should the OOW do?",
+          "kind": "single",
+          "rationale": "Sector indications must be interpreted against charted limits and independent position information.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Continue regardless because sector boundaries cannot change",
+            "Check position and the charted sector limits and reassess the safe track",
+            "Assume the new colour proves the vessel is on the centreline",
+            "Use the colour change as a substitute for all position fixing"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Light height and range",
+          "syllabus": "034-83 2d",
+          "prompt": "In a light description Fl W 10 s 25 m 15 M, what does 15 M indicate?",
+          "kind": "single",
+          "rationale": "Capital M denotes the nominal light range in nautical miles; 25 m is the charted elevation.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "A light elevation of 15 metres",
+            "A period of 15 minutes",
+            "A depth of 15 metres at the light",
+            "A nominal range of 15 nautical miles"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Position-line geometry",
+          "syllabus": "034-83 2c",
+          "prompt": "Which pair of intersecting position lines generally has the least favourable fixing geometry?",
+          "kind": "single",
+          "rationale": "Nearly parallel lines magnify the positional effect of small observation errors.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Two lines crossing at 95°",
+            "Two lines crossing at 90°",
+            "Two lines crossing at 85°",
+            "Two lines crossing at only 5°"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Unexpected landfall depth",
+          "syllabus": "034-83 2e",
+          "prompt": "An independently checked echo sounding is substantially shallower than the passage plan predicts near landfall. What is the prudent response?",
+          "kind": "single",
+          "rationale": "An unexplained depth discrepancy can indicate a position or datum error and requires immediate assessment.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Increase speed so the discrepancy lasts less time",
+            "Reduce the planned safety contour to make the alarm stop",
+            "Reassess position, tide and clearance immediately and call the Master as required",
+            "Assume the seabed must be deeper ahead"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Routeing guidance use",
+          "syllabus": "034-83 3c",
+          "prompt": "Why consult a Mariners’ Routeing Guide during appraisal?",
+          "kind": "single",
+          "rationale": "A routeing guide supplements charts and other current information; it is not a substitute for them.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "To identify routeing measures, reporting arrangements and navigational considerations for the area",
+            "To remove the need for local navigational warnings",
+            "To guarantee right of way in every traffic lane",
+            "To replace the corrected largest-scale charts"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Separation zone",
+          "syllabus": "034-83 3b",
+          "prompt": "When using an IMO-adopted TSS, what is the normal requirement concerning its separation line or zone?",
+          "kind": "single",
+          "rationale": "Rule 10 requires vessels using a scheme to keep clear of the separating measure so far as practicable.",
+          "sources": [
+            "tss"
+          ],
+          "options": [
+            "Navigate along it to reduce current effects",
+            "Anchor there whenever a lane is busy",
+            "Keep clear so far as practicable, subject to the exceptions in Rule 10",
+            "Use it as an overtaking lane"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Set and drift from a fix",
+          "syllabus": "034-83 4b",
+          "prompt": "After one hour, the vessel’s observed position is 3 nautical miles east and 4 nautical miles north of its DR position. Assume the difference is entirely due to a steady stream. Calculate set in degrees true and drift in knots, to one decimal place.",
+          "kind": "fields",
+          "rationale": "Stream displacement is 3 east and 4 north in one hour; drift=5 kn and set=atan(3/4)=36.9°T.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Set (degrees true)",
+              "answer": "36.9",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Drift (kn)",
+              "answer": "5",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Counteracting an easterly stream",
+          "syllabus": "034-83 4e",
+          "prompt": "A vessel makes 10 kn through the water. Stream sets east at 6 kn. Ignore leeway. Find heading to make a due-north ground track and the speed made good, to one decimal place.",
+          "kind": "fields",
+          "rationale": "A 6 kn westward water component cancels the stream; north component=sqrt(100−36)=8. Heading=360−asin(.6)=323.1°T.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Heading (degrees true)",
+              "answer": "323.1",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Speed made good (kn)",
+              "answer": "8",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Opposing current passage time",
+          "syllabus": "034-83 4f",
+          "prompt": "The heading and intended track are due east. Speed through water is 15 kn and current sets due west at 2 kn. Ignore leeway. How many hours are required for a 65 nautical mile leg?",
+          "kind": "fields",
+          "rationale": "Ground speed=15−2=13 kn; time=65/13=5 hours.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Passage time (hours)",
+              "answer": "5",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Leeway direction",
+          "syllabus": "034-83 4c",
+          "prompt": "A vessel heads 225°T with 3° leeway to starboard and no current. What is the track through the water?",
+          "kind": "single",
+          "rationale": "Starboard leeway adds 3° clockwise to the heading: 228°T.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "222°T",
+            "228°T",
+            "048°T",
+            "225°T"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Compass to true",
+          "syllabus": "034-83 4h",
+          "prompt": "Compass heading is 270°. Variation is 8°W and deviation 3°E. What is true heading in whole degrees?",
+          "kind": "fields",
+          "rationale": "Signed compass error=−8+3=−5°. True=270−5=265°.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "True heading (degrees)",
+              "answer": "265",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Relative bearing",
+          "syllabus": "034-83 4a",
+          "prompt": "A vessel’s true heading is 350°. A fixed object is observed at relative bearing 030° clockwise from the bow. What is its true bearing?",
+          "kind": "single",
+          "rationale": "350+30=380°, reduced to 020°T.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "030°T",
+            "020°T",
+            "320°T",
+            "350°T"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Chartwork coordinates",
+          "syllabus": "034-83 4a",
+          "prompt": "In the training grid, O is the start and P is 8 nautical miles east and 6 nautical miles north of O. Find bearing of P from O and distance OP to one decimal place.",
+          "kind": "fields",
+          "rationale": "Bearing=atan(8/6)=53.1°T; distance=sqrt(8²+6²)=10 nm.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Bearing (degrees true)",
+              "answer": "53.1",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "10",
+              "tolerance": 0.05
+            }
+          ],
+          "image": "assets/chartwork-grid.svg"
+        },
+        {
+          "id": 17,
+          "title": "Speed to maintain the plan",
+          "syllabus": "034-83 4g",
+          "prompt": "At 0915, the planned waypoint is 27 nautical miles away. It must be reached at 1130. What average speed made good is required?",
+          "kind": "fields",
+          "rationale": "Time available=2.25 hours; 27/2.25=12 kn.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Required speed (kn)",
+              "answer": "12",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Mercator distance scale",
+          "syllabus": "034-83 5a",
+          "prompt": "When measuring a short distance on a Mercator chart, which latitude scale should normally be used?",
+          "kind": "single",
+          "rationale": "Mercator scale changes with latitude; local latitude scale is used for a nearby distance.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "The longitude scale regardless of latitude",
+            "The latitude scale near the latitude of the measured distance",
+            "Only the equatorial latitude scale",
+            "The scale from an unrelated chart"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Crossing the date line along a parallel",
+          "syllabus": "034-83 5b",
+          "prompt": "A vessel follows latitude 60°N eastwards from 179°E to 179°W across 180°. Using parallel sailing, find the shorter eastward distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "Shorter longitude difference is 2°=120′. Distance=120 cos 60°=60 nm.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "60",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "North-easterly plane sailing",
+          "syllabus": "034-83 5b",
+          "prompt": "Using plane sailing, a course of 060°T produces 60 nautical miles of northing. Find distance and departure to one decimal place.",
+          "kind": "fields",
+          "rationale": "DLat=D cosC; D=60/.5=120 nm. Departure=120 sin 60°=103.9 nm.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "120",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Departure east (nautical miles)",
+              "answer": "103.9",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Mercator sailing across 180°",
+          "syllabus": "034-83 5b",
+          "prompt": "A north-easterly passage runs from longitude 179°E to 175°W by the shorter route. DMP is 480 and DLat is 300′ north. Use tan C=DLo/DMP and D=DLat/cos C. Calculate course and distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "Eastward DLo=6°=360′. C=atan(.75)=36.9°; distance=300/.8=375 nm.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Course (degrees true)",
+              "answer": "36.9",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "375",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "ETA over a month end",
+          "syllabus": "034-83 5c",
+          "prompt": "At 2300 UTC on 31 July, 54 nautical miles remain at a steady 9 kn over ground. What is the ETA?",
+          "kind": "single",
+          "rationale": "54/9=6 hours; six hours after 2300 on 31 July is 0500 on 1 August.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "0400 UTC on 1 August",
+            "0600 UTC on 1 August",
+            "0500 UTC on 1 August",
+            "0500 UTC on 31 July"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Unfit relieving officer",
+          "syllabus": "034-83 6a",
+          "prompt": "The relieving officer appears too fatigued to keep a safe watch. What should the outgoing OOW do?",
+          "kind": "single",
+          "rationale": "The watch must not be handed to a person apparently incapable of carrying it out effectively.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Leave the bridge and record the concern later",
+            "Let the lookout take charge of navigation",
+            "Retain the watch and inform the Master rather than hand over to an unfit officer",
+            "Hand over because the watch period has ended"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Sole lookout conditions",
+          "syllabus": "034-83 6a",
+          "prompt": "For an OOW acting as sole lookout in daylight, which conditions are relevant? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Daylight sole lookout is conditional on an assessment and immediate availability of assistance.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Daylight makes a separate risk assessment unnecessary",
+            "A careful assessment establishes that it is safe",
+            "Relevant traffic, weather, visibility and bridge workload are considered",
+            "Assistance can be summoned immediately"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Gyro error from corrected amplitude",
+          "syllabus": "034-83 6d",
+          "prompt": "An amplitude observation has been fully corrected to a true bearing of 268°. The simultaneous gyro bearing is 270°. What is gyro error?",
+          "kind": "single",
+          "rationale": "True−gyro=−2°, meaning 2°W.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "538°E",
+            "No error",
+            "2°E",
+            "2°W"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Total power failure",
+          "syllabus": "034-83 6f",
+          "prompt": "The bridge loses main electrical power at night. Which actions are appropriate parts of the immediate response? Select all that apply.",
+          "kind": "multi",
+          "rationale": "The bridge must establish the ship’s actual condition and coordinate the blackout response.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Maintain lookout and assess nearby traffic and hazards",
+            "Establish which steering and navigation services remain available",
+            "Call the Master and communicate with the engine room",
+            "Assume the vessel will keep its original track indefinitely"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Steering check meaning",
+          "syllabus": "034-83 6c",
+          "prompt": "What makes a steering operational check meaningful?",
+          "kind": "single",
+          "rationale": "A functional check verifies response and relevant arrangements, not merely control movement.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Confirming actual rudder response and required control and communication arrangements",
+            "Watching only the wheel move without checking rudder response",
+            "Checking only that the steering switch is labelled",
+            "Assuming the previous voyage test remains sufficient"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Radar limitations near ice",
+          "syllabus": "034-83 7c",
+          "prompt": "Which statement about radar detection of ice is correct?",
+          "kind": "single",
+          "rationale": "Low profile, sea state and reflectivity can limit radar detection; absence of an echo is not proof of no ice.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Rain clutter elimination guarantees ice detection",
+            "Every iceberg gives a strong echo at the same range",
+            "AIS identifies all floating ice",
+            "Small or low ice may be difficult to detect, so radar must be supported by other information and lookout"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Using ice reports",
+          "syllabus": "034-83 7c",
+          "prompt": "A ship receives a recent ice-edge report. How should it be used?",
+          "kind": "single",
+          "rationale": "Ice moves and information ages; report timing and corroborating observations matter.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "As evidence that the area outside the reported line is always ice-free",
+            "As an exact stationary boundary for the rest of the voyage",
+            "As permission to dispense with the lookout",
+            "Together with its observation time, expected ice movement, current reports and actual conditions"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Reference levels and heights",
+          "syllabus": "034-83 8b",
+          "prompt": "Match each abbreviation or term to its meaning.",
+          "kind": "match",
+          "rationale": "Tidal reference levels and vessel heights use different origins and must not be interchanged.",
+          "sources": [
+            "navigation"
+          ],
+          "terms": [
+            "HAT",
+            "LAT",
+            "Drying height",
+            "Air draught"
+          ],
+          "definitions": [
+            "Highest astronomical tide under average meteorological conditions",
+            "Lowest astronomical tide under average meteorological conditions",
+            "Height above chart datum of a feature that dries",
+            "Height from current waterline to the vessel’s highest relevant point"
+          ],
+          "answers": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Tidal range",
+          "syllabus": "034-83 8b",
+          "prompt": "Predicted high water is 5.4 m and the associated low water is 1.2 m, on the same datum. Find the tidal range.",
+          "kind": "fields",
+          "rationale": "Range=5.4−1.2=4.2 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Range (m)",
+              "answer": "4.2",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Allowing for squat",
+          "syllabus": "034-83 8b",
+          "prompt": "The actual water depth is 9.1 m and the ship’s static draught is 8.1 m. Squat adds 0.4 m to draught. Ignore all other effects. Calculate the resulting under-keel clearance.",
+          "kind": "fields",
+          "rationale": "UKC=9.1−8.1−.4=.6 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Under-keel clearance (m)",
+              "answer": "0.6",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Falling-tide interpolation",
+          "syllabus": "034-83 9b",
+          "prompt": "Use the supplied falling-tide training curve. High water is 0930 at 6.0 m; low water is 1530 at 2.0 m. Read the curve by straight-line interpolation between its plotted points. What is the height at 1200?",
+          "kind": "fields",
+          "rationale": "At 2.5 hours after HW, fall fraction interpolates from .25 at hour 2 to .50 at hour 3: .375. Height=6−4×.375=4.5 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Height of tide (m)",
+              "answer": "4.5",
+              "tolerance": 0.05
+            }
+          ],
+          "image": "assets/tide-fall-3.svg"
+        },
+        {
+          "id": 34,
+          "title": "Latest tide-window time",
+          "syllabus": "034-83 9c",
+          "prompt": "Use the falling-tide training curve. High water is 0930 at 6.0 m; low water is 1530 at 2.0 m. During this falling tide, when does the height reach the required minimum of 2.8 m?",
+          "kind": "single",
+          "rationale": "Fall fraction=(6−2.8)/4=.8, reached four hours after HW at 1330.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "1130",
+            "1430",
+            "1330",
+            "1230"
+          ],
+          "answer": [
+            2
+          ],
+          "image": "assets/tide-fall-3.svg"
+        },
+        {
+          "id": 35,
+          "title": "Prediction and observed level",
+          "syllabus": "034-83 9d",
+          "prompt": "Actual sea level at a port is lower than the prediction during unusual weather. What should the OOW do?",
+          "kind": "single",
+          "rationale": "Predictions describe astronomical tides; meteorological effects and observations must inform clearance assessments.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Use reliable observed information and reassess the planned depth margins",
+            "Ignore the discrepancy if the tide table is current",
+            "Add the discrepancy to draught with the wrong sign automatically",
+            "Treat the prediction as an exact guarantee"
+          ],
+          "answer": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "navigation-4",
+      "subject": "navigation",
+      "number": 4,
+      "title": "Paper 4",
+      "description": "OOW Unlimited practice examination.",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Extent of a passage plan",
+          "syllabus": "034-83 1a",
+          "prompt": "What is the intended extent of an appropriate voyage passage plan?",
+          "kind": "single",
+          "rationale": "Appraisal and planning cover the whole intended voyage, including departures and approaches.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Only waypoints that are visible on radar",
+            "Only the departure manoeuvre",
+            "The complete voyage from berth to berth, including pilotage legs",
+            "Only the open-sea part outside pilotage waters"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Under-keel appraisal",
+          "syllabus": "034-83 1a",
+          "prompt": "Which matters can affect the depth margin used in passage appraisal? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Clearance appraisal considers dynamic vessel effects and uncertainty as well as static draught.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "The assumption that static draught is the only relevant factor",
+            "Tide and uncertainty in actual water level",
+            "Accuracy of charted depth and position",
+            "Squat and vessel motion"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Weather-driven alteration",
+          "syllabus": "034-83 1a",
+          "prompt": "Conditions make a planned exposed leg unsuitable. Which response best follows passage-planning principles?",
+          "kind": "single",
+          "rationale": "A plan is reassessed when the underlying conditions change.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Reappraise alternatives, amend the plan with the Master and brief those implementing it",
+            "Continue because the original route was approved",
+            "Choose an unassessed shortcut on the plotter",
+            "Delete the old route so no record of the decision remains"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Chart information currency",
+          "syllabus": "034-83 2d",
+          "prompt": "Which is the appropriate preparation for a chart needed on passage?",
+          "kind": "single",
+          "rationale": "Edition status, corrections and current warnings together affect chart reliability.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Assume the chart is current because it was purchased recently",
+            "Check the appropriate edition and apply relevant current corrections and warnings",
+            "Rely on an old plotted track instead of checking chart information",
+            "Apply only corrections to the destination harbour"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 5,
+          "title": "A buoy as the only reference",
+          "syllabus": "034-83 2c",
+          "prompt": "Why is an isolated buoy generally weaker than a fixed shore object as the sole reference for a position fix?",
+          "kind": "single",
+          "rationale": "A floating aid can be off station; independent checks are needed.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Its charted position changes every second by definition",
+            "It can be displaced from its charted position",
+            "It cannot have a radar reflector",
+            "Its colour is always invisible in daylight"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 6,
+          "title": "A missing expected light",
+          "syllabus": "034-83 2e",
+          "prompt": "A charted light is not seen at landfall. What is the appropriate interpretation?",
+          "kind": "single",
+          "rationale": "Failure to see an expected aid is not a unique position solution and does not remove the danger.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "The coast must be clear if no light is seen",
+            "The danger marked by the light has disappeared",
+            "The vessel must be outside the light’s nominal range",
+            "The absence needs investigation; position, visibility, range and light status may all be relevant"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Radar near turbines",
+          "syllabus": "034-83 2b",
+          "prompt": "Which passage-planning precaution is appropriate where wind turbines may affect radar observations?",
+          "kind": "single",
+          "rationale": "Equipment limitations should be anticipated and cross-checks planned.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Treat every echo in the wind farm as a ship",
+            "Allow for possible clutter or false echoes and plan suitable independent checks",
+            "Use turbine echoes as the only position reference",
+            "Switch radar off throughout the passage"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Other COLREG duties in a TSS",
+          "syllabus": "034-83 3b",
+          "prompt": "A vessel is proceeding correctly in its TSS lane. What does Rule 10 imply about its other COLREG obligations?",
+          "kind": "single",
+          "rationale": "Rule 10(a) expressly does not relieve a vessel of obligations under other rules.",
+          "sources": [
+            "tss"
+          ],
+          "options": [
+            "The lane user can maintain speed regardless of collision risk",
+            "Lookout obligations cease inside the lane",
+            "All ships crossing must keep clear regardless of other rules",
+            "They still apply; compliance with Rule 10 gives no general exemption"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Different TSS manoeuvres",
+          "syllabus": "034-83 3b",
+          "prompt": "Match each manoeuvre with the normal Rule 10 approach.",
+          "kind": "match",
+          "rationale": "Crossing, joining and lane-following have different requirements.",
+          "sources": [
+            "tss"
+          ],
+          "terms": [
+            "Crossing a traffic lane",
+            "Joining from a lane’s side",
+            "Proceeding within a lane"
+          ],
+          "definitions": [
+            "Heading as nearly at right angles to traffic flow as practicable",
+            "Join at as small an angle to traffic flow as practicable",
+            "Follow the general direction of flow in the appropriate lane"
+          ],
+          "answers": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Westerly heading with southerly stream",
+          "syllabus": "034-83 4b",
+          "prompt": "A vessel heads 270°T at 12 kn through the water; stream sets 180°T at 5 kn. Ignore leeway. Find true course and speed over ground to one decimal place.",
+          "kind": "fields",
+          "rationale": "Ground vector is 12 west and 5 south: COG=270−atan(5/12)=247.4°; SOG=13 kn.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Course over ground (degrees true)",
+              "answer": "247.4",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Speed over ground (kn)",
+              "answer": "13",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Making good east",
+          "syllabus": "034-83 4e",
+          "prompt": "With 10 kn through the water and a 6 kn northerly stream, find the heading required to make good due east and the speed made good. Ignore leeway; give one decimal place.",
+          "kind": "fields",
+          "rationale": "Water vector must be 8 east and 6 south; heading=126.9°T, ground speed=8 kn.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Heading (degrees true)",
+              "answer": "126.9",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Speed made good (kn)",
+              "answer": "8",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Port leeway",
+          "syllabus": "034-83 4d",
+          "prompt": "Heading is 045°T and leeway is 4° to port. With no current, what is track through the water?",
+          "kind": "single",
+          "rationale": "Port leeway is anticlockwise from heading:45−4=41°T.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "049°T",
+            "221°T",
+            "041°T",
+            "045°T"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Compass course across north",
+          "syllabus": "034-83 4h",
+          "prompt": "Required true heading is 358°. Variation is 2°W and deviation 5°W. Calculate compass heading in whole degrees, in the range 000° to 359°.",
+          "kind": "fields",
+          "rationale": "Total error=7°W; compass=358+7=365°, reduced to 005°.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Compass heading (degrees)",
+              "answer": "5",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Gyro error across north",
+          "syllabus": "034-83 4h",
+          "prompt": "A transit bears 002°T and simultaneously reads 355°G. What is gyro error?",
+          "kind": "single",
+          "rationale": "002°T is equivalent to 362°;362−355=+7°, or 7°E.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "353°E",
+            "7°E",
+            "3°W",
+            "7°W"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Maintaining true course",
+          "syllabus": "034-83 4i",
+          "prompt": "Gyro error changes from 3°E to 1°E. What change to the gyro-course order maintains the same true heading?",
+          "kind": "single",
+          "rationale": "Gyro=true−east error. A reduction of east error by 2° requires gyro order to increase 2°.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "No change is required",
+            "Increase the gyro-course order by 4°",
+            "Decrease the gyro-course order by 2°",
+            "Increase the gyro-course order by 2°"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Observation timing",
+          "syllabus": "034-83 4a",
+          "prompt": "Why should ranges or bearings used for a fix be taken as nearly simultaneously as practicable?",
+          "kind": "single",
+          "rationale": "Time separation causes lines to refer to different vessel positions unless properly advanced.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "All instruments become inaccurate after one second",
+            "Simultaneous observations remove all chart error",
+            "The vessel moves between observations, potentially displacing the position lines",
+            "Shore objects move at the vessel’s speed"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Running-fix uncertainty",
+          "syllabus": "034-83 4a",
+          "prompt": "Which factor particularly affects a running fix compared with a simultaneous fix?",
+          "kind": "single",
+          "rationale": "A running fix adds an estimated advancement between observations, introducing motion uncertainty.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "The colour of the plotting pencil alone",
+            "Uncertainty in the vessel’s ground movement between the observations",
+            "The shore object being fixed to land",
+            "The fact that bearings use angular units"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Westward parallel passage",
+          "syllabus": "034-83 5b",
+          "prompt": "A ship follows latitude 30°N westwards through 1° of longitude. Using parallel sailing, find distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "D=60 cos 30°=51.96 nm, rounded 52.0 nm.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "52.0",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "South-westerly plane sailing",
+          "syllabus": "034-83 5b",
+          "prompt": "A short plane-sailing leg has 30 nautical miles southing and 40 nautical miles westward departure. Calculate true course and distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "South-west quadrant:course=180+atan(40/30)=233.1°T;distance=50 nm.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Course (degrees true)",
+              "answer": "233.1",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "50",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "South-easterly Mercator passage",
+          "syllabus": "034-83 5b",
+          "prompt": "For a south-easterly rhumb line, DLo is 180′ east, DMP is 240 and DLat is 192′ south. Use tan(quadrantal course)=DLo/DMP. Find true course and distance to one decimal place.",
+          "kind": "fields",
+          "rationale": "Quadrantal course=36.87° east of south;true course 143.1°.Distance=192/.8=240 nm.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Course (degrees true)",
+              "answer": "143.1",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Distance (nautical miles)",
+              "answer": "240",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Rhumb-line property",
+          "syllabus": "034-83 5a",
+          "prompt": "Which property distinguishes a rhumb line on a Mercator chart?",
+          "kind": "single",
+          "rationale": "A rhumb line has constant true direction; a great circle is the shortest spherical route and normally changes direction.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "It crosses meridians at a constant angle and is plotted as a straight line",
+            "It is always shorter than the great-circle route",
+            "It can exist only along the equator",
+            "It crosses every parallel at a different heading"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Half-hour time zone",
+          "syllabus": "034-83 5c",
+          "prompt": "Departure is 0330 on 12 June at UTC+5 hours 30 minutes. Passage duration is 12 hours. Arrival port is UTC−3. What is local ETA?",
+          "kind": "single",
+          "rationale": "Departure=2200 UTC 11 June;arrival=1000 UTC 12 June;UTC−3 gives 0700 on 12 June.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "2200 on 11 June",
+            "1800 on 12 June",
+            "0700 on 13 June",
+            "0700 on 12 June"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Developing restricted visibility",
+          "syllabus": "034-83 6b",
+          "prompt": "Visibility deteriorates unexpectedly. Which bridge actions are appropriate? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Restricted visibility requires prompt assessment, the appropriate bridge team and applicable procedures.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Reassess safe speed and collision risk",
+            "Call the Master under standing orders",
+            "Ensure an effective lookout and apply the required restricted-visibility procedures",
+            "Wait for a close-quarters situation before acting"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Closed-loop communication",
+          "syllabus": "034-83 6f",
+          "prompt": "Which exchange best illustrates closed-loop communication of an engine order?",
+          "kind": "single",
+          "rationale": "Repeat-back and verification reduce misunderstanding during routine and emergency communications.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "The sender assumes an unheard order was accepted",
+            "A third person records the order after the watch ends",
+            "The receiver says nothing and changes an unrelated control",
+            "The receiver repeats the order and the sender checks that the repeat is correct"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Compass check using Polaris",
+          "syllabus": "034-83 6d",
+          "prompt": "A Polaris observation has already been corrected to true bearing 359.2°. Gyro bearing is 001.2°. What is gyro error?",
+          "kind": "single",
+          "rationale": "Treat 359.2° as−0.8° near north;true−gyro=−2.0°.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "No error",
+            "2.0°E",
+            "358.0°E",
+            "2.0°W"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Correcting a bridge record",
+          "syllabus": "034-83 6e",
+          "prompt": "A bridge-log entry contains an error. What is the appropriate general approach?",
+          "kind": "single",
+          "rationale": "Records should retain an auditable history of corrections, with the appropriate attribution and timing.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Rewrite the entire page without a correction record",
+            "Make a traceable correction under the ship’s recordkeeping procedure",
+            "Leave an identified material error uncorrected",
+            "Erase the original entry so the alteration cannot be seen"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Relief during a manoeuvre",
+          "syllabus": "034-83 6a",
+          "prompt": "An alteration to avoid traffic is in progress at watch-change time. What is the normal handover approach unless the Master directs otherwise?",
+          "kind": "single",
+          "rationale": "A manoeuvre or other avoidance action should normally be completed before the watch is handed over.",
+          "sources": [
+            "watch"
+          ],
+          "options": [
+            "Complete the action and establish a clear situation before transferring the watch",
+            "Transfer immediately regardless of the developing manoeuvre",
+            "Leave the bridge as soon as the scheduled time arrives",
+            "Let the incoming OOW infer the alteration without a briefing"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Interpreting a sign of ice",
+          "syllabus": "034-83 7a",
+          "prompt": "A pale glow is observed under low cloud toward the horizon in an ice region. What does this indicate?",
+          "kind": "single",
+          "rationale": "An optical indication suggests possible nearby ice but does not establish its precise location or extent.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "A guaranteed ice-free channel",
+            "Possible ice blink requiring corroboration and caution",
+            "The exact range of an iceberg",
+            "Proof that radar settings are correct"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Upper-deck ice accretion",
+          "syllabus": "034-83 7b",
+          "prompt": "Why is accumulating ice on upper decks a concern for the bridge team?",
+          "kind": "single",
+          "rationale": "Ice high in the vessel raises weight and potentially KG while also creating operational hazards.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "It guarantees more freeboard",
+            "It removes the need to assess wind effects",
+            "It adds high weight and can adversely affect stability as well as safe deck access",
+            "It always lowers the centre of gravity"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Astronomical range and actual tide",
+          "syllabus": "034-83 8a",
+          "prompt": "Which statement correctly distinguishes spring-tide prediction from actual observed water level?",
+          "kind": "single",
+          "rationale": "Sun–Moon alignment affects astronomical range; meteorological effects remain possible.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "Weather has no effect during a spring tide",
+            "The word spring refers only to the season",
+            "Spring tides guarantee the largest observed water level on every occasion",
+            "Spring tides generally have larger astronomical range, but weather can still modify the observed level"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Maximum tide for an overhead passage",
+          "syllabus": "034-83 8b",
+          "prompt": "A bridge has charted clearance 26.0 m above HAT. HAT is 4.0 m above datum. Air draught is 27.0 m and required overhead margin is 1.0 m. Ignoring other effects, what is the greatest tide height permitting this margin?",
+          "kind": "fields",
+          "rationale": "Bridge underside is 30 m above datum;30−tide−27>=1, so tide<=2.0 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Maximum tide height above datum (m)",
+              "answer": "2",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Air-draught origin",
+          "syllabus": "034-83 8b",
+          "prompt": "For an overhead-clearance calculation, air draught is measured from:",
+          "kind": "single",
+          "rationale": "Air draught is the above-water height of the vessel; it is not keel-to-mast height.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "The keel to the top of the mast",
+            "The sea bed to the masthead",
+            "The vessel’s current waterline to its highest relevant point",
+            "Chart datum to the bridge underside"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Tide over midnight",
+          "syllabus": "034-83 9b",
+          "prompt": "Use the supplied rising-tide training curve. Low water is 2330 on 12 September at 0.8 m; high water is 0530 on 13 September at 4.8 m. Find height at 0130 on 13 September, to one decimal place.",
+          "kind": "fields",
+          "rationale": "0130 is 2 hours after LW;fraction=.20.Height=.8+4×.20=1.6 m.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Height of tide (m)",
+              "answer": "1.6",
+              "tolerance": 0.05
+            }
+          ],
+          "image": "assets/tide-rise-2.svg"
+        },
+        {
+          "id": 34,
+          "title": "Required height after midnight",
+          "syllabus": "034-83 9c",
+          "prompt": "Use the supplied rising-tide training curve. Low water is 2330 at 0.8 m; high water six hours later is 4.8 m. At what time next day does the rising tide first reach 4.0 m?",
+          "kind": "single",
+          "rationale": "Fraction=(4−.8)/4=.80;four hours after 2330 is 0330 next day.",
+          "sources": [
+            "navigation"
+          ],
+          "options": [
+            "0430",
+            "0330",
+            "0130",
+            "0230"
+          ],
+          "answer": [
+            1
+          ],
+          "image": "assets/tide-rise-2.svg"
+        },
+        {
+          "id": 35,
+          "title": "A drying depth from sounding",
+          "syllabus": "034-83 9e",
+          "prompt": "A corrected sounding shows 0.9 m of water above a feature when tide height is 1.5 m above chart datum. Find the feature’s drying height, to one decimal place.",
+          "kind": "fields",
+          "rationale": "Reduced depth=.9−1.5=−.6 m, meaning a drying height of.6 m above datum.",
+          "sources": [
+            "navigation"
+          ],
+          "fields": [
+            {
+              "label": "Drying height above chart datum (m)",
+              "answer": "0.6",
+              "tolerance": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stability-2",
+      "subject": "stability",
+      "number": 2,
+      "title": "Paper 2",
+      "description": "OOW Unlimited practice examination.",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Density and mass",
+          "syllabus": "034-84 1a",
+          "prompt": "A liquid cargo occupies 800 m³ and has density 0.90 t/m³. Calculate its mass in tonnes.",
+          "kind": "fields",
+          "rationale": "Mass=density×volume=.90×800=720 t.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Cargo mass (t)",
+              "answer": "720",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Hydrostatic interpolation",
+          "syllabus": "034-84 1d",
+          "prompt": "Training hydrostatic data at the stated water density give displacement 8,000 t at 6.0 m mean draught and 10,000 t at 7.0 m. Assume linear interpolation over this interval. Find displacement at 6.4 m.",
+          "kind": "fields",
+          "rationale": "8000+.4×(10000−8000)=8800 t.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Displacement (t)",
+              "answer": "8800",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "TPC at dock-water density",
+          "syllabus": "034-84 1d",
+          "prompt": "TPC is 18.0 t/cm in seawater of density 1.025 t/m³. At the same waterplane area, calculate TPC in dock water of density 1.010 t/m³, to two decimal places.",
+          "kind": "fields",
+          "rationale": "TPC scales with density at constant waterplane area:18×1.010/1.025=17.74 t/cm.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Dock-water TPC (t/cm)",
+              "answer": "17.74",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Weight for a small immersion",
+          "syllabus": "034-84 1h",
+          "prompt": "TPC remains constant at 20 t/cm during loading. What weight can be loaded to increase draught by 12 cm?",
+          "kind": "fields",
+          "rationale": "Weight=TPC×centimetres=20×12=240 t.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Weight to load (t)",
+              "answer": "240",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Calculating fresh water allowance",
+          "syllabus": "034-84 1c",
+          "prompt": "At the relevant displacement of 10,000 t, salt-water TPC is 25 t/cm. Use FWA(mm)=displacement/(4×TPC). Calculate FWA.",
+          "kind": "fields",
+          "rationale": "FWA=10000/(4×25)=100 mm.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Fresh water allowance (mm)",
+              "answer": "100",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Calculating dock water allowance",
+          "syllabus": "034-84 1c",
+          "prompt": "FWA is 180 mm. Dock-water density is 1.015 t/m³ and seawater density 1.025 t/m³. Use DWA=FWA×(1.025−dock density)/.025. Calculate DWA.",
+          "kind": "fields",
+          "rationale": "DWA=180×.010/.025=72 mm.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Dock water allowance (mm)",
+              "answer": "72",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Block coefficient from dimensions",
+          "syllabus": "034-84 1g",
+          "prompt": "Underwater volume is 16,800 m³, length between perpendiculars 150 m, moulded breadth 20 m and draught 8 m. Calculate block coefficient to two decimal places.",
+          "kind": "fields",
+          "rationale": "CB=volume/(L×B×draught)=16800/(150×20×8)=.70.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Block coefficient",
+              "answer": "0.7",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Loading with dock-water allowance",
+          "syllabus": "034-84 1k",
+          "prompt": "Summer salt-water draught is 8.00 m. DWA is 0.12 m. Present draught in dock water is 7.80 m and dock-water TPC stays 18 t/cm. Ignoring voyage consumption and trim, calculate maximum additional cargo to the corresponding dock-water load limit.",
+          "kind": "fields",
+          "rationale": "Permitted dock-water draught=8+.12=8.12 m;increase=.32 m=32 cm;cargo=32×18=576 t.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Additional cargo (t)",
+              "answer": "576",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Initial equilibrium conditions",
+          "syllabus": "034-84 2c",
+          "prompt": "Match the initial transverse condition to its metacentric relationship.",
+          "kind": "match",
+          "rationale": "Initial stability depends on the signed separation of M and G.",
+          "sources": [
+            "stability"
+          ],
+          "terms": [
+            "Stable",
+            "Neutral",
+            "Unstable"
+          ],
+          "definitions": [
+            "M below G: negative GM",
+            "M above G: positive GM",
+            "M and G coincide: zero GM"
+          ],
+          "answers": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Effective GM",
+          "syllabus": "034-84 2k",
+          "prompt": "KM is 8.30 m and KG 6.80 m. Free-surface correction is 0.15 m. Calculate effective GM to two decimal places.",
+          "kind": "fields",
+          "rationale": "Effective GM=KM−KG−FSC=8.30−6.80−.15=1.35 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Effective GM (m)",
+              "answer": "1.35",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Righting moment",
+          "syllabus": "034-84 2b",
+          "prompt": "Displacement is 7,500 t and GZ at the specified heel angle is 0.42 m. Calculate moment of statical stability in tonne-metres.",
+          "kind": "fields",
+          "rationale": "Moment=displacement×GZ=7500×.42=3150 tonne-metres.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Moment (tonne-metres)",
+              "answer": "3150",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "A vertical shift within the ship",
+          "syllabus": "034-84 2i",
+          "prompt": "On an 8,000 t vessel,100 t is moved vertically from 2.0 m to 10.0 m above keel. Displacement is unchanged. Calculate the rise of the ship’s G.",
+          "kind": "fields",
+          "rationale": "GG=weight×vertical distance/displacement=100×8/8000=.10 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Rise of G (m)",
+              "answer": "0.1",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "KG after loading high cargo",
+          "syllabus": "034-84 2k",
+          "prompt": "Initial displacement is 6,000 t at KG 5.00 m. Load 800 t at KG 12.00 m. Ignoring free-surface effects, calculate final KG to two decimal places.",
+          "kind": "fields",
+          "rationale": "Final vertical moment=30000+9600=39600 tm;final displacement 6800 t;KG=5.8235 m, rounded 5.82 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Final KG (m)",
+              "answer": "5.82",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "KG after discharging high cargo",
+          "syllabus": "034-84 2k",
+          "prompt": "A vessel displaces 10,000 t at KG 6.00 m. Discharge 400 t from KG 10.00 m. Calculate final KG to two decimal places.",
+          "kind": "fields",
+          "rationale": "Remaining moment=60000−4000=56000 tm;displacement 9600 t;KG=5.8333 m, rounded 5.83 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Final KG (m)",
+              "answer": "5.83",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Suspending an onboard weight",
+          "syllabus": "034-84 2i",
+          "prompt": "A 100 t onboard weight is lifted clear of its support at KG 2.0 m and hangs freely from a crane suspension point 14.0 m above keel. Vessel displacement remains 6,000 t. Find the virtual rise of the ship’s G.",
+          "kind": "fields",
+          "rationale": "Once freely suspended, the load acts at its point of suspension. Rise=100×(14−2)/6000=.20 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Virtual rise of G (m)",
+              "answer": "0.2",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "List from a transverse shift",
+          "syllabus": "034-84 2m",
+          "prompt": "A vessel of displacement 12,000 t has effective GM 1.00 m. A 200 t weight shifts 6.0 m transversely from the centreline. Assume small-angle theory and unchanged GM. Calculate the resulting angle of list to one decimal place.",
+          "kind": "fields",
+          "rationale": "tan(list)=w×d/(displacement×GM)=1200/12000=.1;list=5.7°.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Angle of list (degrees)",
+              "answer": "5.7",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Longitudinal tank division",
+          "syllabus": "034-84 2r",
+          "prompt": "A rectangular slack tank is divided by an effective centreline longitudinal bulkhead into two equal, unconnected slack tanks. At equal liquid density and length, the total free-surface moment becomes what fraction of the undivided value?",
+          "kind": "single",
+          "rationale": "FSM is proportional to length×breadth³. Two tanks of half breadth give 2×(1/2)³=1/4 of the original moment.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "One half",
+            "Twice",
+            "One quarter",
+            "The same"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Reading a stability curve",
+          "syllabus": "034-84 2e",
+          "prompt": "Use the training GZ curve. Read the angle of maximum GZ and the angle where positive stability ends. Give whole degrees.",
+          "kind": "fields",
+          "rationale": "The plotted maximum is at 35° and the positive curve returns to zero at 70°.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Angle of maximum GZ (degrees)",
+              "answer": "35",
+              "tolerance": 0.5
+            },
+            {
+              "label": "Angle of vanishing stability (degrees)",
+              "answer": "70",
+              "tolerance": 0.5
+            }
+          ],
+          "image": "assets/gz-paper-2.svg"
+        },
+        {
+          "id": 19,
+          "title": "Arithmetic mean draught",
+          "syllabus": "034-84 3a",
+          "prompt": "Forward draught is 4.20 m and aft draught 5.00 m. Calculate arithmetic mean draught.",
+          "kind": "fields",
+          "rationale": "AMD=(4.20+5.00)/2=4.60 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Arithmetic mean draught (m)",
+              "answer": "4.6",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "True mean draught at LCF",
+          "syllabus": "034-84 3b",
+          "prompt": "Forward draught is 4.50 m and aft draught 5.50 m over 100 m LBP. LCF lies 10 m aft of amidships. Assume a straight waterline and take true mean draught as draught at LCF. Calculate it to two decimal places.",
+          "kind": "fields",
+          "rationale": "LCF is 60 m aft of FP;draught there=4.50+(60/100)×1.00=5.10 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "True mean draught (m)",
+              "answer": "5.1",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "A trimming moment",
+          "syllabus": "034-84 3a",
+          "prompt": "A 250 t weight shifts 20 m longitudinally. Calculate the magnitude of its trimming moment.",
+          "kind": "fields",
+          "rationale": "Moment=250×20=5000 tonne-metres.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Trimming moment (tonne-metres)",
+              "answer": "5000",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Change of trim from moment",
+          "syllabus": "034-84 3c",
+          "prompt": "A trimming moment of 5,000 tonne-metres acts on a vessel with constant MCTC 200 tonne-metres per centimetre. Calculate change of trim in centimetres.",
+          "kind": "fields",
+          "rationale": "Change of trim=5000/200=25 cm.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Change of trim (cm)",
+              "answer": "25",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Correcting stern trim",
+          "syllabus": "034-84 3e",
+          "prompt": "A vessel is trimmed 0.40 m by the stern. MCTC stays 150 tonne-metres/cm. What weight must be moved 60 m forward to remove the trim, with displacement unchanged?",
+          "kind": "fields",
+          "rationale": "Moment needed=40×150=6000 tm;weight=6000/60=100 t, moved forward.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Weight to move (t)",
+              "answer": "100",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Draughts after an off-centre load",
+          "syllabus": "034-84 3c",
+          "prompt": "A vessel is initially on even keel at 5.00 m. LBP 120 m;LCF amidships;TPC 20 t/cm;MCTC 180 tonne-metres/cm, all constant. Load 240 t at 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
+          "kind": "fields",
+          "rationale": "Parallel sinkage=240/20=12 cm. Stern trim=240×30/180=40 cm, split 20 cm at each end. F=5+.12−.20=4.92;A=5+.12+.20=5.32.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Final forward draught (m)",
+              "answer": "4.92",
+              "tolerance": 0.005
+            },
+            {
+              "label": "Final aft draught (m)",
+              "answer": "5.32",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Changing an existing trim",
+          "syllabus": "034-84 3d",
+          "prompt": "Forward draught is 5.00 m and aft draught 5.40 m. LCF is amidships and MCTC stays 200 tonne-metres/cm. Shift 200 t from 20 m aft of LCF to 20 m forward. Find final draughts to two decimal places.",
+          "kind": "fields",
+          "rationale": "Forward moment=200×40=8000 tm;trim change 40 cm by head. Each end changes 20 cm;F 5.20,A 5.20. No parallel change for an onboard shift.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Final forward draught (m)",
+              "answer": "5.2",
+              "tolerance": 0.005
+            },
+            {
+              "label": "Final aft draught (m)",
+              "answer": "5.2",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Enclosed-space casualty",
+          "syllabus": "034-84 4b",
+          "prompt": "A person collapses inside an enclosed space. Which immediate actions are appropriate? Select all that apply.",
+          "kind": "multi",
+          "rationale": "A spontaneous unprotected rescue can create further casualties; summon and prepare an organised response.",
+          "sources": [
+            "enclosed"
+          ],
+          "options": [
+            "Follow the ship’s enclosed-space rescue procedure",
+            "Prevent an unplanned, unprotected entry",
+            "Enter immediately without equipment because the casualty is visible",
+            "Raise the alarm and summon the trained rescue response"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Mooring-line hazard",
+          "syllabus": "034-84 4a",
+          "prompt": "A mooring line is heavily loaded during a rising tide. What should the deck watch do?",
+          "kind": "single",
+          "rationale": "Tensioned lines and changing leads are hazardous; adjustment must be controlled and people kept clear.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Step across the tensioned line to inspect it",
+            "Stand in a bight so the line can be eased quickly",
+            "Keep people clear of hazardous line paths and arrange controlled adjustment under the ship’s procedures",
+            "Release all lines simultaneously without coordination"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Hot-work permit",
+          "syllabus": "034-84 4b",
+          "prompt": "What is the purpose of a hot-work permit system?",
+          "kind": "single",
+          "rationale": "A permit provides controlled authorisation with defined conditions; it does not eliminate changing hazards.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "To verify assessed hazards, isolations, precautions and authorisation before the work proceeds",
+            "To permit welding in any tank without testing",
+            "To replace the risk assessment completely",
+            "To remove the need for fire precautions once signed"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Integrity and closures",
+          "syllabus": "034-84 4d",
+          "prompt": "Match each description to its meaning.",
+          "kind": "match",
+          "rationale": "Watertight and weathertight are different performance requirements; correct closures must be maintained.",
+          "sources": [
+            "stability"
+          ],
+          "terms": [
+            "Watertight",
+            "Weathertight",
+            "Heavy-weather preparation"
+          ],
+          "definitions": [
+            "Check and secure the required closures before exposure increases",
+            "Prevents passage of water in either direction under the designed head",
+            "Prevents water penetration in the sea conditions for which the closure is designed"
+          ],
+          "answers": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Bunkering preparation",
+          "syllabus": "034-84 5a",
+          "prompt": "Which checks are appropriate before starting fuel transfer? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Transfer must begin only after receiving capacity, communication and spill controls have been checked.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Arrange spill-prevention and containment measures",
+            "Confirm receiving tanks, available capacity and valve alignment",
+            "Agree communication and the emergency stop procedure",
+            "Begin at maximum rate before confirming the receiving tank"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Garbage annex",
+          "syllabus": "034-84 6a",
+          "prompt": "Which MARPOL Annex deals with pollution by garbage?",
+          "kind": "single",
+          "rationale": "Annex V concerns garbage;Annex I oil,II noxious liquid substances in bulk andIV sewage.",
+          "sources": [
+            "marpol"
+          ],
+          "options": [
+            "Annex IV",
+            "Annex V",
+            "Annex II",
+            "Annex I"
+          ],
+          "answer": [
+            1
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Packaged dangerous goods",
+          "syllabus": "034-84 5b",
+          "prompt": "Before handling packaged dangerous goods, which information or controls should be checked? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Cargo identification, approved stowage/segregation and emergency information guide safe handling.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Cargo identity, markings and relevant dangerous-goods documentation",
+            "Applicable emergency information and protective measures",
+            "Identify an unknown substance by smelling it closely",
+            "Stowage, segregation and securing requirements"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Purpose of the safety management system",
+          "syllabus": "034-84 6b",
+          "prompt": "Which statement best describes a safety management system under the ISM Code?",
+          "kind": "single",
+          "rationale": "The ISM framework organises responsibilities and safeguards for safety and environmental protection.",
+          "sources": [
+            "ism"
+          ],
+          "options": [
+            "A commercial schedule that replaces the Master’s judgement",
+            "A document that removes the need for drills",
+            "A structured system for safe ship operations and pollution prevention with defined responsibilities and procedures",
+            "An optional list used only after an accident"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Normal minimum rest",
+          "syllabus": "034-84 6d",
+          "prompt": "For an adult seafarer subject to the UK normal minimum-rest rules, with no authorised exception or emergency, which minimum pair applies?",
+          "kind": "single",
+          "rationale": "The normal UK regime requires at least 10 hours rest in any 24 hours and 77 in any 7 days.",
+          "sources": [
+            "mlc"
+          ],
+          "options": [
+            "10 hours in any 24 hours and 77 hours in any 7 days",
+            "12 hours in any 24 hours and 60 hours in any 7 days",
+            "8 hours in any 24 hours and 56 hours in any 7 days",
+            "6 hours in any 24 hours and 72 hours in any 7 days"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 35,
+          "title": "M-notice functions",
+          "syllabus": "034-84 6c",
+          "prompt": "Match each notice series to its general function.",
+          "kind": "match",
+          "rationale": "The notice series have different functions;the legal effect depends on the notice and enabling legislation.",
+          "sources": [
+            "notices"
+          ],
+          "terms": [
+            "MSN",
+            "MGN",
+            "MIN"
+          ],
+          "definitions": [
+            "Conveys mandatory requirements where specified under legislation",
+            "Gives marine safety or related guidance",
+            "Gives information commonly limited to a particular time or audience"
+          ],
+          "answers": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stability-3",
+      "subject": "stability",
+      "number": 3,
+      "title": "Paper 3",
+      "description": "OOW Unlimited practice examination.",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Law of flotation",
+          "syllabus": "034-84 1b",
+          "prompt": "For a freely floating vessel in equilibrium, which statement is correct?",
+          "kind": "single",
+          "rationale": "Buoyancy balances the vessel’s weight in floating equilibrium.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "The vessel’s weight equals the weight of the water it displaces",
+            "The ship must have neutral transverse stability",
+            "The water displaced has zero weight",
+            "The vessel’s volume always equals its mass numerically"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Waterplane coefficient",
+          "syllabus": "034-84 1g",
+          "prompt": "Waterplane area is 1,800 m². Length is 100 m and breadth 24 m for this coefficient calculation. Find waterplane coefficient to two decimal places.",
+          "kind": "fields",
+          "rationale": "CW=Awp/(L×B)=1800/(100×24)=.75.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Waterplane coefficient",
+              "answer": "0.75",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Displacement volume",
+          "syllabus": "034-84 1a",
+          "prompt": "A vessel displaces 8,200 t in seawater of density 1.025 t/m³. Calculate displaced volume in cubic metres.",
+          "kind": "fields",
+          "rationale": "Volume=mass/density=8200/1.025=8000 m³.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Displaced volume (m³)",
+              "answer": "8000",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Large draught change",
+          "syllabus": "034-84 1e",
+          "prompt": "At the relevant density, training hydrostatic data give 6,000 t at 5.0 m,8,000 t at 6.0 m and 10,400 t at 7.0 m. Interpolate linearly within each interval. From 5.0 m initially, what cargo mass raises mean draught to 6.5 m? Ignore other weight changes.",
+          "kind": "fields",
+          "rationale": "Final displacement=8000+.5×2400=9200 t;cargo=9200−6000=3200 t. Use displacement data across the large draught change.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Cargo mass to load (t)",
+              "answer": "3200",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Moving to less-dense water",
+          "syllabus": "034-84 1b",
+          "prompt": "A vessel moves into less-dense water without changing weight. What must happen to displaced volume?",
+          "kind": "single",
+          "rationale": "At fixed mass,displaced volume=mass/density,so reducing density increases volume.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "It increases so the weight of displaced water still equals the vessel’s weight",
+            "It becomes equal to deadweight",
+            "It decreases because the ship has lost mass",
+            "It stays fixed regardless of density"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Fresh-water immersion allowance",
+          "syllabus": "034-84 1c",
+          "prompt": "Displacement is 14,400 t and salt-water TPC 30 t/cm. Use FWA(mm)=displacement/(4×TPC). Calculate FWA.",
+          "kind": "fields",
+          "rationale": "14400/(4×30)=120 mm.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "FWA (mm)",
+              "answer": "120",
+              "tolerance": 0.5
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Freeboard after discharge",
+          "syllabus": "034-84 1i",
+          "prompt": "With constant TPC 30 t/cm,600 t of cargo is discharged. Ignore trim. By how many metres does freeboard increase?",
+          "kind": "fields",
+          "rationale": "Draught decreases 600/30=20 cm;freeboard increases.20 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Freeboard increase (m)",
+              "answer": "0.2",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Selecting a load-line limit",
+          "syllabus": "034-84 1j",
+          "prompt": "Which checks are relevant when deciding the permitted loading limit for a voyage? Select all that apply.",
+          "kind": "multi",
+          "rationale": "The permissible loading condition depends on assigned marks,the voyage area/season and water-density allowances.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Water density and the relevant fresh/dock-water allowance",
+            "Applicable load-line zones and seasonal periods",
+            "The appropriate assigned load-line marks",
+            "Use the deepest mark regardless of zone and season"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Neutral initial stability",
+          "syllabus": "034-84 2c",
+          "prompt": "Under ideal initial-stability theory, what condition corresponds to neutral initial stability?",
+          "kind": "single",
+          "rationale": "When G and M coincide,initial GM is zero and the initial restoring tendency vanishes.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "G is necessarily below the keel",
+            "Displacement is zero",
+            "GM is zero",
+            "GM is always strongly positive"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Small-angle righting lever",
+          "syllabus": "034-84 2a",
+          "prompt": "Effective GM is 1.80 m. Use GZ=GM×sin(heel) at the given small angle of 10°. Calculate GZ to three decimal places.",
+          "kind": "fields",
+          "rationale": "GZ=1.8 sin 10°=.3125667 m,rounded.313 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Righting lever GZ (m)",
+              "answer": "0.313",
+              "tolerance": 0.0005
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Different GZ curve",
+          "syllabus": "034-84 2e",
+          "prompt": "Use the training curve. Read maximum GZ to one decimal place and the angle of vanishing stability in whole degrees.",
+          "kind": "fields",
+          "rationale": "The plotted maximum GZ is.9 m at 40° and the positive range ends at 80°.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Maximum GZ (m)",
+              "answer": "0.9",
+              "tolerance": 0.05
+            },
+            {
+              "label": "Angle of vanishing stability (degrees)",
+              "answer": "80",
+              "tolerance": 0.5
+            }
+          ],
+          "image": "assets/gz-paper-3.svg"
+        },
+        {
+          "id": 12,
+          "title": "Combined free-surface moments",
+          "syllabus": "034-84 2p",
+          "prompt": "At displacement 10,000 t, two slack tanks have free-surface moments 600 and 900 tonne-metres. Calculate the total virtual rise of G to two decimal places.",
+          "kind": "fields",
+          "rationale": "FSC=(600+900)/10000=.15 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Virtual rise of G (m)",
+              "answer": "0.15",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Removing an off-centre G",
+          "syllabus": "034-84 2n",
+          "prompt": "A vessel displaces 10,000 t and G is 0.12 m to starboard of the centreline. What distance must a 200 t onboard weight move to port to bring G to the centreline? Ignore all other changes.",
+          "kind": "fields",
+          "rationale": "Moment required=10000×.12=1200 tm;distance=1200/200=6.0 m to port.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Required portward shift (m)",
+              "answer": "6",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "List after an off-centre load",
+          "syllabus": "034-84 2m",
+          "prompt": "After loading, final displacement is 6,000 t and effective GM 0.90 m. The only transverse heeling moment is from a 100 t load placed 6.0 m to starboard of the centreline. Using tan(list)=heeling moment/(displacement×GM),calculate list to one decimal place.",
+          "kind": "fields",
+          "rationale": "tan(list)=100×6/(6000×.9)=.111111;list=6.3°starboard.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Starboard list (degrees)",
+              "answer": "6.3",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Directions of movement of G",
+          "syllabus": "034-84 2j",
+          "prompt": "Ignoring free surface,match each operation to the direction in which G moves.",
+          "kind": "match",
+          "rationale": "Adding weight moves G towards it;removing weight moves G away;an onboard transfer moves G parallel to the transfer.",
+          "sources": [
+            "stability"
+          ],
+          "terms": [
+            "Load a weight above the existing G",
+            "Discharge a weight above the existing G",
+            "Shift an onboard weight to port"
+          ],
+          "definitions": [
+            "Towards port parallel to the shift",
+            "Downwards away from the removed weight",
+            "Upwards towards the added weight"
+          ],
+          "answers": [
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": 16,
+          "title": "A freely suspended load",
+          "syllabus": "034-84 2j",
+          "prompt": "For stability assessment after a ship’s crane has lifted a load clear,where is that freely suspended load treated as acting?",
+          "kind": "single",
+          "rationale": "The effective action is at the suspension point,not at the hanging load’s own centre.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "At its point of suspension",
+            "At the sea surface regardless of crane geometry",
+            "At its original stowage position",
+            "At the keel directly below the hook"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Suspected angle of loll",
+          "syllabus": "034-84 2o",
+          "prompt": "A vessel with suspected negative initial GM heels without an established off-centre weight. What is the appropriate principle for deciding a correction?",
+          "kind": "single",
+          "rationale": "Loll is associated with negative GM;an unassessed transverse shift can be dangerous. Use the approved stability information to address the underlying condition.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Treat the heel as proof of a large positive GM",
+            "Assume it is an ordinary list and shift a large weight across immediately",
+            "Have the Master assess the stability condition and restore positive stability using the approved information",
+            "Ignore free-surface effects because the vessel is heeled"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Density and free surface",
+          "syllabus": "034-84 2r",
+          "prompt": "For the same slack-tank geometry and free-surface shape,what happens to its free-surface moment if liquid density doubles?",
+          "kind": "single",
+          "rationale": "Free-surface moment is proportional to liquid density for fixed free-surface geometry.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "It doubles",
+            "It is unchanged",
+            "It halves",
+            "It falls to zero"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Longitudinal centres",
+          "syllabus": "034-84 3a",
+          "prompt": "Match each abbreviation to its definition.",
+          "kind": "match",
+          "rationale": "LCF concerns waterplane area,LCG mass and LCB displaced volume.",
+          "sources": [
+            "stability"
+          ],
+          "terms": [
+            "LCF",
+            "LCG",
+            "LCB"
+          ],
+          "definitions": [
+            "Longitudinal centroid of the waterplane area",
+            "Longitudinal position of the centre of the displaced volume",
+            "Longitudinal position of the vessel’s centre of gravity"
+          ],
+          "answers": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Direction of trim",
+          "syllabus": "034-84 3a",
+          "prompt": "Forward draught is 6.00 m and aft draught 5.40 m. What is the trim?",
+          "kind": "single",
+          "rationale": "Forward draught exceeds aft by.60 m,so trim is.60 m by the head.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "0.60 m by the head",
+            "0.60 m by the stern",
+            "No trim",
+            "5.70 m by the head"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 21,
+          "title": "MCTC application",
+          "syllabus": "034-84 3a",
+          "prompt": "Constant MCTC is 125 tonne-metres/cm. A 2,500 tonne-metre trimming moment is applied. Find magnitude of change of trim in centimetres.",
+          "kind": "fields",
+          "rationale": "2500/125=20 cm.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Change of trim (cm)",
+              "answer": "20",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Longitudinal transfer distance",
+          "syllabus": "034-84 3c",
+          "prompt": "A 150 t weight moves from 10 m forward of LCF to 30 m aft of LCF. MCTC stays 200 tonne-metres/cm. Find the sternward change of trim in centimetres.",
+          "kind": "fields",
+          "rationale": "Transfer distance=10+30=40 m;moment=6000 tm;trim change=6000/200=30 cm by stern.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Change of trim by stern (cm)",
+              "answer": "30",
+              "tolerance": 0.05
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Forward LCF and mean draught",
+          "syllabus": "034-84 3b",
+          "prompt": "Forward draught 4.80 m;aft 5.40 m;LBP 120 m;LCF 12 m forward of amidships. Assume a straight waterline and true mean draught equal to draught at LCF. Calculate TMD to two decimal places.",
+          "kind": "fields",
+          "rationale": "LCF is 48 m aft of FP. Draught at LCF=4.8+(.6×48/120)=5.04 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "True mean draught (m)",
+              "answer": "5.04",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Loading at LCF",
+          "syllabus": "034-84 3c",
+          "prompt": "A vessel is initially on even keel at 6.00 m. Load 300 t exactly at LCF;TPC stays 25 t/cm. Ignore changes in hydrostatic characteristics. Find final forward and aft draughts to two decimal places.",
+          "kind": "fields",
+          "rationale": "No trimming moment at LCF;parallel sinkage=300/25=12 cm. Both draughts become 6.12 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Final forward draught (m)",
+              "answer": "6.12",
+              "tolerance": 0.005
+            },
+            {
+              "label": "Final aft draught (m)",
+              "answer": "6.12",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Discharge aft of LCF",
+          "syllabus": "034-84 3c",
+          "prompt": "A vessel is initially on even keel at 6.00 m. LCF is amidships;LBP 100 m;TPC 20 t/cm;MCTC 150 tonne-metres/cm,all constant. Discharge 200 t from 30 m aft of LCF. Find final forward and aft draughts to two decimal places.",
+          "kind": "fields",
+          "rationale": "Parallel rise=200/20=10 cm. Trim change=200×30/150=40 cm by head,split 20 cm each end. F=6−.10+.20=6.10;A=6−.10−.20=5.70 m.",
+          "sources": [
+            "stability"
+          ],
+          "fields": [
+            {
+              "label": "Final forward draught (m)",
+              "answer": "6.1",
+              "tolerance": 0.005
+            },
+            {
+              "label": "Final aft draught (m)",
+              "answer": "5.7",
+              "tolerance": 0.005
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Gangway as draught changes",
+          "syllabus": "034-84 4e",
+          "prompt": "During discharge alongside,a gangway becomes excessively steep. What should the deck watch do?",
+          "kind": "single",
+          "rationale": "Access arrangements need continuing monitoring as draught,tide and ship position change.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Leave the problem to visitors to manage",
+            "Remove lighting to discourage use",
+            "Arrange a safe adjustment or alternative access and keep the access route properly controlled",
+            "Allow access to continue because the gangway was safe at arrival"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Stress during cargo operations",
+          "syllabus": "034-84 4a",
+          "prompt": "Which practices help control hull stress during cargo and ballast operations? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Intermediate conditions can exceed structural limits even when the final condition is acceptable.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Check only the final displacement and ignore the loading sequence",
+            "Monitor actual cargo and ballast distribution",
+            "Follow the approved loading sequence and relevant limits",
+            "Check intermediate as well as final loading conditions"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Fire during a port watch",
+          "syllabus": "034-84 4c",
+          "prompt": "A fire is discovered near cargo operations. What is an appropriate immediate response?",
+          "kind": "single",
+          "rationale": "Alarm and a coordinated response are essential;affected operations must be controlled safely.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Keep the incident unreported to avoid delay",
+            "Continue cargo operations until smoke reaches the bridge",
+            "Enter the area alone without raising the alarm",
+            "Raise the alarm and initiate the ship’s emergency response,including safe suspension of affected operations"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Unexpected ballast transfer",
+          "syllabus": "034-84 4a",
+          "prompt": "An unplanned ballast transfer is observed during cargo operations. Which actions are appropriate? Select all that apply.",
+          "kind": "multi",
+          "rationale": "Ballast changes affect draught,stability,trim and stress and must remain coordinated with the plan.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Establish what transfer is occurring and coordinate its safe control",
+            "Check the loading plan,stability and stress implications",
+            "Notify the responsible personnel and record the relevant changes",
+            "Assume any transfer is harmless if the ship remains upright"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Plastic waste at sea",
+          "syllabus": "034-84 5a",
+          "prompt": "Under MARPOL Annex V,which statement about disposal of plastic garbage into the sea is correct?",
+          "kind": "single",
+          "rationale": "Annex V prohibits discharge of plastics into the sea.",
+          "sources": [
+            "marpol"
+          ],
+          "options": [
+            "It is permitted if the plastic is chopped up",
+            "It is permitted after 12 nautical miles in all cases",
+            "It is prohibited,including beyond the normal distance limits used for some other garbage",
+            "It is required when reception facilities are inconvenient"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Sewage annex",
+          "syllabus": "034-84 6a",
+          "prompt": "Which MARPOL Annex principally addresses pollution by sewage from ships?",
+          "kind": "single",
+          "rationale": "Annex IV addresses sewage;I oil,III harmful substances in packaged form andVI air pollution.",
+          "sources": [
+            "marpol"
+          ],
+          "options": [
+            "Annex III",
+            "Annex I",
+            "Annex VI",
+            "Annex IV"
+          ],
+          "answer": [
+            3
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Fuel routed to the wrong tank",
+          "syllabus": "034-84 5a",
+          "prompt": "Fuel transfer is found to be entering an unintended tank. Which actions are appropriate? Select all that apply.",
+          "kind": "multi",
+          "rationale": "A misrouting must be brought under control before overflow;communication and verified alignment are essential.",
+          "sources": [
+            "stability"
+          ],
+          "options": [
+            "Change valves blindly while maintaining full transfer rate",
+            "Assess and respond to any overflow or pollution risk",
+            "Stop or safely suspend transfer and communicate with the supplying station",
+            "Confirm tank levels and the valve arrangement before any restart"
+          ],
+          "answer": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Master’s safety authority",
+          "syllabus": "034-84 6b",
+          "prompt": "Commercial instructions would conflict with the Master’s decision needed for safety and pollution prevention. How should the safety-management arrangements treat the Master’s authority?",
+          "kind": "single",
+          "rationale": "The ISM framework requires the SMS to address the Master’s overriding authority regarding safety and pollution prevention.",
+          "sources": [
+            "ism"
+          ],
+          "options": [
+            "Allow the charterer to cancel safety procedures verbally",
+            "Make the commercial schedule automatically take precedence",
+            "Recognise the Master’s overriding authority and responsibility for those decisions",
+            "Require the bridge to continue regardless of navigational danger"
+          ],
+          "answer": [
+            2
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Onboard complaints",
+          "syllabus": "034-84 6d",
+          "prompt": "Which principle belongs in an MLC-compliant onboard complaint procedure?",
+          "kind": "single",
+          "rationale": "MLC complaint arrangements protect the right to complain and should safeguard against victimisation.",
+          "sources": [
+            "complaints"
+          ],
+          "options": [
+            "Seafarers can raise complaints through the procedure without victimisation",
+            "All complaints must remain undisclosed to the seafarer who made them",
+            "Complaints may be punished merely for being made",
+            "The procedure must forbid access to external competent authorities"
+          ],
+          "answer": [
+            0
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Daily rest pattern",
+          "syllabus": "034-84 6d",
+          "prompt": "Assume an adult seafarer is subject to the normal UK rest rules,with no exception or emergency,and that weekly totals and intervals between rest periods comply. Which pattern meets both the 10-hour daily minimum and the normal split-rest rule?",
+          "kind": "single",
+          "rationale": "Normal rest may be divided into no more than two periods,one at least 6 hours. Total 6+4=10;5+5 lacks a 6-hour period;6+2+2 has three periods;7+2 totals only 9.",
+          "sources": [
+            "mlc"
+          ],
+          "options": [
+            "One 7-hour period and one 2-hour period",
+            "Two 5-hour rest periods",
+            "One 6-hour period and two 2-hour periods",
+            "One 6-hour rest period and one 4-hour rest period"
+          ],
+          "answer": [
+            3
+          ]
+        }
+      ]
+    }
+  ]
+}

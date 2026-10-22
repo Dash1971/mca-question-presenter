@@ -1,33 +1,40 @@
 # MCA OOW Exam Presenter
 
-An offline, clickable practice presenter with **three exams**:
+An offline practice presenter for OOW Unlimited, with the **Navigator** interface and two expandable subject sections:
 
-- Supplied operations mock: **34 answerable questions** from the provided paper. Original question 18 was removed because its tidal graphic was absent from the PDF export. The original question numbers are retained, so the numbering skips 18.
-- New exam 1 — Navigation: **35 original questions** based on the June 2024 MCA/SQA OOW Unlimited Navigation syllabus (034-83).
-- New exam 2 — Stability & Operations: **35 original questions** based on the June 2024 MCA/SQA OOW Unlimited Stability and Operations syllabus (034-84).
+| Subject | Papers | Questions |
+| --- | --- | --- |
+| Navigation (034-83) | Paper 1–4 | 35 per paper |
+| Stability & Operations (034-84) | Paper 1–3 | 35 per paper |
+| Stability & Operations (034-84) | Paper 4 | 34 |
 
-The two new papers were written for this app; they are not official MCA papers or copies of the supplied candidate mock. They include original training figures, single-choice and select-all items. The source mock also includes fields, matching, and diagram placement. The attached formula sheets and syllabus PDFs are reference material, not bundled into the student app.
+There are **eight papers and 279 questions** in total. All papers appear under their subject, without origin labels. The five additional papers contain 175 original questions based on the [June 2024 MCA syllabi](https://www.gov.uk/government/publications/mca-deck-safety-examination-syllabuses), with references and answer rationales maintained separately for content review. These are unofficial practice papers, not official MCA examination papers. Each question counts as one practice mark; the scoring is not an assertion of the official examination’s weighting or pass rules.
 
-## Student use
+## Using the presenter
 
-On Windows, extract the ZIP, keep the `MCA Visual Practice` folder together, and run **MCA Visual Practice.exe** inside it. It opens the app in the default browser without internet. From source, open `presenter/web/index.html` or run `python presenter/mca_question_presenter.py`.
+On Windows, extract the ZIP, keep the `MCA Visual Practice` folder together, and run **MCA Visual Practice.exe** inside it. It opens the presenter in your default browser without a server or internet connection. With the web edition, extract the entire folder and open **index.html**. From this repository, open `presenter/web/index.html` or run `python presenter/mca_question_presenter.py`.
 
-1. Choose an exam in the sidebar.
-2. Answer questions in any order. Your selections save automatically in this browser on this computer.
-3. Select **Submit exam for percentage**. Each scored question is worth one mark; a multiple-answer or multi-part item is correct only when the entire response is correct. Unanswered questions score zero. The final screen shows **only the percentage and number correct out of the scored total**—no solutions or per-question correctness.
-4. The attempt is locked after submission. **Start a new attempt** erases that exam's saved answers and mark, after confirmation.
+1. Expand **Navigation** or **Stability & Operations**, then start or resume a paper.
+2. Answer in any order using the question navigator. Responses, your place and review flags save in this browser on this computer.
+3. Use **Flag for review** to mark a question to revisit. Figure controls zoom in, zoom out and reset; diagram labels can be selected then placed, or dragged.
+4. Choose **Check & submit** to inspect the answered, unanswered and flagged counts. Select a question to return to it, or **Keep working**.
+5. Choose **Submit paper** to finish. Unanswered questions score zero. Multi-select, matching, multipart and placement questions are all-or-nothing. The result shows only the final percentage and number correct.
+6. Submission locks the attempt. **New attempt** asks before clearing that paper’s saved answers and result; other papers remain intact.
 
-Figures can be zoomed. Diagram-placement answers can be dragged or placed by selecting a label and clicking the figure.
+Answers and individual correctness are withheld from the interface. This is client-side offline practice: a technical user can inspect the keys in the app files. There are no accounts, server records or cross-device sync. If browser storage is unavailable, the app tells you that progress is retained only in the current session.
 
-**Important:** This is an offline client-side practice app, not a secure examination system. Answer keys are withheld from the interface but necessarily exist in the local app files and can be inspected by a technically capable user. For tamper-resistant assessment, keep the key on a controlled server and use authenticated submission instead.
+## Build and verification
 
-The supplied mock's figures and wording may have distribution restrictions; review rights before redistributing. The app does not bundle either candidate PDF, candidate names, marked responses, the syllabus PDFs, or the formula sheets.
-
-## Build and checks
-
-Windows with Python and PyInstaller: `presenter\build_windows.bat` (output: `dist\MCA Visual Practice\`). The local source paper is **not** required. The development-only `tools/import_mock.py` can regenerate the supplied mock's data and figures, and omits the missing-graphic original question 18; review output before distribution.
+Windows with Python and PyInstaller: run `presenter\build_windows.bat` (output: `dist\MCA Visual Practice\`). The GitHub Actions workflow tests and builds a Windows ZIP on relevant pull requests and main-branch changes.
 
 ```sh
 python3 -m unittest discover -s tests
 python3 -m compileall presenter tools tests
+node --test tests/test_core.cjs
 ```
+
+Rebuild the five additional question sets with `python3 tools/build_additional_papers.py`. Rebuild their five original SVG figures with `python3 tools/build_training_figures.py` (optional development dependency: matplotlib). Neither operation requires private source documents. Figure assets are checked in and no plotting dependency is needed to run or package the presenter.
+
+`tools/additional-paper-review.json` records all 175 new keys, rationales and public references. It is development material and is not included in the student web or Windows bundles. `docs/content-review.md` records topic coverage and review limits. The source-bank IDs are stable so saved responses from earlier releases remain associated with the same papers; the interface numbers questions consecutively.
+
+The additional content has automated structural and calculation checks and an author review, but has not had an independent maritime subject-matter review. Existing third-party examination wording and figures retain any applicable distribution restrictions. Private candidate PDFs and identifying details are not part of this repository or the student bundles.
